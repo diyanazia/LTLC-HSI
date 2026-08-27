@@ -1,0 +1,140 @@
+{
+  "cell3_geometric_feasibility": {
+    "Pingan": {
+      "impossible_classes": [],
+      "strict_all_class_patch_disjoint_feasible": true
+    },
+    "Qingyun": {
+      "impossible_classes": [],
+      "strict_all_class_patch_disjoint_feasible": true
+    },
+    "Tangdaowan": {
+      "class14_geometry": {
+        "chebyshev_diameter": 7,
+        "column_span": 8,
+        "row_span": 8,
+        "strict_required_center_distance_gt": 8,
+        "training_pool_count": 62
+      },
+      "impossible_classes": [
+        14
+      ],
+      "strict_all_class_patch_disjoint_feasible": false
+    }
+  },
+  "environment_record": {
+    "numpy_version": "2.0.2",
+    "python_version": "3.12.13",
+    "sklearn_version": "1.6.1"
+  },
+  "experiment": "Experiment B",
+  "experiment_A_modified": false,
+  "historical_experiment_A_preserved": true,
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "official_test_status": "SEALED",
+  "performance_results_seen_before_freeze": false,
+  "project": "LTLC",
+  "protocol_content_sha256_before_file_write": "97d63e6e603661f43a9e8d9b73e84453e7f54d60cb67b2c9ed911def74a3152b",
+  "scientific_question": "Does LTLC show meaningful long-tail recognition behavior when validation is spatially separated and patch-neighborhood overlap with training is eliminated?",
+  "source_hashes": {
+    "canonical_patch_manifest_sha256": "a2bed8afdc3bf2f421174b4bc293f216a204f8ee8317e95a3ad73a1d20c1ed5d",
+    "notebook01_protocol_metadata_sha256": "cdac2c2ef2e3caeae03c4661c28427904a1b3e6385e1db9aff340750b3a25c56",
+    "notebook05_master_audit_sha256": "d4223eaa7c7175833d55807ffdf704cdcaae1ecae45e5df06b7aba31e9093b71",
+    "notebook05_terminal_decision_sha256": "1098dc47309a2201e532cac9921fcf5f8ff8401a858c256ab47e3d3eeff0ad01",
+    "pingan_historical_split_archive_sha256": "788ee600b0375d779b2ba8057459a7558c437703ba2ca3f46562b48f4a6fdfd9",
+    "qingyun_historical_split_archive_sha256": "8d09ab9149c9bff69907755d28751dbd9bfcb0259c0d49b843155c04f26426d5",
+    "tangdaowan_historical_split_archive_sha256": "4a85ae8e9f1dcbcb8a61aae51794805d00bec567b8a73b226d91fa5d267a6568"
+  },
+  "split_created_before_protocol_freeze": false,
+  "split_protocol": {
+    "anti_overfitting": {
+      "buffer_change_after_results": false,
+      "choose_best_of_multiple_spatial_splits": false,
+      "official_test_used_for_method_selection": false,
+      "official_test_used_for_split_design": false,
+      "spatial_cluster_count_change_after_results": false,
+      "split_rule_frozen_before_model_performance": true,
+      "split_rule_frozen_before_split_creation": true,
+      "split_rule_frozen_before_training": true,
+      "validation_fraction_change_after_results": false
+    },
+    "cluster_subset_selection": {
+      "candidate_subsets": "all non-empty proper subsets of the 10 canonicalized clusters",
+      "cluster_canonicalization": "sort fitted clusters by centroid normalized-row, then normalized-column; reassign IDs 0..9",
+      "performance_metric_used": false,
+      "primary_objective": "minimum absolute validation-count deviation from target",
+      "target": "closest class-wise validation count to round(0.30 * class_count)",
+      "tie_break_1": "fewer selected spatial clusters",
+      "tie_break_2": "lexicographically smallest canonical cluster-ID tuple"
+    },
+    "construction_acceptance_gate": {
+      "all_frozen_evaluation_classes_present_in_training_after_guard": true,
+      "all_frozen_evaluation_classes_present_in_validation": true,
+      "automatic_split_redesign_allowed": false,
+      "if_gate_fails": "STOP_DATASET_AS_PROTOCOL_CONSTRUCTION_INFEASIBLE",
+      "train_validation_center_overlap": 0,
+      "train_validation_patch_overlap": 0,
+      "try_alternative_split_until_one_passes": false,
+      "validation_fraction_each_class_must_be_between": [
+        0.2,
+        0.4
+      ]
+    },
+    "data_source": {
+      "allowed_source": "official training mask only",
+      "official_test_members_allowed": false,
+      "official_test_status": "SEALED",
+      "reconstruction": "historical Experiment-A train_indices + val_indices"
+    },
+    "geometry_limited_datasets": {
+      "Tangdaowan": {
+        "K_changed": false,
+        "class14_removed": false,
+        "class_definition_changed": false,
+        "future_secondary_protocol_allowed": "Only after primary Experiment B is completed and only as an explicitly separate protocol.",
+        "primary_model_training_planned": false,
+        "reason": "Evaluation class 14 has Chebyshev diameter 7, while 9x9 patches require train/validation center distance >8 to guarantee non-overlapping patch footprints.",
+        "relaxed_buffer_allowed": false,
+        "status": "EXCLUDED_FROM_PRIMARY_STRICT_PATCH_DISJOINT_RECOGNITION_EXPERIMENT"
+      }
+    },
+    "guard_band": {
+      "Pingan_forbidden_distance_leq": 12,
+      "Qingyun_forbidden_distance_leq": 10,
+      "action": "remove those centers from the Experiment-B training subset and record them as guard-band exclusions",
+      "buffer_may_change_after_performance": false,
+      "distance_metric": "Chebyshev",
+      "forbidden_train_center_distance": "distance <= 2 * patch_radius from ANY validation center",
+      "reason": "This is the exact minimum exclusion required to guarantee that square train and validation patch footprints do not overlap.",
+      "validation_centers_removed_by_guard": false
+    },
+    "primary_datasets": [
+      "Pingan",
+      "Qingyun"
+    ],
+    "protocol_name": "Experiment B \u2014 Leakage-Controlled Spatial Validation",
+    "protocol_status": "FROZEN_BEFORE_SPLIT_CREATION",
+    "protocol_version": "spatial_validation_v1",
+    "spatial_grouping": {
+      "algorithm": "lloyd",
+      "clusters_per_class": 10,
+      "coordinate_scaling": "row divided by image height; column divided by image width",
+      "coordinates": "row and column center coordinates only",
+      "method": "classwise_coordinate_kmeans",
+      "model_outputs_used": false,
+      "n_init": 20,
+      "random_state": 2026,
+      "rationale": "Ten compact spatial clusters provide approximately 10% granularity for a 30% class-wise validation target while keeping candidate validation samples spatially grouped."
+    },
+    "validation_target": {
+      "pre_training_acceptance_range_per_class": [
+        0.2,
+        0.4
+      ],
+      "reason": "Preserve the historical Experiment-A 30% validation target while changing only the spatial separation protocol.",
+      "target_fraction_may_change_after_performance": false,
+      "target_fraction_per_class": 0.3
+    }
+  },
+  "training_performed_before_protocol_freeze": false
+}

@@ -1,0 +1,77 @@
+{
+  "artifact_type": "preconstruction_implementation_clarification",
+  "content_sha256_before_file_write": "a389d67e9f7c66948be4043b9d57c9e925e690e947b439c9f9f9ece9785a5ccb",
+  "environment_record": {
+    "numpy_version": "2.0.2",
+    "python_version": "3.12.13",
+    "sklearn_version": "1.6.1"
+  },
+  "experiment": "Experiment B",
+  "implementation_clarifications": {
+    "candidate_subset_ranking": [
+      "minimum absolute difference between validation count and target count",
+      "fewer selected canonical clusters",
+      "lexicographically smallest canonical cluster-ID tuple"
+    ],
+    "canonical_cluster_order": {
+      "final_tie_break": "original fitted KMeans cluster label ascending",
+      "primary": "normalized centroid row ascending",
+      "secondary": "normalized centroid column ascending"
+    },
+    "construction_failure_behavior": "STOP; do not try another random state, cluster count, buffer, validation target, or alternative subset.",
+    "coordinate_matrix": {
+      "column_coordinate": "column / image_width",
+      "dtype": "float64",
+      "row_coordinate": "row / image_height"
+    },
+    "guard_band_application_order": [
+      "construct validation subset from selected spatial clusters",
+      "define provisional training subset as all remaining official-training centers",
+      "remove provisional training centers whose Chebyshev distance to any validation center is <=2r",
+      "do not remove validation centers",
+      "evaluate frozen construction acceptance gate"
+    ],
+    "sample_order_before_classwise_kmeans": {
+      "reason": "prevent dependence on arbitrary historical Experiment-A train/validation concatenation ordering",
+      "rule": "sort by immutable flat spatial index ascending"
+    },
+    "target_count_rounding": {
+      "formula": "floor(0.30 * class_count + 0.5)",
+      "python_builtin_round_used": false,
+      "rule": "round-half-up for non-negative counts"
+    },
+    "validation_fraction_acceptance_interval": {
+      "maximum": 0.4,
+      "maximum_inclusive": true,
+      "minimum": 0.2,
+      "minimum_inclusive": true
+    }
+  },
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "parent_protocol": "audit/notebook06a_spatial_validation/experiment_b_spatial_validation_protocol_v1_frozen.json",
+  "parent_protocol_sha256": "34a126dab901265ba2e6c9dbc76df75bb2c5177276efa677db853443659fef75",
+  "project": "LTLC",
+  "scientific_design_changed": false,
+  "timing": {
+    "created_before_experiment_b_inference": true,
+    "created_before_experiment_b_performance": true,
+    "created_before_experiment_b_split": true,
+    "created_before_experiment_b_training": true,
+    "official_test_status": "SEALED"
+  },
+  "unchanged_design": {
+    "alternative_split_search": false,
+    "clusters_per_class": 10,
+    "guard_band_rule": "remove training centers with Chebyshev distance <=2r from any validation center",
+    "kmeans_algorithm": "lloyd",
+    "kmeans_n_init": 20,
+    "kmeans_random_state": 2026,
+    "primary_datasets": [
+      "Pingan",
+      "Qingyun"
+    ],
+    "tangdaowan_geometry_limitation": "unchanged",
+    "target_validation_fraction_per_class": 0.3
+  },
+  "version": "spatial_validation_v1.1"
+}

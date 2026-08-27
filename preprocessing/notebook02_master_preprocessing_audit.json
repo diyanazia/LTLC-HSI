@@ -1,0 +1,82 @@
+{
+  "project": "CSE498R LTLC",
+  "notebook": "02_QUH_Benchmark_Preprocessing_and_Patch_Cache",
+  "created_at": "2026-08-12T17:39:05.206956",
+  "preprocessing_protocol": {
+    "pca_scope": "full unlabeled hyperspectral cube",
+    "pca_whitening": false,
+    "normalization": "sklearn.preprocessing.minmax_scale(axis=1)",
+    "padding": "zero spatial padding",
+    "patch_extraction": "deterministic lazy extraction",
+    "augmentation": false
+  },
+  "frozen_split_gate": true,
+  "cache_artifact_gate": true,
+  "patch_audit_gate": true,
+  "lazy_equivalence_gate": true,
+  "patch_manifest_gate": true,
+  "datasets": {
+    "Pingan": {
+      "raw_cube_shape": [
+        1230,
+        1000,
+        176
+      ],
+      "pca_components": 15,
+      "patch_size": 13,
+      "explained_variance_retained": 0.9999182574539228,
+      "pca_solver": "covariance_eigh",
+      "normalized_cube_file": "pingan_pca15_rowminmax_float32.npy",
+      "normalized_cube_sha256": "857ffcb8f1a3837f19b7eba350c8a3c15f99d9e7dbede3a84b46249191f27daa",
+      "pca_model_file": "pingan_pca15_model.joblib",
+      "pca_model_sha256": "ccfea6551ed03cbac12f9991da074147241dd8d862b340379cae2654484fb69f",
+      "split_sha256": "738703dda7e55e69bef3eb8bfad5d30c34a82788d2732268cf94da3bc3085592",
+      "patch_audit_pass": true,
+      "lazy_equivalence_pass": true
+    },
+    "Qingyun": {
+      "raw_cube_shape": [
+        880,
+        1360,
+        176
+      ],
+      "pca_components": 15,
+      "patch_size": 11,
+      "explained_variance_retained": 0.9998956267047938,
+      "pca_solver": "covariance_eigh",
+      "normalized_cube_file": "qingyun_pca15_rowminmax_float32.npy",
+      "normalized_cube_sha256": "15d94523dbf5708da5186fe44bb405bbfcc35b06ce23a86a85205e1e5e9d1c3e",
+      "pca_model_file": "qingyun_pca15_model.joblib",
+      "pca_model_sha256": "89dcf7eabc0fe9219cfc222b346cd6aa73f76e16772baf8aab16424258e1bc4c",
+      "split_sha256": "57607a2a614456e2a834e0bd4c8f2c315d5cca7e47658b900f5c2e5a6a030820",
+      "patch_audit_pass": true,
+      "lazy_equivalence_pass": true
+    },
+    "Tangdaowan": {
+      "raw_cube_shape": [
+        1740,
+        860,
+        176
+      ],
+      "pca_components": 20,
+      "patch_size": 9,
+      "explained_variance_retained": 0.9999547210393214,
+      "pca_solver": "covariance_eigh",
+      "normalized_cube_file": "tangdaowan_pca20_rowminmax_float32.npy",
+      "normalized_cube_sha256": "332bf9c22e03f7c43c5f4ea5ae375f8b57939f270a5059974609e3be88501b4a",
+      "pca_model_file": "tangdaowan_pca20_model.joblib",
+      "pca_model_sha256": "3a4dda14d6b02e96dc0e6700a74c38dfde695a5c02bc4bfc5217fc9b56df587e",
+      "split_sha256": "b5283f3a067b11adfc9fceabd0a59bfbcfafa5dde3069e5d477de61c130ab836",
+      "patch_audit_pass": true,
+      "lazy_equivalence_pass": true
+    }
+  },
+  "environment": {
+    "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "numpy": "2.0.2",
+    "scipy": "1.16.3",
+    "sklearn": "1.6.1",
+    "pandas": "2.2.2"
+  }
+}

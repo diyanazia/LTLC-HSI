@@ -1,0 +1,73 @@
+{
+  "alternative_split_search_performed": false,
+  "attempt_manifest": "audit/notebook06a_spatial_validation/experiment_b_split_construction_attempt_v1.json",
+  "attempt_manifest_sha256": "d865cc086a421290dd755b2e987415f384a92b0fc8ac6afc18ec11fb7d90099c",
+  "construction_attempt": 1,
+  "content_sha256_before_file_write": "832c63a9901ae057bbdad2339d2ce8b5910c1f0262b8c7ebfdd388805ee80007",
+  "experiment": "Experiment B",
+  "geometry_limited_dataset": {
+    "K_changed": false,
+    "class14_removed": false,
+    "dataset": "Tangdaowan",
+    "primary_split_created": false
+  },
+  "inference_performed": false,
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "official_test_values_accessed": false,
+  "parent_protocol_hashes": {
+    "v1": "34a126dab901265ba2e6c9dbc76df75bb2c5177276efa677db853443659fef75",
+    "v1_1": "398714d69072bb996faa6b280ea43534e0a02b17ad250b067257222fe75d4aab",
+    "v1_2": "916cb2173296ebd42b2baa65a0f13eb407565e74f60712a4fdd6c8a5ebbe6620"
+  },
+  "performance_observed": false,
+  "primary_datasets": [
+    "Pingan",
+    "Qingyun"
+  ],
+  "project": "LTLC",
+  "scientific_protocol_changed_during_construction": false,
+  "split_files": {
+    "Pingan": {
+      "array_readback_pass": true,
+      "array_sha256": {
+        "evaluation_class_ids": "5223548671e84b2d9c2f551a58fb79f612adac27ffb284dfd1443127cb62142a",
+        "guard_excluded_indices": "a923cceb5861419804c3c2fe7c6250669c39540789bd45382089603dd2095717",
+        "guard_excluded_labels_model": "02d3b0fe735161b1f5cb11fc48805dfeb418c80c8e26801a207622854a6c98d5",
+        "guard_excluded_labels_original": "896867c19f49aa71e2e6d8e23d469bc822a84919890063831a9ad8fadf0f103a",
+        "train_indices": "0f48920e5deb9a8df181346da50fd404d56c7c98c6c147f7fa9486c081b45686",
+        "train_labels_model": "fddb7afd57b267031287680260b3e391a3c3e271ee2e6e66a6da7c9f2ea9e895",
+        "train_labels_original": "abf8d085504006a6d6303f94c3083c81796e5e933470b104cd342458eaef1869",
+        "val_indices": "1be00b70ea8950ef00e834a1962867acd513b0cdde222e917637d68cb72351a7",
+        "val_labels_model": "9bac083ef78e89503010b75bb8cbd83d788b53d9f282f7df89861486233e0dfa",
+        "val_labels_original": "5e53d349cc953e0a942d73cc70bb5a970c353c0f00f5b0111aa64f71938fde5c"
+      },
+      "file_sha256": "7e7c6f583223a43e8e37db2dad7052fc16b2d42ff3e674a4134acdb51608d1fb",
+      "guard_excluded_count": 14144,
+      "path": "split_indices/experiment_b_spatial_validation_v1/pingan_experiment_b_spatial_split_v1.npz",
+      "train_count": 65710,
+      "validation_count": 34245
+    },
+    "Qingyun": {
+      "array_readback_pass": true,
+      "array_sha256": {
+        "evaluation_class_ids": "89683fcc93c010e484e142bac4982bc830bd274e39daff5c88a6605d8943f142",
+        "guard_excluded_indices": "541440bdeba83eb0c8aca833133586f6bb76b87ab395225368b5c8277553c1a8",
+        "guard_excluded_labels_model": "d894ca0f518b698d49f378e380af56e5037cc99b064ddbc1c3ce5afd5d1ce2fd",
+        "guard_excluded_labels_original": "269435e905ed526a9cf62eba4d202602ee6f21687b5a094d56988cd5fcf38c4d",
+        "train_indices": "e42ef5195df7c97a1eacd6338fc35fdf7c31855d72ea227eb80976e99bb28072",
+        "train_labels_model": "aab17b872c8c3d7f8e5141eeea1f4d2ef06f9fe9010cf00fa984ccdcddd8e038",
+        "train_labels_original": "ae883c38461fbbec2d8479898bc2e5fae201497ec0ab77bd6d50650de428c6ed",
+        "val_indices": "a8e732c296b886fe362d6704566c2757a71c03272183a3616ae3a031423e1915",
+        "val_labels_model": "9c93a8102c7c7160d93193540a320df02780aae46984b05d9084c470f98eaa7e",
+        "val_labels_original": "6334c475200b698b0fefac7d09948ba363cb9c644dcb7f17dd7778399cc9ec07"
+      },
+      "file_sha256": "0458767773b62d44657a564dd79aef004eb053e6c8b5deb8e6f020597950dd74",
+      "guard_excluded_count": 3732,
+      "path": "split_indices/experiment_b_spatial_validation_v1/qingyun_experiment_b_spatial_split_v1.npz",
+      "train_count": 63179,
+      "validation_count": 28581
+    }
+  },
+  "status": "FROZEN_SPATIAL_SPLIT_CONSTRUCTION_PASS",
+  "training_performed": false
+}

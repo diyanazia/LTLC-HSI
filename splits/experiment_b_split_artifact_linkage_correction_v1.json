@@ -1,0 +1,56 @@
+{
+  "artifact_type": "post_construction_audit_linkage_correction",
+  "audit_interpretation": {
+    "attempt_manifest_overwritten_by_this_correction": false,
+    "frozen_split_manifest_overwritten": false,
+    "official_test_status": "SEALED",
+    "official_test_values_accessed": false,
+    "split_files_overwritten": false,
+    "split_indices_changed": false,
+    "training_allowed_before_this_correction_passes": false
+  },
+  "authoritative_linkage_after_correction": {
+    "current_attempt_embedded_frozen_manifest_sha256": "cb33d0c86720b01e735b320370fb80d5265e5e37c3d3fb41503a44c98ebb7205",
+    "current_attempt_manifest_sha256": "c43489e3f2418834a1daeb3f7b98933cd5735a9d96adf057f0632e97a5f61eae",
+    "direction": "current_attempt_manifest -> frozen_split_manifest",
+    "frozen_split_manifest_sha256": "cb33d0c86720b01e735b320370fb80d5265e5e37c3d3fb41503a44c98ebb7205",
+    "link_verified": true
+  },
+  "content_sha256_before_file_write": "1bddb916554749e04f768fdb3a04800d513d35299e1e37a3365e6f69dc50c3d6",
+  "experiment": "Experiment B",
+  "immutable_artifacts": {
+    "current_attempt_manifest": {
+      "path": "audit/notebook06a_spatial_validation/experiment_b_split_construction_attempt_v1.json",
+      "sha256": "c43489e3f2418834a1daeb3f7b98933cd5735a9d96adf057f0632e97a5f61eae"
+    },
+    "frozen_split_manifest": {
+      "path": "audit/notebook06a_spatial_validation/experiment_b_spatial_split_manifest_v1_frozen.json",
+      "sha256": "cb33d0c86720b01e735b320370fb80d5265e5e37c3d3fb41503a44c98ebb7205"
+    },
+    "pingan_split": {
+      "path": "split_indices/experiment_b_spatial_validation_v1/pingan_experiment_b_spatial_split_v1.npz",
+      "sha256": "7e7c6f583223a43e8e37db2dad7052fc16b2d42ff3e674a4134acdb51608d1fb"
+    },
+    "qingyun_split": {
+      "path": "split_indices/experiment_b_spatial_validation_v1/qingyun_experiment_b_spatial_split_v1.npz",
+      "sha256": "0458767773b62d44657a564dd79aef004eb053e6c8b5deb8e6f020597950dd74"
+    }
+  },
+  "issue": {
+    "alternative_split_attempted": false,
+    "description": "Cell 6 wrote the frozen split manifest using the SHA-256 of the first attempt-manifest version, then finalized and rewrote the attempt manifest to add the frozen-manifest reference. This changed the attempt-manifest file SHA-256.",
+    "model_performance_involved": false,
+    "scientific_split_content_changed": false,
+    "split_reconstructed": false,
+    "type": "STALE_ATTEMPT_MANIFEST_HASH_IN_FROZEN_SPLIT_MANIFEST"
+  },
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "project": "LTLC",
+  "stale_link_record": {
+    "cell6_pre_finalization_attempt_sha256": "d865cc086a421290dd755b2e987415f384a92b0fc8ac6afc18ec11fb7d90099c",
+    "current_attempt_manifest_sha256": "c43489e3f2418834a1daeb3f7b98933cd5735a9d96adf057f0632e97a5f61eae",
+    "embedded_hash_is_current": false,
+    "frozen_manifest_embedded_attempt_sha256": "d865cc086a421290dd755b2e987415f384a92b0fc8ac6afc18ec11fb7d90099c"
+  },
+  "version": "split_artifact_linkage_correction_v1"
+}

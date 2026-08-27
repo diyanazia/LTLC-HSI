@@ -1,0 +1,1375 @@
+{
+  "alternative_attempts_allowed": false,
+  "artifact_type": "single_frozen_spatial_split_construction_attempt",
+  "attempt_number": 1,
+  "content_sha256_before_file_write": "4b544649dba888febda1a18de99ec0981ca171aa18b9d4be1d0e137901bf62d1",
+  "dataset_results": {
+    "Pingan": {
+      "array_hash_recipe": "SHA256(dtype.str || JSON(shape) || C-order raw bytes)",
+      "array_sha256": {
+        "evaluation_class_ids": "5223548671e84b2d9c2f551a58fb79f612adac27ffb284dfd1443127cb62142a",
+        "guard_excluded_indices": "a923cceb5861419804c3c2fe7c6250669c39540789bd45382089603dd2095717",
+        "guard_excluded_labels_model": "02d3b0fe735161b1f5cb11fc48805dfeb418c80c8e26801a207622854a6c98d5",
+        "guard_excluded_labels_original": "896867c19f49aa71e2e6d8e23d469bc822a84919890063831a9ad8fadf0f103a",
+        "train_indices": "0f48920e5deb9a8df181346da50fd404d56c7c98c6c147f7fa9486c081b45686",
+        "train_labels_model": "fddb7afd57b267031287680260b3e391a3c3e271ee2e6e66a6da7c9f2ea9e895",
+        "train_labels_original": "abf8d085504006a6d6303f94c3083c81796e5e933470b104cd342458eaef1869",
+        "val_indices": "1be00b70ea8950ef00e834a1962867acd513b0cdde222e917637d68cb72351a7",
+        "val_labels_model": "9bac083ef78e89503010b75bb8cbd83d788b53d9f282f7df89861486233e0dfa",
+        "val_labels_original": "5e53d349cc953e0a942d73cc70bb5a970c353c0f00f5b0111aa64f71938fde5c"
+      },
+      "center_overlap_count": 0,
+      "class_construction": {
+        "1": {
+          "absolute_target_deviation": 2,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.2863726253970185,
+              0.5342678132678135
+            ],
+            [
+              0.4986868940854359,
+              0.6816219931271477
+            ],
+            [
+              0.6179433629198678,
+              0.9856330275229356
+            ],
+            [
+              0.7074996636491188,
+              0.9877659574468088
+            ],
+            [
+              0.7621416569071745,
+              0.6929415448851776
+            ],
+            [
+              0.7665399940118381,
+              0.6032067988668557
+            ],
+            [
+              0.7843526201585038,
+              0.7714936998854525
+            ],
+            [
+              0.8263526773198766,
+              0.9526086956521744
+            ],
+            [
+              0.8658391692827819,
+              0.6581188118811883
+            ],
+            [
+              0.9571968395740292,
+              0.8626214788732393
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            407,
+            291,
+            327,
+            423,
+            479,
+            353,
+            873,
+            667,
+            505,
+            568
+          ],
+          "kmeans_inertia": 3.359777464645601,
+          "kmeans_n_iter": 3,
+          "official_training_count": 4893,
+          "selected_canonical_clusters": [
+            3,
+            4,
+            9
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 1470,
+          "selected_validation_fraction": 0.30042918454935624,
+          "target_validation_count": 1468
+        },
+        "10": {
+          "absolute_target_deviation": 19,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.017060758393850406,
+              0.4470987595419845
+            ],
+            [
+              0.029527782205932107,
+              0.38972730573711
+            ],
+            [
+              0.39229784144763186,
+              0.051001663893510574
+            ],
+            [
+              0.4070827710754399,
+              0.014085879438480553
+            ],
+            [
+              0.4754902971862698,
+              0.01846441155743496
+            ],
+            [
+              0.4921523974004056,
+              0.06596216591461292
+            ],
+            [
+              0.5325877777948113,
+              0.022286297925833004
+            ],
+            [
+              0.54273878612317,
+              0.08807580056749081
+            ],
+            [
+              0.5931856899488888,
+              0.02747967875395528
+            ],
+            [
+              0.5953210070810453,
+              0.08358129032258078
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            2094,
+            2756,
+            1785,
+            2422,
+            2824,
+            2926,
+            3177,
+            2465,
+            4108,
+            3095
+          ],
+          "kmeans_inertia": 12.087715630004361,
+          "kmeans_n_iter": 6,
+          "official_training_count": 27652,
+          "selected_canonical_clusters": [
+            2,
+            3,
+            8
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 8315,
+          "selected_validation_fraction": 0.30070157673947634,
+          "target_validation_count": 8296
+        },
+        "2": {
+          "absolute_target_deviation": 11,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.5210016260162458,
+              0.9770599999999997
+            ],
+            [
+              0.7303396674839762,
+              0.575497189153439
+            ],
+            [
+              0.7342668499753883,
+              0.42267640918580296
+            ],
+            [
+              0.7348049029595268,
+              0.4961265924850831
+            ],
+            [
+              0.796959299868228,
+              0.5222926122646065
+            ],
+            [
+              0.7975919842631084,
+              0.4353301549463644
+            ],
+            [
+              0.809676254085196,
+              0.5921987032799392
+            ],
+            [
+              0.8604832845786752,
+              0.49516806989674356
+            ],
+            [
+              0.8612935213281634,
+              0.42218740184958914
+            ],
+            [
+              0.8659445314848435,
+              0.5744000681547111
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            3750,
+            6057,
+            5737,
+            6193,
+            6237,
+            6686,
+            5259,
+            6297,
+            5719,
+            5876
+          ],
+          "kmeans_inertia": 47.441744385398664,
+          "kmeans_n_iter": 23,
+          "official_training_count": 57811,
+          "selected_canonical_clusters": [
+            2,
+            8,
+            9
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 17332,
+          "selected_validation_fraction": 0.2998045354690284,
+          "target_validation_count": 17343
+        },
+        "3": {
+          "absolute_target_deviation": 0,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.005997600959616267,
+              0.4093278688524591
+            ],
+            [
+              0.07349012775842048,
+              0.09096428571428572
+            ],
+            [
+              0.27331355745989894,
+              0.04472972972972972
+            ],
+            [
+              0.2736675700090334,
+              0.03603333333333336
+            ],
+            [
+              0.27400888441874105,
+              0.0265876288659794
+            ],
+            [
+              0.2802291204730229,
+              0.04263636363636364
+            ],
+            [
+              0.28052746381122345,
+              0.030865853658536606
+            ],
+            [
+              0.2863775971093044,
+              0.026422222222222243
+            ],
+            [
+              0.2869918699186992,
+              0.036241758241758265
+            ],
+            [
+              0.2874609130706692,
+              0.044717948717948715
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            61,
+            84,
+            74,
+            91,
+            98,
+            90,
+            79,
+            92,
+            89,
+            77
+          ],
+          "kmeans_inertia": 0.009813225395756811,
+          "kmeans_n_iter": 8,
+          "official_training_count": 835,
+          "selected_canonical_clusters": [
+            0,
+            4,
+            7
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 251,
+          "selected_validation_fraction": 0.3005988023952096,
+          "target_validation_count": 251
+        },
+        "4": {
+          "absolute_target_deviation": 0,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.026215731599300213,
+              0.7222657218777679
+            ],
+            [
+              0.026422764227642476,
+              0.6985000000000006
+            ],
+            [
+              0.06485348306720483,
+              0.777496402877698
+            ],
+            [
+              0.09500083938892487,
+              0.26839233038348154
+            ],
+            [
+              0.09884851501576264,
+              0.3730099125364437
+            ],
+            [
+              0.16849345149400047,
+              0.23181028938906706
+            ],
+            [
+              0.2817479674796746,
+              0.14978114754098354
+            ],
+            [
+              0.3033230094205705,
+              0.2747169312169312
+            ],
+            [
+              0.44392204775480093,
+              0.8392727272727274
+            ],
+            [
+              0.46623625059780016,
+              0.8684705882352945
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            1129,
+            1152,
+            278,
+            678,
+            1715,
+            1555,
+            1220,
+            378,
+            539,
+            255
+          ],
+          "kmeans_inertia": 1.8366810679380132,
+          "kmeans_n_iter": 3,
+          "official_training_count": 8899,
+          "selected_canonical_clusters": [
+            2,
+            6,
+            7,
+            8,
+            9
+          ],
+          "selected_cluster_count": 5,
+          "selected_validation_count": 2670,
+          "selected_validation_fraction": 0.3000337116529947,
+          "target_validation_count": 2670
+        },
+        "5": {
+          "absolute_target_deviation": 1,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.9259617802363591,
+              0.8846082474226804
+            ],
+            [
+              0.9271464508367058,
+              0.8993766816143498
+            ],
+            [
+              0.9275051022115159,
+              0.9137119341563786
+            ],
+            [
+              0.9368907597705419,
+              0.8873705583756345
+            ],
+            [
+              0.940480413895048,
+              0.9014681818181819
+            ],
+            [
+              0.941576332429991,
+              0.914138888888889
+            ],
+            [
+              0.9483010214717532,
+              0.8894974358974359
+            ],
+            [
+              0.955095672168843,
+              0.9143535353535354
+            ],
+            [
+              0.955318905301729,
+              0.9028732394366198
+            ],
+            [
+              0.9597813605254697,
+              0.891728813559322
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            193,
+            225,
+            243,
+            197,
+            220,
+            216,
+            195,
+            198,
+            213,
+            176
+          ],
+          "kmeans_inertia": 0.05927371037274307,
+          "kmeans_n_iter": 30,
+          "official_training_count": 2076,
+          "selected_canonical_clusters": [
+            0,
+            5,
+            8
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 622,
+          "selected_validation_fraction": 0.2996146435452794,
+          "target_validation_count": 623
+        },
+        "6": {
+          "absolute_target_deviation": 1,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.010027100271003175,
+              0.04506060606060602
+            ],
+            [
+              0.010876347135564679,
+              0.05394767441860451
+            ],
+            [
+              0.03266171792152703,
+              0.1865217391304348
+            ],
+            [
+              0.0343697635449636,
+              0.17641984732824428
+            ],
+            [
+              0.1687082204155375,
+              0.7658000000000003
+            ],
+            [
+              0.31416412601626015,
+              0.8018124999999999
+            ],
+            [
+              0.41955244304918304,
+              0.06378712871287132
+            ],
+            [
+              0.5296041003888301,
+              0.8741086956521739
+            ],
+            [
+              0.5736411149825786,
+              0.1430928571428572
+            ],
+            [
+              0.5757712808916168,
+              0.1352119205298013
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            166,
+            171,
+            133,
+            136,
+            90,
+            128,
+            202,
+            92,
+            144,
+            147
+          ],
+          "kmeans_inertia": 0.03111521979853213,
+          "kmeans_n_iter": 2,
+          "official_training_count": 1409,
+          "selected_canonical_clusters": [
+            2,
+            8,
+            9
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 424,
+          "selected_validation_fraction": 0.30092264017033354,
+          "target_validation_count": 423
+        },
+        "7": {
+          "absolute_target_deviation": 1,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.04715447154471544,
+              0.023532374100719233
+            ],
+            [
+              0.048635492724354065,
+              0.01163057324840766
+            ],
+            [
+              0.05614428558078677,
+              0.01945402298850535
+            ],
+            [
+              0.07891260162601627,
+              0.23406249999999995
+            ],
+            [
+              0.1673127177700348,
+              0.8041785714285715
+            ],
+            [
+              0.16833967761642935,
+              0.7841965317919073
+            ],
+            [
+              0.16867033831628636,
+              0.7949548387096772
+            ],
+            [
+              0.17982158988256547,
+              0.8030972222222222
+            ],
+            [
+              0.1806178861788618,
+              0.7935466666666666
+            ],
+            [
+              0.18064372424546163,
+              0.7834863013698629
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            144,
+            166,
+            160,
+            48,
+            122,
+            165,
+            154,
+            144,
+            146,
+            149
+          ],
+          "kmeans_inertia": 0.02984027075804985,
+          "kmeans_n_iter": 3,
+          "official_training_count": 1398,
+          "selected_canonical_clusters": [
+            0,
+            4,
+            6
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 420,
+          "selected_validation_fraction": 0.30042918454935624,
+          "target_validation_count": 419
+        },
+        "8": {
+          "absolute_target_deviation": 3,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.02704808856599225,
+              0.8952074468085106
+            ],
+            [
+              0.10479143966697442,
+              0.8579163802978234
+            ],
+            [
+              0.10545876887340297,
+              0.8868857142857143
+            ],
+            [
+              0.1287392075351034,
+              0.8560178784266982
+            ],
+            [
+              0.1293968094320126,
+              0.885057273768614
+            ],
+            [
+              0.268696138211382,
+              0.9774237499999998
+            ],
+            [
+              0.28719391927647087,
+              0.990680473372781
+            ],
+            [
+              0.2909724262905279,
+              0.9688629518072289
+            ],
+            [
+              0.39073462067207787,
+              0.9815699888017916
+            ],
+            [
+              0.41032627065876615,
+              0.9801542669584243
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            940,
+            873,
+            840,
+            841,
+            871,
+            804,
+            674,
+            662,
+            895,
+            912
+          ],
+          "kmeans_inertia": 1.0892303689565872,
+          "kmeans_n_iter": 8,
+          "official_training_count": 8312,
+          "selected_canonical_clusters": [
+            0,
+            7,
+            8
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 2497,
+          "selected_validation_fraction": 0.30040904716073147,
+          "target_validation_count": 2494
+        },
+        "9": {
+          "absolute_target_deviation": 0,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.08904739990796143,
+              0.6265849056603773
+            ],
+            [
+              0.10415742793791591,
+              0.7425681818181817
+            ],
+            [
+              0.12830667016347588,
+              0.42693548387096775
+            ],
+            [
+              0.13176403857061836,
+              0.0684186046511629
+            ],
+            [
+              0.2325040650406504,
+              0.21859999999999996
+            ],
+            [
+              0.2486382113821138,
+              0.11362500000000003
+            ],
+            [
+              0.3902666970594939,
+              0.06875700934579415
+            ],
+            [
+              0.4489521228545619,
+              0.8159555555555557
+            ],
+            [
+              0.5431731229076996,
+              0.8236911764705883
+            ],
+            [
+              0.5540925484442812,
+              0.06373684210526348
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            53,
+            44,
+            186,
+            43,
+            50,
+            40,
+            107,
+            90,
+            68,
+            133
+          ],
+          "kmeans_inertia": 0.5099294882685662,
+          "kmeans_n_iter": 2,
+          "official_training_count": 814,
+          "selected_canonical_clusters": [
+            3,
+            8,
+            9
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 244,
+          "selected_validation_fraction": 0.29975429975429974,
+          "target_validation_count": 244
+        }
+      },
+      "class_final_counts": {
+        "1": {
+          "experiment_b_train_count_after_guard": 3322,
+          "experiment_b_validation_count": 1470,
+          "guard_excluded_count": 101,
+          "official_training_count": 4893,
+          "validation_fraction": 0.30042918454935624,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "10": {
+          "experiment_b_train_count_after_guard": 16354,
+          "experiment_b_validation_count": 8315,
+          "guard_excluded_count": 2983,
+          "official_training_count": 27652,
+          "validation_fraction": 0.30070157673947634,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "2": {
+          "experiment_b_train_count_after_guard": 33783,
+          "experiment_b_validation_count": 17332,
+          "guard_excluded_count": 6696,
+          "official_training_count": 57811,
+          "validation_fraction": 0.2998045354690284,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "3": {
+          "experiment_b_train_count_after_guard": 219,
+          "experiment_b_validation_count": 251,
+          "guard_excluded_count": 365,
+          "official_training_count": 835,
+          "validation_fraction": 0.3005988023952096,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "4": {
+          "experiment_b_train_count_after_guard": 6229,
+          "experiment_b_validation_count": 2670,
+          "guard_excluded_count": 0,
+          "official_training_count": 8899,
+          "validation_fraction": 0.3000337116529947,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "5": {
+          "experiment_b_train_count_after_guard": 85,
+          "experiment_b_validation_count": 622,
+          "guard_excluded_count": 1369,
+          "official_training_count": 2076,
+          "validation_fraction": 0.2996146435452794,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "6": {
+          "experiment_b_train_count_after_guard": 683,
+          "experiment_b_validation_count": 424,
+          "guard_excluded_count": 302,
+          "official_training_count": 1409,
+          "validation_fraction": 0.30092264017033354,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "7": {
+          "experiment_b_train_count_after_guard": 110,
+          "experiment_b_validation_count": 420,
+          "guard_excluded_count": 868,
+          "official_training_count": 1398,
+          "validation_fraction": 0.30042918454935624,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "8": {
+          "experiment_b_train_count_after_guard": 4485,
+          "experiment_b_validation_count": 2497,
+          "guard_excluded_count": 1330,
+          "official_training_count": 8312,
+          "validation_fraction": 0.30040904716073147,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "9": {
+          "experiment_b_train_count_after_guard": 440,
+          "experiment_b_validation_count": 244,
+          "guard_excluded_count": 130,
+          "official_training_count": 814,
+          "validation_fraction": 0.29975429975429974,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        }
+      },
+      "dataset": "Pingan",
+      "dataset_gate_pass": true,
+      "final_training_count": 65710,
+      "gate_checks": {
+        "all_evaluation_classes_present_in_training_after_guard": true,
+        "all_evaluation_classes_present_in_validation": true,
+        "official_training_partition_exhaustive": true,
+        "official_training_partition_unique": true,
+        "per_class_validation_fraction_within_20_to_40_percent": true,
+        "train_validation_center_overlap_zero": true,
+        "train_validation_patch_overlap_zero": true
+      },
+      "guard_excluded_count": 14144,
+      "guard_threshold_chebyshev_leq": 12,
+      "historical_split_source": "split_indices/pingan_fixed_split_seed2026.npz",
+      "historical_split_source_sha256": "788ee600b0375d779b2ba8057459a7558c437703ba2ca3f46562b48f4a6fdfd9",
+      "official_training_pool_count": 114099,
+      "patch_overlap_count": 0,
+      "patch_radius": 6,
+      "spatial_shape": [
+        1230,
+        1000
+      ],
+      "status": "PASS",
+      "validation_count": 34245
+    },
+    "Qingyun": {
+      "array_hash_recipe": "SHA256(dtype.str || JSON(shape) || C-order raw bytes)",
+      "array_sha256": {
+        "evaluation_class_ids": "89683fcc93c010e484e142bac4982bc830bd274e39daff5c88a6605d8943f142",
+        "guard_excluded_indices": "541440bdeba83eb0c8aca833133586f6bb76b87ab395225368b5c8277553c1a8",
+        "guard_excluded_labels_model": "d894ca0f518b698d49f378e380af56e5037cc99b064ddbc1c3ce5afd5d1ce2fd",
+        "guard_excluded_labels_original": "269435e905ed526a9cf62eba4d202602ee6f21687b5a094d56988cd5fcf38c4d",
+        "train_indices": "e42ef5195df7c97a1eacd6338fc35fdf7c31855d72ea227eb80976e99bb28072",
+        "train_labels_model": "aab17b872c8c3d7f8e5141eeea1f4d2ef06f9fe9010cf00fa984ccdcddd8e038",
+        "train_labels_original": "ae883c38461fbbec2d8479898bc2e5fae201497ec0ab77bd6d50650de428c6ed",
+        "val_indices": "a8e732c296b886fe362d6704566c2757a71c03272183a3616ae3a031423e1915",
+        "val_labels_model": "9c93a8102c7c7160d93193540a320df02780aae46984b05d9084c470f98eaa7e",
+        "val_labels_original": "6334c475200b698b0fefac7d09948ba363cb9c644dcb7f17dd7778399cc9ec07"
+      },
+      "center_overlap_count": 0,
+      "class_construction": {
+        "1": {
+          "absolute_target_deviation": 84,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.05257970328283312,
+              0.2907587826797324
+            ],
+            [
+              0.13930124025060386,
+              0.9659530900967968
+            ],
+            [
+              0.22593086974848792,
+              0.45658468951722875
+            ],
+            [
+              0.4692023576649846,
+              0.09909233228966002
+            ],
+            [
+              0.49352291164757556,
+              0.3293871090891712
+            ],
+            [
+              0.5836448586624642,
+              0.6633489739341013
+            ],
+            [
+              0.6741994148531475,
+              0.667269421974802
+            ],
+            [
+              0.7477992324298387,
+              0.19171969579388687
+            ],
+            [
+              0.9098217018671555,
+              0.9815904139433538
+            ],
+            [
+              0.9535142644699222,
+              0.6133593730217011
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            1440,
+            711,
+            647,
+            883,
+            1849,
+            9274,
+            9635,
+            758,
+            297,
+            2323
+          ],
+          "kmeans_inertia": 62.84951095246665,
+          "kmeans_n_iter": 5,
+          "official_training_count": 27817,
+          "selected_canonical_clusters": [
+            0,
+            1,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "selected_cluster_count": 7,
+          "selected_validation_count": 8261,
+          "selected_validation_fraction": 0.29697666894345187,
+          "target_validation_count": 8345
+        },
+        "2": {
+          "absolute_target_deviation": 8,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.18152314049585572,
+              0.9494125668449224
+            ],
+            [
+              0.2717402597402679,
+              0.192949800973023
+            ],
+            [
+              0.3254143309773363,
+              0.2714418072859166
+            ],
+            [
+              0.484918052912651,
+              0.8733541525995923
+            ],
+            [
+              0.4971907600596125,
+              0.04707810993249861
+            ],
+            [
+              0.5169146452720833,
+              0.8722689075630226
+            ],
+            [
+              0.7206670415315357,
+              0.4228668855344212
+            ],
+            [
+              0.7542245692051188,
+              0.4228276329987255
+            ],
+            [
+              0.8282267157528691,
+              0.9231536338384728
+            ],
+            [
+              0.9970238095238095,
+              0.47058823529411764
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            2750,
+            3325,
+            1492,
+            1532,
+            305,
+            1643,
+            1726,
+            1811,
+            3346,
+            21
+          ],
+          "kmeans_inertia": 6.503357250664334,
+          "kmeans_n_iter": 2,
+          "official_training_count": 17951,
+          "selected_canonical_clusters": [
+            4,
+            6,
+            8
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 5377,
+          "selected_validation_fraction": 0.2995376302155869,
+          "target_validation_count": 5385
+        },
+        "3": {
+          "absolute_target_deviation": 1,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.016302791696492402,
+              0.3906148679944419
+            ],
+            [
+              0.05309343434343439,
+              0.8285539215686275
+            ],
+            [
+              0.16460777126099746,
+              0.43440464895635666
+            ],
+            [
+              0.30355731225296456,
+              0.8847026854219948
+            ],
+            [
+              0.3388422266139657,
+              0.7508898124467178
+            ],
+            [
+              0.5585998877665544,
+              0.4969635076252723
+            ],
+            [
+              0.6200220831799779,
+              0.817024886877828
+            ],
+            [
+              0.8324121900826447,
+              0.3021000445632799
+            ],
+            [
+              0.8456257783312577,
+              0.5349617244157937
+            ],
+            [
+              0.9268716577540101,
+              0.9020617070357557
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            127,
+            54,
+            124,
+            46,
+            138,
+            162,
+            247,
+            132,
+            146,
+            204
+          ],
+          "kmeans_inertia": 2.9204900438895924,
+          "kmeans_n_iter": 2,
+          "official_training_count": 1380,
+          "selected_canonical_clusters": [
+            0,
+            2,
+            5
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 413,
+          "selected_validation_fraction": 0.29927536231884055,
+          "target_validation_count": 414
+        },
+        "4": {
+          "absolute_target_deviation": 0,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.2853781174577635,
+              0.23163716814159294
+            ],
+            [
+              0.2854366028708134,
+              0.24427244582043345
+            ],
+            [
+              0.2920701581027668,
+              0.2382193094629156
+            ],
+            [
+              0.2949401913875598,
+              0.2299767801857585
+            ],
+            [
+              0.29604591836734695,
+              0.24597088835534214
+            ],
+            [
+              0.30165513833992097,
+              0.2385469948849105
+            ],
+            [
+              0.3040311004784689,
+              0.22975232198142415
+            ],
+            [
+              0.30754132231404957,
+              0.24595959595959596
+            ],
+            [
+              0.31079545454545454,
+              0.23812908496732027
+            ],
+            [
+              0.31294688457609804,
+              0.22960178453403834
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            113,
+            114,
+            92,
+            94,
+            98,
+            92,
+            95,
+            100,
+            90,
+            89
+          ],
+          "kmeans_inertia": 0.013581531177759796,
+          "kmeans_n_iter": 13,
+          "official_training_count": 977,
+          "selected_canonical_clusters": [
+            1,
+            8,
+            9
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 293,
+          "selected_validation_fraction": 0.2998976458546571,
+          "target_validation_count": 293
+        },
+        "5": {
+          "absolute_target_deviation": 22,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.16285024031087153,
+              0.3254455325437261
+            ],
+            [
+              0.2716775677794793,
+              0.11282642653066671
+            ],
+            [
+              0.30312480765679883,
+              0.1350959815205703
+            ],
+            [
+              0.342760263929619,
+              0.3482430875576048
+            ],
+            [
+              0.35476718403547663,
+              0.24733680057388813
+            ],
+            [
+              0.5914259253726883,
+              0.28062162919719574
+            ],
+            [
+              0.7915379161068805,
+              0.021319303583503466
+            ],
+            [
+              0.796506203085901,
+              0.057866466540744566
+            ],
+            [
+              0.8488327237896243,
+              0.021059556006312083
+            ],
+            [
+              0.8536869107568854,
+              0.05765918612342877
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            2667,
+            2193,
+            2964,
+            434,
+            410,
+            3043,
+            2430,
+            2619,
+            2602,
+            2412
+          ],
+          "kmeans_inertia": 9.556234709830465,
+          "kmeans_n_iter": 5,
+          "official_training_count": 21774,
+          "selected_canonical_clusters": [
+            0,
+            3,
+            4,
+            5
+          ],
+          "selected_cluster_count": 4,
+          "selected_validation_count": 6554,
+          "selected_validation_fraction": 0.3010011940846882,
+          "target_validation_count": 6532
+        },
+        "6": {
+          "absolute_target_deviation": 5,
+          "candidate_subsets_evaluated": 1022,
+          "canonical_cluster_centroids_normalized_rc": [
+            [
+              0.10781500879271155,
+              0.20310567456587686
+            ],
+            [
+              0.1307621511524844,
+              0.4908537433899248
+            ],
+            [
+              0.17269989047097428,
+              0.5035967399007796
+            ],
+            [
+              0.2207691738229224,
+              0.5076640639969343
+            ],
+            [
+              0.2654060366511004,
+              0.5143694221379643
+            ],
+            [
+              0.34762686879004717,
+              0.9819526227242692
+            ],
+            [
+              0.3940466101694917,
+              0.9842115320704559
+            ],
+            [
+              0.879667086513046,
+              0.2253255988622011
+            ],
+            [
+              0.9555995329508691,
+              0.22338485151342108
+            ],
+            [
+              0.9668761674968926,
+              0.8517859840854125
+            ]
+          ],
+          "canonical_cluster_sizes": [
+            1189,
+            3573,
+            3436,
+            3058,
+            3288,
+            1950,
+            1778,
+            3681,
+            2472,
+            1168
+          ],
+          "kmeans_inertia": 11.653458801273523,
+          "kmeans_n_iter": 7,
+          "official_training_count": 25593,
+          "selected_canonical_clusters": [
+            0,
+            2,
+            3
+          ],
+          "selected_cluster_count": 3,
+          "selected_validation_count": 7683,
+          "selected_validation_fraction": 0.3001992732387762,
+          "target_validation_count": 7678
+        }
+      },
+      "class_final_counts": {
+        "1": {
+          "experiment_b_train_count_after_guard": 19556,
+          "experiment_b_validation_count": 8261,
+          "guard_excluded_count": 0,
+          "official_training_count": 27817,
+          "validation_fraction": 0.29697666894345187,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "2": {
+          "experiment_b_train_count_after_guard": 11807,
+          "experiment_b_validation_count": 5377,
+          "guard_excluded_count": 767,
+          "official_training_count": 17951,
+          "validation_fraction": 0.2995376302155869,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "3": {
+          "experiment_b_train_count_after_guard": 967,
+          "experiment_b_validation_count": 413,
+          "guard_excluded_count": 0,
+          "official_training_count": 1380,
+          "validation_fraction": 0.29927536231884055,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "4": {
+          "experiment_b_train_count_after_guard": 74,
+          "experiment_b_validation_count": 293,
+          "guard_excluded_count": 610,
+          "official_training_count": 977,
+          "validation_fraction": 0.2998976458546571,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "5": {
+          "experiment_b_train_count_after_guard": 15220,
+          "experiment_b_validation_count": 6554,
+          "guard_excluded_count": 0,
+          "official_training_count": 21774,
+          "validation_fraction": 0.3010011940846882,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        },
+        "6": {
+          "experiment_b_train_count_after_guard": 15555,
+          "experiment_b_validation_count": 7683,
+          "guard_excluded_count": 2355,
+          "official_training_count": 25593,
+          "validation_fraction": 0.3001992732387762,
+          "validation_fraction_gate_20_to_40_inclusive": true
+        }
+      },
+      "dataset": "Qingyun",
+      "dataset_gate_pass": true,
+      "final_training_count": 63179,
+      "gate_checks": {
+        "all_evaluation_classes_present_in_training_after_guard": true,
+        "all_evaluation_classes_present_in_validation": true,
+        "official_training_partition_exhaustive": true,
+        "official_training_partition_unique": true,
+        "per_class_validation_fraction_within_20_to_40_percent": true,
+        "train_validation_center_overlap_zero": true,
+        "train_validation_patch_overlap_zero": true
+      },
+      "guard_excluded_count": 3732,
+      "guard_threshold_chebyshev_leq": 10,
+      "historical_split_source": "split_indices/qingyun_fixed_split_seed2026.npz",
+      "historical_split_source_sha256": "8d09ab9149c9bff69907755d28751dbd9bfcb0259c0d49b843155c04f26426d5",
+      "official_training_pool_count": 95492,
+      "patch_overlap_count": 0,
+      "patch_radius": 5,
+      "spatial_shape": [
+        880,
+        1360
+      ],
+      "status": "PASS",
+      "validation_count": 28581
+    }
+  },
+  "experiment": "Experiment B",
+  "final_split_files_written": true,
+  "frozen_split_manifest": "audit/notebook06a_spatial_validation/experiment_b_spatial_split_manifest_v1_frozen.json",
+  "frozen_split_manifest_sha256": "cb33d0c86720b01e735b320370fb80d5265e5e37c3d3fb41503a44c98ebb7205",
+  "global_gate_pass": true,
+  "if_failed_action": "STOP_WITHOUT_ALTERNATIVE_SPLIT_SEARCH",
+  "inference_performed": false,
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "official_test_values_accessed": false,
+  "parent_protocol_hashes": {
+    "v1": "34a126dab901265ba2e6c9dbc76df75bb2c5177276efa677db853443659fef75",
+    "v1_1": "398714d69072bb996faa6b280ea43534e0a02b17ad250b067257222fe75d4aab",
+    "v1_2": "916cb2173296ebd42b2baa65a0f13eb407565e74f60712a4fdd6c8a5ebbe6620"
+  },
+  "performance_observed": false,
+  "primary_datasets": [
+    "Pingan",
+    "Qingyun"
+  ],
+  "project": "LTLC",
+  "tangdaowan_primary_construction_attempted": false,
+  "training_performed": false
+}

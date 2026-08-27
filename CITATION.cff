@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: >-
+  LTLC — Leakage-Controlled Evaluation of Long-Tail Correction for
+  Hyperspectral Image Classification
+message: >-
+  If you use this repository, please cite it. Please ALSO cite the original
+  QUH dataset authors and the original HybridSN paper; neither is a
+  contribution of this work.
+type: software
+# NOTE: no license field - repository licensing is pending confirmation.
+#       See LICENSE_PENDING.md.
+authors:
+  - name: "CSE498R LTLC project contributors"
+repository-code: ""
+abstract: >-
+  A leakage-controlled study of long-tail correction for hyperspectral image
+  classification on the QUH benchmark using a fixed HybridSN backbone. A
+  conventional pixel-random split yields approximately 99.99% cross-entropy
+  validation accuracy because spatial patches around adjacent pixels overlap;
+  under a spatially disjoint split with a guard band removing training pixels
+  within Chebyshev distance 2r of any validation pixel, the same model family
+  scores 74-88%. Under that protocol, standard training-prior correction gives
+  a suggestive class-balanced gain on one scene and a marginal gain on the
+  other, while a proposed rarity-adaptive term (LTLC) is not selected: a
+  revised identifiable formulation chose a rarity coefficient of exactly zero
+  on both scenes. A mechanism analysis shows training-frequency rarity
+  correlates with cross-entropy class error at rho = +0.41 on one scene and
+  -0.37 on the other, indicating that class frequency is not a consistent
+  proxy for class difficulty. All differences are reported as suggestive
+  rather than confirmatory; with three seeds an exact sign-flip test cannot
+  produce a p-value below 0.25.
+keywords:
+  - hyperspectral image classification
+  - long-tail learning
+  - class imbalance
+  - logit adjustment
+  - spatially disjoint validation
+  - data leakage
+  - model calibration
+  - negative result
+  - HybridSN
+  - QUH

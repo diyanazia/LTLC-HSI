@@ -1,0 +1,32 @@
+{
+  "dataset": "Pingan",
+  "raw_cube_file": "QUH-Pingan.mat",
+  "raw_cube_key": "Haigang",
+  "raw_cube_shape": [
+    1230,
+    1000,
+    176
+  ],
+  "raw_spectral_bands": 176,
+  "pca_components": 15,
+  "pca_whiten": false,
+  "pca_solver_selected": "covariance_eigh",
+  "explained_variance_retained": 0.9999182574539228,
+  "normalization": "sklearn.preprocessing.minmax_scale(axis=1)",
+  "pca_fit_scope": "full unlabeled image cube",
+  "label_information_used_for_pca": false,
+  "cache_shape": [
+    1230,
+    1000,
+    15
+  ],
+  "cache_dtype": "float32",
+  "cache_file": "pingan_pca15_rowminmax_float32.npy",
+  "cache_sha256": "857ffcb8f1a3837f19b7eba350c8a3c15f99d9e7dbede3a84b46249191f27daa",
+  "pca_model_file": "pingan_pca15_model.joblib",
+  "pca_model_sha256": "ccfea6551ed03cbac12f9991da074147241dd8d862b340379cae2654484fb69f",
+  "split_sha256": "738703dda7e55e69bef3eb8bfad5d30c34a82788d2732268cf94da3bc3085592",
+  "pca_elapsed_sec": 2.889089822769165,
+  "normalization_elapsed_sec": 0.3791170120239258,
+  "created_at": "2026-08-12T17:00:03.685480"
+}

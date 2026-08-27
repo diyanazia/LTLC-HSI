@@ -1,0 +1,17 @@
+class_id,official_train,actual_train_70pct,validation_30pct,reconstructed_total,frequency_group,frequency_rank_rarest_first
+1,1816,1271,545,1816,Medium,9
+2,3890,2723,1167,3890,Head,13
+3,2383,1668,715,2383,Medium,11
+4,4248,2974,1274,4248,Head,14
+5,130,91,39,130,Tail,5
+6,2598,1819,779,2598,Head,12
+7,989,692,297,989,Medium,7
+8,4486,3140,1346,4486,Head,15
+9,2148,1504,644,2148,Medium,10
+10,124,87,37,124,Tail,4
+11,1486,1040,446,1486,Medium,8
+12,52,36,16,52,Tail,1
+13,118,83,35,118,Tail,3
+14,62,43,19,62,Tail,2
+15,979,685,294,979,Medium,6
+16,9863,6904,2959,9863,Head,16

@@ -1,0 +1,1066 @@
+{
+  "critical_hashes": {
+    "gpu_gate": "6edfd2c6fcb59f0955ce39bc4b6d3c3fa769ae65730f1fc504a192b3f588215a",
+    "pingan_pca": "857ffcb8f1a3837f19b7eba350c8a3c15f99d9e7dbede3a84b46249191f27daa",
+    "pingan_split": "7e7c6f583223a43e8e37db2dad7052fc16b2d42ff3e674a4134acdb51608d1fb",
+    "qingyun_pca": "15d94523dbf5708da5186fe44bb405bbfcc35b06ce23a86a85205e1e5e9d1c3e",
+    "qingyun_split": "0458767773b62d44657a564dd79aef004eb053e6c8b5deb8e6f020597950dd74",
+    "recovery_execution": "6d586e63a7d02dceb38792c8d50378395d50ddb5fdad81ce702be9dab6c4c882",
+    "recovery_protocol": "4da9dd6c08ae7b34065a4338808d3424d1cff1bf4a12c747c24c43288c199672",
+    "training_protocol": "41889867f18cc8a8655083c7906c608f154e4aae8bdc25da81a5e91c0125a9ec"
+  },
+  "experiment": "Experiment B",
+  "files": [
+    {
+      "relative_path": "_migration_meta/KAGGLE_README_FIRST.txt",
+      "role": "migration_readme",
+      "sha256": "de5f1c4bf25cc4c0de65c124b6ad939f1618230713c86072c67a848200472ad1",
+      "size_bytes": 418
+    },
+    {
+      "relative_path": "_migration_meta/kaggle_environment_equivalence_requirements_v1.json",
+      "role": "environment_requirements",
+      "sha256": "9803eeb67b02f40520f03eca48ea38131b835b2eeaf885823bdca3cf1d1ecfa0",
+      "size_bytes": 983
+    },
+    {
+      "relative_path": "audit/environment.json",
+      "role": "project_file",
+      "sha256": "42275691fa91d2d0e59039c965a2ffde14b936a57f8279bf998c4a6411bfebab",
+      "size_bytes": 291
+    },
+    {
+      "relative_path": "audit/final_training_imbalance_summary.csv",
+      "role": "project_file",
+      "sha256": "009e57703cb39acf4ca65798804f1c61a7c0a6e95779a8b19d54d328b6b1c7c3",
+      "size_bytes": 198
+    },
+    {
+      "relative_path": "audit/notebook01_protocol_metadata.json",
+      "role": "project_file",
+      "sha256": "cdac2c2ef2e3caeae03c4661c28427904a1b3e6385e1db9aff340750b3a25c56",
+      "size_bytes": 7186
+    },
+    {
+      "relative_path": "audit/notebook02_preprocessing/canonical_patch_manifest.json",
+      "role": "project_file",
+      "sha256": "a2bed8afdc3bf2f421174b4bc293f216a204f8ee8317e95a3ad73a1d20c1ed5d",
+      "size_bytes": 1975
+    },
+    {
+      "relative_path": "audit/notebook02_preprocessing/notebook02_master_preprocessing_audit.json",
+      "role": "project_file",
+      "sha256": "70ec30a3a98c0943082d82d539cee78b00bc6acc1a38b4031ceae72505f7f32a",
+      "size_bytes": 3027
+    },
+    {
+      "relative_path": "audit/notebook02_preprocessing/notebook02_preprocessing_summary.csv",
+      "role": "project_file",
+      "sha256": "328026a0243ebdd2c4667c30bc7d53662781243158a892f3ac0927d90f0d7b8d",
+      "size_bytes": 1004
+    },
+    {
+      "relative_path": "audit/notebook02_preprocessing/pingan_patch_visual_check.png",
+      "role": "project_file",
+      "sha256": "745a4f2a1f8c7fe6c834a0e5ef6a479a953c3d918c7f27ee31c041fff1feadac",
+      "size_bytes": 27922
+    },
+    {
+      "relative_path": "audit/notebook02_preprocessing/pingan_preprocessing_metadata.json",
+      "role": "project_file",
+      "sha256": "e78903b13ba005c4b7c417eb9b7c749caa925c584d8028f4f9845c564778af8a",
+      "size_bytes": 1056
+    },
+    {
+      "relative_path": "audit/notebook02_preprocessing/qingyun_patch_visual_check.png",
+      "role": "project_file",
+      "sha256": "dd7d98993e4f28f3cc6cdecba8431435fe4e540cd783ca0e016596760c0d81d7",
+      "size_bytes": 27464
+    },
+    {
+      "relative_path": "audit/notebook02_preprocessing/qingyun_preprocessing_metadata.json",
+      "role": "project_file",
+      "sha256": "9126615b41ce755846155800796296f82da4b2d1d0accfed1fb9a28b0d33b550",
+      "size_bytes": 1059
+    },
+    {
+      "relative_path": "audit/notebook02_preprocessing/tangdaowan_patch_visual_check.png",
+      "role": "project_file",
+      "sha256": "ef4243702fc9c3e4b9ef078abddc3e3744240625b92604e2d35f25a041a10523",
+      "size_bytes": 29450
+    },
+    {
+      "relative_path": "audit/notebook02_preprocessing/tangdaowan_preprocessing_metadata.json",
+      "role": "project_file",
+      "sha256": "41cde85e1b567f5834645db505dd181617a48810ca7934cbc9a1def62c728c7f",
+      "size_bytes": 1072
+    },
+    {
+      "relative_path": "audit/notebook03_hybridsn/ce_checkpoint_manifest.csv",
+      "role": "project_file",
+      "sha256": "b0dfba1abef2ff25a69131ab166d29c1db62bda96e0c9d3a8d50840fd4a0a621",
+      "size_bytes": 1744
+    },
+    {
+      "relative_path": "audit/notebook03_hybridsn/ce_checkpoint_manifest.json",
+      "role": "project_file",
+      "sha256": "001468133da65328b7e13e9cc53cf5baf6a5dcdfa9b03de17ffe0216b78ab527",
+      "size_bytes": 3876
+    },
+    {
+      "relative_path": "audit/notebook03_hybridsn/frozen_inference/hybridsn_ce_inference_output_manifest.csv",
+      "role": "project_file",
+      "sha256": "8dd9bd0620079ef5ad2dd6c91554a8ea50a7f33bd6651453e072aeffcab844ee",
+      "size_bytes": 6054
+    },
+    {
+      "relative_path": "audit/notebook03_hybridsn/frozen_inference/hybridsn_ce_inference_output_manifest.json",
+      "role": "project_file",
+      "sha256": "ecbbc8e7b39addb6ec79ea8c405b7a9517abe5f207cbdf7127b251faa2cb78b6",
+      "size_bytes": 11573
+    },
+    {
+      "relative_path": "audit/notebook03_hybridsn/notebook03_master_audit.json",
+      "role": "project_file",
+      "sha256": "ae98b3757effd373bae08ce13a8a52afef22d2fbceecfc41d9c94101f30be15e",
+      "size_bytes": 2939
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/baseline_selection_final.csv",
+      "role": "project_file",
+      "sha256": "f00dbd85f6f0294229c50d57a37c727db456f42ca8abb4271b038622b49b6485",
+      "size_bytes": 4073
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/baseline_training_protocol_v3_1_locked.json",
+      "role": "project_file",
+      "sha256": "053179d263b118bea1da4a7c02c128c2c160cb13398ebc4adaa2027577c0d577",
+      "size_bytes": 2062
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/kaggle_migration_environment.json",
+      "role": "project_file",
+      "sha256": "7eaab06b45b9af04df74447d69890e62faeef581f30e7a840bce1d76c1a53d2f",
+      "size_bytes": 684
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/notebook04_all_45_run_crypto_audit.csv",
+      "role": "project_file",
+      "sha256": "143774f14101f0804886d33a268be0f9e13e45ab4a8056eb722469d2e4fbffd0",
+      "size_bytes": 7052
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/notebook04_final_export_index.json",
+      "role": "project_file",
+      "sha256": "192319cbf648b58cb8c237306db9c4a2fdcf91460175aee212a15ebbf08e69c2",
+      "size_bytes": 38174
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/notebook04_final_master_audit.json",
+      "role": "project_file",
+      "sha256": "ad45760aded00dfb6c76d9eb3c7577364a67f75873cda94121dc9fe0b2465363",
+      "size_bytes": 7799
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/notebook04_selected_36_checkpoint_audit.csv",
+      "role": "project_file",
+      "sha256": "08e012d7309d3e20bb747282a473b5dbed4aadadd62d9fe7f6d87c4b98682355",
+      "size_bytes": 7156
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/notebook04_training_baseline_master_summary.csv",
+      "role": "project_file",
+      "sha256": "f38aa5d0e7b9034a5eb19660283f414d3c9d4b932024200bf4f823e40e91f431",
+      "size_bytes": 2752
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/pingan_balanced_softmax_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "7a2a253f66b5a20db81fff832b0b5b4925c679436dd6341b57e1688e3dd7bc95",
+      "size_bytes": 2178
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/pingan_focal_hyperparameter_selection.json",
+      "role": "project_file",
+      "sha256": "2aac1e1be9fc0115234dae394af15f80b83075123df792130431b18bfcb5fd89",
+      "size_bytes": 1167
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/pingan_focal_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "5a7914b8dcfe8a8a0c086f3d51b7d879338956d8fd28028230a6bd855cd6a55c",
+      "size_bytes": 2172
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/pingan_la_loss_hyperparameter_selection.json",
+      "role": "project_file",
+      "sha256": "cc4e92cd01f5f0dc48a82247a7af944b9c71b7492ddaa03b93cb2d6a3194a24b",
+      "size_bytes": 1339
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/pingan_la_loss_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "f7229e05c33d0e53654e066985e4c4e6e43d572614cda034ae4213ccd3b43d71",
+      "size_bytes": 2219
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/pingan_ldam_drw_checkpoint_schedule_note.json",
+      "role": "project_file",
+      "sha256": "da3bfc14058b22f49994853de0f29327361839285d8c5532b055ae59b5ca4fdd",
+      "size_bytes": 491
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/pingan_ldam_drw_hyperparameter_selection.json",
+      "role": "project_file",
+      "sha256": "c50d64a946668bfe841c5804f09be9f86c700bdb596792f0753cefbd9afbc967",
+      "size_bytes": 1368
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/pingan_ldam_drw_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "2cadc0058ce8aad06f41036dafdc9ab3eddfbdc391ed974fcf1db02a5bc602a4",
+      "size_bytes": 2670
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/qingyun_balanced_softmax_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "7500a19a77a8dfcc1f21326781c77ce309c83b034c69dd466f119cb20bcfdcfb",
+      "size_bytes": 2181
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/qingyun_focal_hyperparameter_selection.json",
+      "role": "project_file",
+      "sha256": "4dfb09ea3ac1af6afac32d13e1c26d2c33193172ff30dbe6901077194664e801",
+      "size_bytes": 1167
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/qingyun_focal_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "4ff7f933412fab5b33b51a7b6848de0c2147ffbab4ccbfa30bf8fcba8baa4886",
+      "size_bytes": 2182
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/qingyun_la_loss_hyperparameter_selection.json",
+      "role": "project_file",
+      "sha256": "0b6680c58fb56d7e7acb4e44f2f0b09c282c4d0de77dfb22848af1e61da6d61a",
+      "size_bytes": 1338
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/qingyun_la_loss_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "7e0de7fa55d833a0ec9a88c519d9e985f7111bbc5331b7ce63d1ec48ec12c418",
+      "size_bytes": 2447
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/qingyun_ldam_drw_checkpoint_schedule_note.json",
+      "role": "project_file",
+      "sha256": "7852786455bce45bd492033da7067939a07894649443c68a21685b4e9474770e",
+      "size_bytes": 491
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/qingyun_ldam_drw_hyperparameter_selection.json",
+      "role": "project_file",
+      "sha256": "3c84b2887c2c2ea6a7e35456858abe6aca49b966c1828bcc7c46dcbf4d50814b",
+      "size_bytes": 1369
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/qingyun_ldam_drw_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "e037a7b3753ebc88ec6416af471f0673dfcddf32c421e9422ce26f38a8c98a5f",
+      "size_bytes": 2721
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/tangdaowan_balanced_softmax_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "9698291fad402aa7795cb2a6d972552bc5e8d54357f5a913fe11428b07285591",
+      "size_bytes": 2197
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/tangdaowan_focal_hyperparameter_selection.json",
+      "role": "project_file",
+      "sha256": "bbba7bd8bd081f80a37d8792d0122179f85b12ab8b9303b7ba50d455e44cbbb9",
+      "size_bytes": 1359
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/tangdaowan_focal_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "4d085bf564adb71db708e9f579fb9a3363908b7d130d0cb9eaf0828da30acf4e",
+      "size_bytes": 2173
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/tangdaowan_la_loss_hyperparameter_selection.json",
+      "role": "project_file",
+      "sha256": "d82685535fa84dabd99b9df5992c261714e14bbde2e363013bab665372064cef",
+      "size_bytes": 1254
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/tangdaowan_la_loss_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "e6dae7bdabc08dc62662b07ec203863320a2bb2c34eaf8a0159fc69be5846a68",
+      "size_bytes": 2411
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/tangdaowan_ldam_drw_checkpoint_schedule_note.json",
+      "role": "project_file",
+      "sha256": "d936c660b91a21ddb9e9f9acf0df1e73ce7d3938f9e1dad47f7b8b1233c8309f",
+      "size_bytes": 418
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/tangdaowan_ldam_drw_hyperparameter_selection.json",
+      "role": "project_file",
+      "sha256": "39811a58a263e27cb94a69980b35572f5011b5831ee5106d4ce782d1a0804f99",
+      "size_bytes": 1379
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/tangdaowan_ldam_drw_three_seed_manifest.json",
+      "role": "project_file",
+      "sha256": "12155bc18fcb85031cafa5a695728a1355913fc21e27072d79eaaafe9b7f9611",
+      "size_bytes": 2499
+    },
+    {
+      "relative_path": "audit/notebook04_longtail/training_engine_v1_locked.json",
+      "role": "project_file",
+      "sha256": "6054df419915dcbee1e2d6320098dc9d50c26c2e6225fa4b77f6737209588807",
+      "size_bytes": 1437
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_corrected_calibration_source_audit.json",
+      "role": "project_file",
+      "sha256": "37a2a8e949e1a997a6f8a5bca9e382a5def7badcd814127afeece1e336641953",
+      "size_bytes": 3457
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_corrected_exact_calibration_functions.json",
+      "role": "project_file",
+      "sha256": "cc0d767c3f3f371e9f945dd7f86604d77d008f788184aef84a02a767e3f75670",
+      "size_bytes": 1958
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_corrected_final_validation_development_gate.json",
+      "role": "project_file",
+      "sha256": "1c698d3d068eb11a89d3da57889b01bf156b39fc7dd3844d72926315c8221fe7",
+      "size_bytes": 4429
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_corrected_temperature_validation_manifest.json",
+      "role": "project_file",
+      "sha256": "c4f9b8bb261bf7710e4fbff090b2b6bf655217fd0652015f1e6b7eebb26ad67d",
+      "size_bytes": 2580
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_corrected_temperature_validation_parameters.csv",
+      "role": "project_file",
+      "sha256": "977c9cb9061f7f3403e5039ea834c15163977873af31953ccd9d39b24f781338",
+      "size_bytes": 5558
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_corrected_temperature_validation_results.csv",
+      "role": "project_file",
+      "sha256": "c27d5f4b7cc33bd3f8d60fe2979b77fb5b13f72d2b6a347644446e460dde33a4",
+      "size_bytes": 15814
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_corrected_validation_shift_grid.csv",
+      "role": "project_file",
+      "sha256": "76209144197a9d481da52211370855bc5d60ec143dd7d157e8d0d72396fccd5f",
+      "size_bytes": 109352
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_corrected_validation_shift_selection_manifest.json",
+      "role": "project_file",
+      "sha256": "1e3809f6b31bf7a97886ac53c47d97c3e29273d8d1f63dd14c667572b7465752",
+      "size_bytes": 9856
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_ltlc_nonzero_alpha_recognition_headroom.csv",
+      "role": "project_file",
+      "sha256": "7f3c1c13c0efb77f425f3951ce081886ec0b0fa82d51556aced085b618f0bfca",
+      "size_bytes": 842
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_ltlc_nonzero_alpha_recognition_headroom_manifest.json",
+      "role": "project_file",
+      "sha256": "be449d002e33f260397d796d1334f885f30a92d98f7be5eb38774c38ad1b9d0d",
+      "size_bytes": 2404
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_ltlc_pure_alpha_effect_grid.csv",
+      "role": "project_file",
+      "sha256": "c3328ea99260b91f8b4d2f072851ca65c4e1df9a159c10daad18ce2cc24106a5",
+      "size_bytes": 78936
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_ltlc_pure_alpha_effect_manifest.json",
+      "role": "project_file",
+      "sha256": "41dc5ca01ec0bfded1972234922c080ba0f7024fa57d129d864471b411266b09",
+      "size_bytes": 2209
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_qingyun_seed3407_nonzero_alpha_per_class_tradeoff.csv",
+      "role": "project_file",
+      "sha256": "7b98ea72d29e9d90bbd74c0ee8c50d16f7489215a5f466cbf45423c371456da8",
+      "size_bytes": 13081
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_qingyun_seed3407_nonzero_alpha_tradeoff.csv",
+      "role": "project_file",
+      "sha256": "d793154c70e33bf1ce9860f5f8945b4f7ef8c5ee323cd079acfe20c703e0e670",
+      "size_bytes": 4884
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/bestAA_qingyun_seed3407_nonzero_alpha_tradeoff_manifest.json",
+      "role": "project_file",
+      "sha256": "48ae791d11bbe3e7db9d16ab4ca4ec09cbf45e76099ce8a63d64e8a930649b40",
+      "size_bytes": 1733
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_best_valAA_recovery_pipeline_spec.json",
+      "role": "project_file",
+      "sha256": "2d11e8a954c181c38f03aeb2b4085d0beba9b8abcf44f6333b0255369b445a7d",
+      "size_bytes": 1608
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_best_valAA_train_val_split_audit.json",
+      "role": "project_file",
+      "sha256": "8b2edf820df1a19176d1eb97491e6e67d24aadd4846833cd190d91e658d68241",
+      "size_bytes": 992
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_best_valAA_validation_output_manifest.csv",
+      "role": "project_file",
+      "sha256": "d66c1efe67c9c7f6ce660ae69a3bacf61fd85a8a0c8b18a10f54d4e977d5dcaa",
+      "size_bytes": 5141
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_best_valAA_validation_output_manifest.json",
+      "role": "project_file",
+      "sha256": "ab12c9b95fde876bff6a66f737f1c8c9426ec045bd2cc95ff6b34654ba18194b",
+      "size_bytes": 8391
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_exact_executed_ce_training_config.json",
+      "role": "project_file",
+      "sha256": "57e00ddb06298ae25ac02c0791030b2a0699cc3966725c9fdddd3a1f58aeafbb",
+      "size_bytes": 1106
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_executed_ce_engine_evidence_audit.json",
+      "role": "project_file",
+      "sha256": "45950808556819d69bf22df31a810b83b85276e2ea4a12d578e706668354e3b2",
+      "size_bytes": 6520
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_final_9_best_valAA_checkpoint_preflight.json",
+      "role": "project_file",
+      "sha256": "9dec9933a0665aeca1b0864aa0eff997fa21b8b1d8fe5328c1ccdffc411ec411",
+      "size_bytes": 4515
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_notebook03_final_recovery_engine_source_audit.json",
+      "role": "project_file",
+      "sha256": "53f74a32a7ca4d13e215dd3b57165406b4998ddd4704bd979c3c49561a1e18fb",
+      "size_bytes": 380
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_notebook03_source_engine_audit.json",
+      "role": "project_file",
+      "sha256": "d0e8d69607e7a33a0e45d31a31fecd749b203fd5271f9d90dba0c28569ef72af",
+      "size_bytes": 10446
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_notebook03_targeted_engine_source_audit.json",
+      "role": "project_file",
+      "sha256": "3b22ea64258869321d29500efeada0ab92e1feaea23aff9fb6c7c0f9808dd798",
+      "size_bytes": 1866
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/best_valAA_recovery/notebook05_pingan_seed123_epoch1_historical_reproduction.json",
+      "role": "project_file",
+      "sha256": "62e39292546ea0894afd85db7ee70cf01b132ed900cf51bc72e3911e110fb675",
+      "size_bytes": 2811
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/notebook05_ltlc_revision_R1_protocol.json",
+      "role": "project_file",
+      "sha256": "85097b1f9832566aee08d749bcb0c6dbe8a25e5cb1d745f19c68dddba98ecd94",
+      "size_bytes": 4261
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/notebook05_ltlc_revision_R1_robustness_gate.json",
+      "role": "project_file",
+      "sha256": "bc7e3040aa2c5d6f663429eeed3687006d4d570112ecc64ec18c7167daff1938",
+      "size_bytes": 1820
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/notebook05_master_artifact_audit.csv",
+      "role": "project_file",
+      "sha256": "825ed2a2412d86e660a6f81b70ba4ec49c9a20284aefb5bdd6af8d595d835152",
+      "size_bytes": 6186
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/notebook05_master_audit.json",
+      "role": "project_file",
+      "sha256": "d4223eaa7c7175833d55807ffdf704cdcaae1ecae45e5df06b7aba31e9093b71",
+      "size_bytes": 2108
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/notebook05_posthoc_ltlc_implementation_spec.json",
+      "role": "project_file",
+      "sha256": "2d9b944ee4a2971684ab60b97682cc2472c389d8c982eecf7d49aa7fb53f1af8",
+      "size_bytes": 2646
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/notebook05_posthoc_mathematical_sanity_audit.csv",
+      "role": "project_file",
+      "sha256": "c748396570559238190eb0264b49ae6a683cc403f3e3964a9ce89d7eca1386f6",
+      "size_bytes": 2465
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/notebook05_tangdaowan_saturation_protocol_amendment.json",
+      "role": "project_file",
+      "sha256": "12ebdc1a2b158f4aba9f6775d671c22b8f22565e24c57a9b138f89ed9931b88a",
+      "size_bytes": 4180
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/notebook05_terminal_validation_scientific_decision.json",
+      "role": "project_file",
+      "sha256": "1098dc47309a2201e532cac9921fcf5f8ff8401a858c256ab47e3d3eeff0ad01",
+      "size_bytes": 4929
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/notebook05_training_prior_rarity_manifest.json",
+      "role": "project_file",
+      "sha256": "9698f70003c44834b7cbb29f2c69232d2dd1900eec4b57290541fd95d4ddc478",
+      "size_bytes": 5494
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/revision_R1_corrected_frozen_baseline_validation_evaluation.csv",
+      "role": "project_file",
+      "sha256": "481254e16c3b9881a6de4fddd0917e2b5a39ddca2723713a4ea02bf4f88f042d",
+      "size_bytes": 509
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/revision_R1_frozen_parameter_validation_evaluation.csv",
+      "role": "project_file",
+      "sha256": "3144e0631ed61f8807c53337c82a3427e6526950aebf963ca18a0d026d4891cd",
+      "size_bytes": 2709
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/revision_R1_recognition_comparator_correction_manifest.json",
+      "role": "project_file",
+      "sha256": "bee52be82e177fd0132168ec1e37ef72a2c87a61c77656cc8e7067442d2a8d38",
+      "size_bytes": 3700
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/revision_R1_recognition_validation_manifest.json",
+      "role": "project_file",
+      "sha256": "5e969031110884a8eca218e290c2740daae8c10d081203e04bc199056c5bbc65",
+      "size_bytes": 4403
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/revision_R1_seed42_validation_grid.csv",
+      "role": "project_file",
+      "sha256": "1d181ebb6e1096a453810cb02650b826ec288e038272e168b971d0b7b47cc7a5",
+      "size_bytes": 29650
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/tangdaowan_ce_la_ltlc_shift_validation_summary.csv",
+      "role": "project_file",
+      "sha256": "09fa8ca0f8c0ec4da5fda4d1b6031d37e9faf3b848ac83a121534d7e5a1a98fd",
+      "size_bytes": 1557
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/tangdaowan_ltlc_development_gate.json",
+      "role": "project_file",
+      "sha256": "208d63568921487c61bb5485c2347e3b7d97185c38bbee11be9a20891000d502",
+      "size_bytes": 1182
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/tangdaowan_ltlc_shift_validation_grid.csv",
+      "role": "project_file",
+      "sha256": "741329819b808047469244430947a41aeeefdc774221df7f4217d7b5f9648f9e",
+      "size_bytes": 37433
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/tangdaowan_ltlc_shift_validation_selection_manifest.json",
+      "role": "project_file",
+      "sha256": "f9867a9d0e99544977370aba98925cb0f23b8dfb6a2bff5f09f3a97e8585ae47",
+      "size_bytes": 3514
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/tangdaowan_temperature_validation_parameters.csv",
+      "role": "project_file",
+      "sha256": "c4dd4eaebfdee707f7cf467f86f743ab1f539b43952bf318cc028613bfc863d2",
+      "size_bytes": 2012
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/tangdaowan_temperature_validation_results.csv",
+      "role": "project_file",
+      "sha256": "5b2107e17b3baea976457ae7eccf4b19ab884d56dba2cf9b1caa365f30be57fe",
+      "size_bytes": 5262
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/tangdaowan_validation_saturation_diagnostic.json",
+      "role": "project_file",
+      "sha256": "1495e5852a3e355c7f23e39415dfd37cacb2ad0cdb8c9a409257e2b8fe01a0ad",
+      "size_bytes": 1129
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/tangdaowan_validation_saturation_per_class_errors.csv",
+      "role": "project_file",
+      "sha256": "4bd89e8b0d4b6f5ccadd03431c6d62bb0a1d4315a65e7c8a47e0cd94618b5176",
+      "size_bytes": 1325
+    },
+    {
+      "relative_path": "audit/notebook05_posthoc_ltlc/tangdaowan_validation_saturation_shift_diagnostic.csv",
+      "role": "project_file",
+      "sha256": "7aa6ad79f10e85cf666291549f19cf791817c70275390e7fc9bee144bf567ed1",
+      "size_bytes": 38021
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_ce_pingan_seed123_independent_run_audit_v1.json",
+      "role": "project_file",
+      "sha256": "a997bc4840dabb534a0d639e4821a8b3b99c89767be354e4e9b91a3b996ca19b",
+      "size_bytes": 5609
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_ce_pingan_seed3407_independent_run_audit_v1.json",
+      "role": "project_file",
+      "sha256": "8ddf3e2285311e4a175a49b895ee13a7de0eb1d3c6fec9f826a4a4b1886d9778",
+      "size_bytes": 5603
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_ce_pingan_seed42_independent_run_audit_v1.json",
+      "role": "project_file",
+      "sha256": "3e956d9c20f48c4c40960f4b8c876c0697d5f8b6be3c776036053473b7cc0704",
+      "size_bytes": 5604
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_ce_qingyun_seed123_split_filesystem_recovery_execution_v1.json",
+      "role": "project_file",
+      "sha256": "6d586e63a7d02dceb38792c8d50378395d50ddb5fdad81ce702be9dab6c4c882",
+      "size_bytes": 4211
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_ce_qingyun_seed123_split_filesystem_recovery_protocol_v1_frozen.json",
+      "role": "project_file",
+      "sha256": "4da9dd6c08ae7b34065a4338808d3424d1cff1bf4a12c747c24c43288c199672",
+      "size_bytes": 10949
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_ce_qingyun_seed42_independent_run_audit_v1.json",
+      "role": "project_file",
+      "sha256": "b66752563026c948f453c82aded4aa9000d9904731b206a52aacceffef238b57",
+      "size_bytes": 3812
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_cpu_model_patch_preflight_v1.json",
+      "role": "project_file",
+      "sha256": "40df773c4bb7be2ad3d8f31f9b46350ede866337c9dccff16ad322f4f129e7e7",
+      "size_bytes": 5173
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_dataset_dataloader_preflight_v1.json",
+      "role": "project_file",
+      "sha256": "90e5949c076059afa538697e0bf8a92711afecc97f453342182f7d3134a5d629",
+      "size_bytes": 5424
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_gpu_environment_gate_v1.json",
+      "role": "project_file",
+      "sha256": "6edfd2c6fcb59f0955ce39bc4b6d3c3fa769ae65730f1fc504a192b3f588215a",
+      "size_bytes": 3877
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_hybridsn_source_audit_correction_v1.json",
+      "role": "project_file",
+      "sha256": "adb8130394eae48a9dffc7d99415cb4008fb8f70bbb798b116ed1b4836f34338",
+      "size_bytes": 2505
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_hybridsn_source_audit_v1.json",
+      "role": "project_file",
+      "sha256": "095923907b6c6e54dd0e2e03738906e9b6c32482979875e82a447ebe0cccff5d",
+      "size_bytes": 1086
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_spatial_split_manifest_v1_frozen.json",
+      "role": "project_file",
+      "sha256": "cb33d0c86720b01e735b320370fb80d5265e5e37c3d3fb41503a44c98ebb7205",
+      "size_bytes": 4032
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_spatial_validation_protocol_v1_1_implementation_clarification.json",
+      "role": "project_file",
+      "sha256": "398714d69072bb996faa6b280ea43534e0a02b17ad250b067257222fe75d4aab",
+      "size_bytes": 3201
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_spatial_validation_protocol_v1_2_kmeans_execution_clarification.json",
+      "role": "project_file",
+      "sha256": "916cb2173296ebd42b2baa65a0f13eb407565e74f60712a4fdd6c8a5ebbe6620",
+      "size_bytes": 1978
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_spatial_validation_protocol_v1_frozen.json",
+      "role": "project_file",
+      "sha256": "34a126dab901265ba2e6c9dbc76df75bb2c5177276efa677db853443659fef75",
+      "size_bytes": 6609
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_split_artifact_linkage_correction_v1.json",
+      "role": "project_file",
+      "sha256": "233fddd1372d0207c1b47eed3442a8e08ad89fb63155f22eed22c37f7a42f61b",
+      "size_bytes": 3014
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_split_construction_attempt_v1.json",
+      "role": "project_file",
+      "sha256": "c43489e3f2418834a1daeb3f7b98933cd5735a9d96adf057f0632e97a5f61eae",
+      "size_bytes": 39711
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_training_class_statistics_v1_frozen.json",
+      "role": "project_file",
+      "sha256": "556128fb9ce1f22eb049a2531621b3779bec7069f7678210c13c1f162d6aea32",
+      "size_bytes": 8153
+    },
+    {
+      "relative_path": "audit/notebook06a_spatial_validation/experiment_b_training_protocol_v1_frozen.json",
+      "role": "project_file",
+      "sha256": "41889867f18cc8a8655083c7906c608f154e4aae8bdc25da81a5e91c0125a9ec",
+      "size_bytes": 10903
+    },
+    {
+      "relative_path": "audit/official_imbalance_summary.csv",
+      "role": "project_file",
+      "sha256": "e01c258d24f3c1ffbaf13254ed0c951318b353f48a1a3013867a94d81ad6dded",
+      "size_bytes": 202
+    },
+    {
+      "relative_path": "audit/pingan_fixed_70_30_counts.csv",
+      "role": "project_file",
+      "sha256": "dcf35bb3ee386fcf6b5dc1b5cc01758657c2e515987607bdb1ba446ddd28c473",
+      "size_bytes": 295
+    },
+    {
+      "relative_path": "audit/pingan_frequency_groups.csv",
+      "role": "project_file",
+      "sha256": "fa553eab36f5a3ca33ecf5a640534b0e1b9a8a747fc3ab970018ad0d110dcbd3",
+      "size_bytes": 418
+    },
+    {
+      "relative_path": "audit/pingan_ltlc_class_statistics.csv",
+      "role": "project_file",
+      "sha256": "588f74a223b2ccfd13b881851d7ffa792c492115cbdab51dbe15312c08637287",
+      "size_bytes": 541
+    },
+    {
+      "relative_path": "audit/pingan_official_class_counts.csv",
+      "role": "project_file",
+      "sha256": "75b3c171dfc50d5a2c66545ec735773f77d7f2f6cab6af3908fe734bb244cf7e",
+      "size_bytes": 260
+    },
+    {
+      "relative_path": "audit/public_split_protocol_summary.csv",
+      "role": "project_file",
+      "sha256": "9008fd166b9222dcafa5b339df9b4ae8c5bb9f2e8ffe59b75d806cc8be92094b",
+      "size_bytes": 180
+    },
+    {
+      "relative_path": "audit/qingyun_fixed_70_30_counts.csv",
+      "role": "project_file",
+      "sha256": "2118683b6bd21ea82876b9e095c78a27de6183dfb935e5e4fc13f30e8e89f184",
+      "size_bytes": 218
+    },
+    {
+      "relative_path": "audit/qingyun_frequency_groups.csv",
+      "role": "project_file",
+      "sha256": "9c01c5ad8c72b764e1a04045b5a6e7c0c1f04b04212de867c7af92aa5c81af3b",
+      "size_bytes": 308
+    },
+    {
+      "relative_path": "audit/qingyun_ltlc_class_statistics.csv",
+      "role": "project_file",
+      "sha256": "77b9b5c18c9ab19dda2f79aec29a1a9969a1dc624e390e15fe1a8419a8ae4835",
+      "size_bytes": 336
+    },
+    {
+      "relative_path": "audit/qingyun_official_class_counts.csv",
+      "role": "project_file",
+      "sha256": "1f9b3522405e4c2991b7212fedbab6aa769e89fe016b4503d3c11aeee15b95f9",
+      "size_bytes": 192
+    },
+    {
+      "relative_path": "audit/tangdaowan_fixed_70_30_counts.csv",
+      "role": "project_file",
+      "sha256": "d2d658fa970106be3f51a6da523934606d9d82dfd5deb47478aa2a815bb36584",
+      "size_bytes": 392
+    },
+    {
+      "relative_path": "audit/tangdaowan_frequency_groups.csv",
+      "role": "project_file",
+      "sha256": "580f83587ab45d45bde4e7436ac48305ab741f596fe2bd460fcb5ad9099a2b01",
+      "size_bytes": 567
+    },
+    {
+      "relative_path": "audit/tangdaowan_ltlc_class_statistics.csv",
+      "role": "project_file",
+      "sha256": "4ff2d77b7d3b667349815bc7c3c8765058673d42f15c4668eadc68a5678d284f",
+      "size_bytes": 859
+    },
+    {
+      "relative_path": "audit/tangdaowan_official_class_counts.csv",
+      "role": "project_file",
+      "sha256": "05212bb8384e6f45b31c4b929ff48d4b8546cf11cd85682b9ffdde53dac045d1",
+      "size_bytes": 359
+    },
+    {
+      "relative_path": "data_cache/pca_normalized_cubes/pingan_pca15_rowminmax_float32.npy",
+      "role": "project_file",
+      "sha256": "857ffcb8f1a3837f19b7eba350c8a3c15f99d9e7dbede3a84b46249191f27daa",
+      "size_bytes": 73800128
+    },
+    {
+      "relative_path": "data_cache/pca_normalized_cubes/qingyun_pca15_rowminmax_float32.npy",
+      "role": "project_file",
+      "sha256": "15d94523dbf5708da5186fe44bb405bbfcc35b06ce23a86a85205e1e5e9d1c3e",
+      "size_bytes": 71808128
+    },
+    {
+      "relative_path": "notebooks/03_HybridSN_Baseline_Training_and_Benchmark_Reproduction.ipynb",
+      "role": "project_file",
+      "sha256": "87d52bbb4b13e3d389e74e305ac57d248f5b04557f2eaa7b7b88ed9186cb921e",
+      "size_bytes": 617912
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed123/ce__pingan__seed123__best_valAA.pt",
+      "role": "project_file",
+      "sha256": "a209732ba3a90cf9ca7b87f7bb8e0d9946b5d744af9888d5203f6bbfc9532464",
+      "size_bytes": 2084821
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed123/ce__pingan__seed123__best_valOA.pt",
+      "role": "project_file",
+      "sha256": "4e36e73e6224938e17c6a7b592e9ec9c66b2151f452164dc146c57f4764555fa",
+      "size_bytes": 2084885
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed123/ce__pingan__seed123__completion_manifest.json",
+      "role": "project_file",
+      "sha256": "398b907e93b23b06668bc11c294ace8e59a39459626d16288a0986a74a7b5048",
+      "size_bytes": 3107
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed123/ce__pingan__seed123__epoch_history.csv",
+      "role": "project_file",
+      "sha256": "a546565c2e0cc16728f5400b32188a6a597820509238fd8fdedfc4349baae9d9",
+      "size_bytes": 14714
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed123/ce__pingan__seed123__epoch_history.json",
+      "role": "project_file",
+      "sha256": "32284435b5c586007a31d6963e1858c4bb89040fdd1dbf94a208844a44fe03fc",
+      "size_bytes": 35900
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed123/ce__pingan__seed123__resume_state.pt",
+      "role": "project_file",
+      "sha256": "de06750d1c6d76b47f6b3e702e46b7dd75d4ae54b8f8539771e9fa2706566728",
+      "size_bytes": 6285647
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed3407/ce__pingan__seed3407__best_valAA.pt",
+      "role": "project_file",
+      "sha256": "2da493b7138d0116d013d8b3b68ccb4087d7a57b0f1d76b5a64dd6f2c1ab8651",
+      "size_bytes": 2084841
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed3407/ce__pingan__seed3407__best_valOA.pt",
+      "role": "project_file",
+      "sha256": "51e83596f94a2c77f626f80193eb48dc8222700304a777cbd334409fd003b020",
+      "size_bytes": 2084905
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed3407/ce__pingan__seed3407__completion_manifest.json",
+      "role": "project_file",
+      "sha256": "c59c28374ebe61edb76c72f0da36cb7b3c201628cea5a4e07c97858bb13ff45f",
+      "size_bytes": 3314
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed3407/ce__pingan__seed3407__epoch_history.csv",
+      "role": "project_file",
+      "sha256": "c5780c177a0c31d623c340c0ed3d33eaaeeabd70c47468aff368e0f380da30b1",
+      "size_bytes": 14755
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed3407/ce__pingan__seed3407__epoch_history.json",
+      "role": "project_file",
+      "sha256": "97dcbbc1ccb83c7971ba3c23b903924a61ba0147ea270a0b52ac6419ff710ec4",
+      "size_bytes": 35940
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed3407/ce__pingan__seed3407__resume_state.pt",
+      "role": "project_file",
+      "sha256": "27b3fb0417f7bcfb8b90b5485269b8fc6d10b823c3a9b3c9c1d2ca01b7e764d4",
+      "size_bytes": 6285648
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed42/ce__pingan__seed42__best_valAA.pt",
+      "role": "project_file",
+      "sha256": "f2df3cd4349b6a557fec7a4f1a4aca7922aa3408aefb4b3645ffd0831db750e6",
+      "size_bytes": 2084801
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed42/ce__pingan__seed42__best_valOA.pt",
+      "role": "project_file",
+      "sha256": "5a2bd5572d02d78b064dfa251dac45ab47ce0111311def3f50587aa933c1ebf2",
+      "size_bytes": 2084865
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed42/ce__pingan__seed42__completion_manifest.json",
+      "role": "project_file",
+      "sha256": "364fbb50c3ade82852a3dbe00c93533794387f78b641c652fe8efd266733427c",
+      "size_bytes": 2876
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed42/ce__pingan__seed42__epoch_history.csv",
+      "role": "project_file",
+      "sha256": "a8efecfbe2bf5f6b7583c2f67f0b879ed2c84575a5c87e693df650c7a84e5373",
+      "size_bytes": 14732
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed42/ce__pingan__seed42__epoch_history.json",
+      "role": "project_file",
+      "sha256": "2dabfcd5dd661fa404edd9d0c1a37075e5f0804b1ebed9ed39c277d32eedfd08",
+      "size_bytes": 35918
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/pingan/seed42/ce__pingan__seed42__resume_state.pt",
+      "role": "project_file",
+      "sha256": "dc9f8082dcf156e9d778594cb760b8d3860c0bf00f7ea2d04b6caedd1115e91d",
+      "size_bytes": 6285518
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed123/_split_filesystem_recovery_evidence_v1/real_partial_best_valOA_epoch4.pt",
+      "role": "project_file",
+      "sha256": "6136116a407c24fbc4256c16c971dc45d06029346d2d51bb62b1265636cb67b0",
+      "size_bytes": 1034217
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed123/_split_filesystem_recovery_evidence_v1/real_partial_resume_epoch50.pt",
+      "role": "project_file",
+      "sha256": "803f35e8c371dbf091ecd65aada5f6826af5dde6c3c718b3facce3e5f1518564",
+      "size_bytes": 3127568
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed123/ce__qingyun__seed123__best_valAA.pt",
+      "role": "project_file",
+      "sha256": "f86b81ae227e030c4933cbc5ace7d70596e012b3be9910d93d3817b5b4247e1f",
+      "size_bytes": 1034153
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed123/ce__qingyun__seed123__best_valOA.pt",
+      "role": "project_file",
+      "sha256": "6d6b5e42c15c4e7c40f7ea241e0911446924aeb9896ad25d93da10c3ecb8b4fa",
+      "size_bytes": 1034217
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed123/ce__qingyun__seed123__epoch_history.csv",
+      "role": "project_file",
+      "sha256": "165fb5781722821f1bfffc687ad2876b6ba801ebd62eddb9c1df5d3f2d1d18c3",
+      "size_bytes": 14729
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed123/ce__qingyun__seed123__epoch_history.json",
+      "role": "project_file",
+      "sha256": "6590630d05d3555a73ccc9f347e9be9bda12664b4dc51186bfc0b844b0655e38",
+      "size_bytes": 35913
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed123/ce__qingyun__seed123__resume_state.pt",
+      "role": "project_file",
+      "sha256": "d5af4657fa87195509956d2ed77aee56590147fcda0e5d93a0a7760fa10b20b1",
+      "size_bytes": 3133648
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed42/ce__qingyun__seed42__best_valAA.pt",
+      "role": "project_file",
+      "sha256": "49117cbfb4d41db0d1e3011faedca2702dd9f29a0bf7df7d356a70d0fc9b0d16",
+      "size_bytes": 1034133
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed42/ce__qingyun__seed42__best_valOA.pt",
+      "role": "project_file",
+      "sha256": "58941713ada5bb717597842fca863e7783f75b2c8ef03d5875aa5e10f568b00d",
+      "size_bytes": 1034197
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed42/ce__qingyun__seed42__completion_manifest.json",
+      "role": "project_file",
+      "sha256": "74cb8a9a3703e967431261fedc87c63231109cab7aaf021372e7a3b76dc2e8a4",
+      "size_bytes": 3521
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed42/ce__qingyun__seed42__epoch_history.csv",
+      "role": "project_file",
+      "sha256": "10dcfd9f7b51874b7baa47645bbe33c131decc2f7e6df7dd68e44204eab32ada",
+      "size_bytes": 14726
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed42/ce__qingyun__seed42__epoch_history.json",
+      "role": "project_file",
+      "sha256": "72aa8e4a239fad2583665473bd55bcee1592af538dee7f0a7d7ef348a56c6ebe",
+      "size_bytes": 35908
+    },
+    {
+      "relative_path": "runs/experiment_b_spatial_validation_v1/ce/qingyun/seed42/ce__qingyun__seed42__resume_state.pt",
+      "role": "project_file",
+      "sha256": "42492a8516f9507261165a7b054facb755dd7538da92eaab2d698d66575a6d1a",
+      "size_bytes": 3133519
+    },
+    {
+      "relative_path": "split_indices/experiment_b_spatial_validation_v1/pingan_experiment_b_spatial_split_v1.npz",
+      "role": "project_file",
+      "sha256": "7e7c6f583223a43e8e37db2dad7052fc16b2d42ff3e674a4134acdb51608d1fb",
+      "size_bytes": 188685
+    },
+    {
+      "relative_path": "split_indices/experiment_b_spatial_validation_v1/qingyun_experiment_b_spatial_split_v1.npz",
+      "role": "project_file",
+      "sha256": "0458767773b62d44657a564dd79aef004eb053e6c8b5deb8e6f020597950dd74",
+      "size_bytes": 156711
+    }
+  ],
+  "manifest_self_policy": "Manifest does not list itself. Its exact SHA-256 is printed by Cell 17G-M1 and must be hard-checked on Kaggle.",
+  "migration_name": "notebook06a_post_cell17f_kaggle_v1",
+  "no_experiment_before_environment_audit_pass": true,
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "project": "LTLC",
+  "scientific_state": {
+    "official_test_status": "SEALED",
+    "pingan_ce_42_123_3407_complete_and_audited": true,
+    "qingyun_ce_seed123_cell17g_pending": true,
+    "qingyun_ce_seed123_completion_manifest_present": false,
+    "qingyun_ce_seed123_training_complete_and_recovered": true,
+    "qingyun_ce_seed3407_not_started": true,
+    "qingyun_ce_seed42_complete_and_audited": true
+  },
+  "source_runtime_informational": {
+    "cuda_available_now": false,
+    "numpy": "2.0.2",
+    "python": "3.12.13",
+    "torch": "2.11.0+cpu",
+    "torch_cuda_runtime": "None"
+  },
+  "state_boundary": "AFTER_CELL_17F_BEFORE_CELL_17G",
+  "target_environment": {
+    "cudnn": 91900,
+    "gpu_name": "Tesla T4",
+    "minimum_gpu_count": 1,
+    "numpy": "2.0.2",
+    "python": "3.12.13",
+    "torch": "2.11.0+cu128",
+    "torch_cuda_runtime": "12.8"
+  }
+}

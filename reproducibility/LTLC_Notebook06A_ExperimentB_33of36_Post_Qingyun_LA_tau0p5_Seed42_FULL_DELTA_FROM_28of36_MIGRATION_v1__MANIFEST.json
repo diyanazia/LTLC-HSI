@@ -1,0 +1,267 @@
+{
+  "artifact_type": "LTLC_COLAB_FULL_DELTA_FROM_AUTHENTICATED_28OF36_MIGRATION",
+  "completed_job": {
+    "best_AA_epoch": 29,
+    "best_AA_metrics": {
+      "AA": 0.7641694770676607,
+      "Kappa": 0.6688498459773922,
+      "Macro_F1": 0.701987048753128,
+      "OA": 0.7439907630943634,
+      "loss": 4.090612848741792
+    },
+    "best_OA_epoch": 40,
+    "best_OA_metrics": {
+      "AA": 0.7529052995663005,
+      "Kappa": 0.6869692912868579,
+      "Macro_F1": 0.6921966826709284,
+      "OA": 0.7597354886113152,
+      "loss": 4.719810482395303
+    },
+    "completion_manifest_relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/qingyun/tau0p5/seed42/la_loss__qingyun__tau0p5__seed42__completion_manifest.json",
+    "completion_manifest_sha256": "1d456420e125909bca2515f2e4d8ac98f715b2967c85a41d0680fbf072d342c2",
+    "dataset": "Qingyun",
+    "epochs": 100,
+    "method": "LA_Loss",
+    "seed": 42,
+    "tau": 0.5
+  },
+  "created_utc": "2026-08-20T07:37:08.530223+00:00",
+  "experiment": "Experiment B",
+  "full_delta": {
+    "base_project_file_count": 449,
+    "delta_file_count": 36,
+    "records": [
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/la_loss__pingan__selected_tau_v1.json",
+        "sha256": "3d6d0c064081e9a18cc14217d0f9835b23f7bdb99e1002362ffec31a933f4bf8",
+        "size_bytes": 1923
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__best_valAA.pt",
+        "sha256": "9888c5db2cd3d21a64191652f091bf9134696c7a870a7448e3f1b263876dc495",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__best_valOA.pt",
+        "sha256": "d8655d7b383e4f2ce5d2e31dab94858939aa300747be1dc9037ff41de7a31456",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__completion_manifest.json",
+        "sha256": "7653c81eb50292af26be51b45da87499ba841e26eb415bf588b94f8c000d0829",
+        "size_bytes": 3853
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__epoch_history.csv",
+        "sha256": "224ce51cae8cdbb5e499e01f837a6628799f50c130776f9cb1951e3b4cb3365c",
+        "size_bytes": 14742
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__epoch_history.json",
+        "sha256": "12eb5b19020e72edf5a6cbdd50dc090231af5393286c3ba5fe2a0ed8e5474e4b",
+        "size_bytes": 33830
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__independent_run_audit_v1.json",
+        "sha256": "7fa4fdcba05cfdb0538a3c2f17cb95cd64f140f860c6a79f6068079cebfd46aa",
+        "size_bytes": 1486
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__resume_state.pt",
+        "sha256": "52ee4279d72e21aab5d60be4041ef585f72c933be903ae3c17e11c2561bd7361",
+        "size_bytes": 6285211
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed123/la_loss__pingan__tau1p0__seed123__best_valAA.pt",
+        "sha256": "4b0b6aed66d8f67422e4945c0e30d222b1cbd4023baaea7e6d764e9bd12a65b5",
+        "size_bytes": 2086105
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed123/la_loss__pingan__tau1p0__seed123__best_valOA.pt",
+        "sha256": "b459c4bcd5a1e1b1cdf1c8d2865658f88ea0feb25b71de9ee0045f727a7a5a96",
+        "size_bytes": 2086105
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed123/la_loss__pingan__tau1p0__seed123__completion_manifest.json",
+        "sha256": "fa852515672bc8f22b4331cf2084f116e33a678f4b88f003875f11b291e63323",
+        "size_bytes": 3867
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed123/la_loss__pingan__tau1p0__seed123__epoch_history.csv",
+        "sha256": "51f5dc2b0e2f48a3081eb60adac60f72988488d7148b317715d0d00f71a108a8",
+        "size_bytes": 14702
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed123/la_loss__pingan__tau1p0__seed123__epoch_history.json",
+        "sha256": "21ee1bba712955ea7ff93f564c7afb78a7919f57e0b1d9601c8e1178ab19d8fb",
+        "size_bytes": 33792
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed123/la_loss__pingan__tau1p0__seed123__independent_run_audit_v1.json",
+        "sha256": "c282417750c0a98d35a9d39e9311776da5e0a00002a6c45dc03babb305717be4",
+        "size_bytes": 1488
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed123/la_loss__pingan__tau1p0__seed123__resume_state.pt",
+        "sha256": "67ad5750941d1d7b98a5e04ca7305a952e95185f81c289ed6bf12a45d5394e53",
+        "size_bytes": 6285340
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed3407/la_loss__pingan__tau1p0__seed3407__best_valAA.pt",
+        "sha256": "f7ba88e0072fd4f33c2ee00e8c03c73644e21cdb620b8717291790d44bad7913",
+        "size_bytes": 2086125
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed3407/la_loss__pingan__tau1p0__seed3407__best_valOA.pt",
+        "sha256": "d5cfb31db7063e3ca31086b945564f176b5ed7fce2bf88b2fa2d5f54d406d678",
+        "size_bytes": 2086125
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed3407/la_loss__pingan__tau1p0__seed3407__completion_manifest.json",
+        "sha256": "664a2aa8fdf67cab5ecc7929b138a194d7cf14ee4b1aeaed3b0947c826f17f5d",
+        "size_bytes": 3880
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed3407/la_loss__pingan__tau1p0__seed3407__epoch_history.csv",
+        "sha256": "9a753df2d45256d2653881c12559bf3db28a501a4baca066e3e3c7cb906621cc",
+        "size_bytes": 14733
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed3407/la_loss__pingan__tau1p0__seed3407__epoch_history.json",
+        "sha256": "0715397c4c87b3392e2c6e5098e1cf7422f27faa41b1ae1933906406f17edf62",
+        "size_bytes": 33825
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed3407/la_loss__pingan__tau1p0__seed3407__independent_run_audit_v1.json",
+        "sha256": "0ede927cea7e122f7c2610fe1ac97b3a6ebf08128f05ffcd225ca8c5389e18e2",
+        "size_bytes": 1488
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed3407/la_loss__pingan__tau1p0__seed3407__resume_state.pt",
+        "sha256": "cb265d99d2e933967a2d3f8870261b4be1f2d4127a0ca408da35a78dd5d3f61a",
+        "size_bytes": 6285341
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__best_valAA.pt",
+        "sha256": "cfb5c91df12405cd9a045c89f27d30420364fdf897b748813062fbb6b96e8385",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__best_valOA.pt",
+        "sha256": "97bac228d657332eef07a1f1ce7bca78a3d72164e7f074f8a0cbde4a9e2885e2",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__completion_manifest.json",
+        "sha256": "eef6f96ee4981e8db17ec55725845c03fb8f4c2ddb6760ba4f9ae744d32d8ec7",
+        "size_bytes": 3853
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__epoch_history.csv",
+        "sha256": "c0a8b00c67d79c757e003f136d50dd29e6ff01072966edc1a27b9dcd77ffac21",
+        "size_bytes": 14729
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__epoch_history.json",
+        "sha256": "c2f1bd5ec969252bffe1cbde4371e4ca206ebd8f6bc964cc5f7d3742104b6e54",
+        "size_bytes": 33817
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__independent_run_audit_v1.json",
+        "sha256": "3d3fce54d51205783ce0f02bae7d43522ed684b8aff3cca62432cf8af877b37d",
+        "size_bytes": 1486
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__resume_state.pt",
+        "sha256": "c7d514100f0b448266af915c6f5f2b6a63d7498df319e4c4b6abe5cf5477e448",
+        "size_bytes": 6285211
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/qingyun/tau0p5/seed42/la_loss__qingyun__tau0p5__seed42__best_valAA.pt",
+        "sha256": "ee25de80c873e05c94e3806869d7b5efc656c31bf008c6571563d4935490f9aa",
+        "size_bytes": 1035481
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/qingyun/tau0p5/seed42/la_loss__qingyun__tau0p5__seed42__best_valOA.pt",
+        "sha256": "0baeaa6257f4f21a22b995116e09e1ad6febc23342db985a8e482bd5c0509e4f",
+        "size_bytes": 1035481
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/qingyun/tau0p5/seed42/la_loss__qingyun__tau0p5__seed42__completion_manifest.json",
+        "sha256": "1d456420e125909bca2515f2e4d8ac98f715b2967c85a41d0680fbf072d342c2",
+        "size_bytes": 3823
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/qingyun/tau0p5/seed42/la_loss__qingyun__tau0p5__seed42__epoch_history.csv",
+        "sha256": "faa81de2682f556b1f82b65d11d32c275becffbe1f0bff3084473a7eaf304e42",
+        "size_bytes": 14713
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/qingyun/tau0p5/seed42/la_loss__qingyun__tau0p5__seed42__epoch_history.json",
+        "sha256": "00a9e705718b1cf438ded997a38f4770be2b344692cfb8ea050b959b4de8d597",
+        "size_bytes": 33803
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/qingyun/tau0p5/seed42/la_loss__qingyun__tau0p5__seed42__independent_run_audit_v1.json",
+        "sha256": "66ad25eeb5ef51eb0b53b90c269c8cb3b111d7e0b57751101ebfb5faa2ca6953",
+        "size_bytes": 1484
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/qingyun/tau0p5/seed42/la_loss__qingyun__tau0p5__seed42__resume_state.pt",
+        "sha256": "babcde439f75d050ec1926660d6e7d82a97233801f53e6c6e6587863cb6b7f3f",
+        "size_bytes": 3133404
+      }
+    ],
+    "resulting_project_file_count": 485
+  },
+  "next_authorized_job_after_external_save_acknowledgement": {
+    "dataset": "Qingyun",
+    "method": "LA_Loss",
+    "seed": 42,
+    "tau": 1.0
+  },
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "parent_chain": {
+    "base_project_file_count": 449,
+    "previous_persistence_manifest_sha256": "600af79a109ce7e93d7955721cb7cf06f9243a72266f9bfc596a9716c1bf4b8f",
+    "previous_persistence_zip_sha256": "73ae65d1aecfe7027edb6ade360c84793cfded37b661668adc59a0eb097d83ef",
+    "previous_progress": "32/36",
+    "t4_runtime_gate_sha256": "339a2c682d4c944efabfe3a75173b71bd69ec7eeefebb5f5527c7b3f34d74aa1"
+  },
+  "project": "LTLC",
+  "qingyun_tuning": {
+    "candidate_tau_0p5_complete": true,
+    "candidate_tau_1p0_complete": false,
+    "selected_tau": null,
+    "selection_performed": false
+  },
+  "runtime": {
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "gpu0": "Tesla T4",
+    "mixed_precision": false,
+    "multi_gpu": false,
+    "python": "3.12.13",
+    "torch": "2.11.0+cu128"
+  },
+  "safety": {
+    "official_test_status": "SEALED",
+    "official_test_values_accessed": false,
+    "retuning_outside_seed42": false,
+    "test_dataloader_created": false,
+    "test_dataset_created": false,
+    "test_inference_performed": false
+  },
+  "schema_version": 1,
+  "scientific_progress": {
+    "after": 33,
+    "balanced_softmax": 6,
+    "before": 32,
+    "ce": 6,
+    "focal": 8,
+    "frozen_total": 36,
+    "la_loss": 5,
+    "ldam_drw": 8
+  }
+}

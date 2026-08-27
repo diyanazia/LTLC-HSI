@@ -1,0 +1,3 @@
+dataset,spearman_rarity_vs_CE_error,spearman_rarity_vs_posthoc_standard_LA_gain,spearman_rarity_vs_adaptive_alpha_gain,p_values_reported,interpretation
+Pingan,0.4061,0.7576,0.5394,False,descriptive_only_small_K_and_spatial_dependence
+Qingyun,-0.3714,0.6571,0.8286,False,descriptive_only_small_K_and_spatial_dependence

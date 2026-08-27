@@ -1,0 +1,4 @@
+dataset,full_gt_class_count,train_class_count,test_class_count,evaluation_class_count,omitted_gt_classes
+Pingan,10,10,10,10,[]
+Qingyun,6,6,6,6,[]
+Tangdaowan,18,16,16,16,"[17, 18]"

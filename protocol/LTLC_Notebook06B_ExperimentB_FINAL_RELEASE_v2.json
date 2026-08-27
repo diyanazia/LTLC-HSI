@@ -1,0 +1,129 @@
+{
+  "artifact_type": "LTLC_NOTEBOOK06B_EXPERIMENT_B_NOVELTY_STRENGTHENED_FINAL_RELEASE",
+  "authoritative_parents": {
+    "cell4a_validation_cache_manifest_sha256": "e67da43430861c13743c58afc4c6780fe96f012f4809e588ccb5cacdde333136",
+    "cell5_recognition_freeze_sha256": "0fe8f75a46bc60b5776d80f26f4e76b5ebd1ea6881de0649cdda11884f042366",
+    "cell6_terminal_decision_sha256": "72c473e8b2e5d8677be7b4788e8ac22ba569039f464350d0f6965c0bd8c3cccf",
+    "class_statistics_sha256": "556128fb9ce1f22eb049a2531621b3779bec7069f7678210c13c1f162d6aea32",
+    "notebook06a_release_manifest_sha256": "e17a94d98728f68ecebd2ca664c0f73ed56a88f2e0167dc7b4451e657e02f74e"
+  },
+  "created_utc": "2026-08-20T16:41:40.850409+00:00",
+  "mechanism_analysis": {
+    "calibration_tradeoff_analysis": true,
+    "isolated_alpha_effect_analysis": true,
+    "new_hyperparameters_tuned": false,
+    "new_inference_performed": false,
+    "new_method_developed": false,
+    "p_values_claimed": false,
+    "parameter_identifiability_analysis": true,
+    "r1_beta_profile_analysis": true,
+    "rarity_vs_difficulty_analysis": true,
+    "uses_only_frozen_validation_logits": true,
+    "uses_only_previously_evaluated_parameter_grids": true
+  },
+  "safety": {
+    "further_method_redesign": false,
+    "gpu_used": false,
+    "model_inference": false,
+    "official_test_accessed": false,
+    "training_performed": false
+  },
+  "schema_version": 2,
+  "scientific_conclusion": {
+    "official_test_may_be_opened": false,
+    "official_test_status": "SEALED",
+    "original_ltlc_nonzero_alpha_runs": "2/6",
+    "r1_equals_frozen_standard_la": true,
+    "r1_nonzero_beta_datasets": "0/2",
+    "robust_long_tail_recognition_signal": false,
+    "temperature_a_bound_hits": 5,
+    "temperature_b_bound_hits": 5
+  },
+  "status": "PASS",
+  "thesis_ready_artifacts": [
+    {
+      "name": "Table_PerClass_Rarity_Difficulty_and_AdaptiveGain_v2.csv",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Table_PerClass_Rarity_Difficulty_and_AdaptiveGain_v2.csv",
+      "sha256": "f019a0ae11c35b75e18c8011f90666185ccf7352a7250c27396ccdde5f268b74",
+      "size_bytes": 7931
+    },
+    {
+      "name": "Table_ClassLevel_Mechanism_Summary_v2.csv",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Table_ClassLevel_Mechanism_Summary_v2.csv",
+      "sha256": "c49529499699f40d5022fb435b32dca04abd534a73af1c4e00f30ba98583542d",
+      "size_bytes": 1882
+    },
+    {
+      "name": "Table_Rarity_Mechanism_Descriptive_Correlations_v2.csv",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Table_Rarity_Mechanism_Descriptive_Correlations_v2.csv",
+      "sha256": "192e07dab9c2039bb1805171ec24c53feeb5bd3d999d59d1462e19d1ec7bbd00",
+      "size_bytes": 381
+    },
+    {
+      "name": "Table_LTLC_Parameter_Stability_v2.csv",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Table_LTLC_Parameter_Stability_v2.csv",
+      "sha256": "8fc4199a6808704458ce5c605ea3f4c01c6837c202db7a198caf575e2a03e61d",
+      "size_bytes": 869
+    },
+    {
+      "name": "Table_R1_Beta_Profile_v2.csv",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Table_R1_Beta_Profile_v2.csv",
+      "sha256": "86fe44d1d885fd417f75f7fff5ff22d165b3ca1f8306869695d97ee46c20eb8d",
+      "size_bytes": 459
+    },
+    {
+      "name": "Table_Paired_Recognition_Deltas_v2.csv",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Table_Paired_Recognition_Deltas_v2.csv",
+      "sha256": "46a38cee046a0d2c25ff2c16c0cee2a2dd4dad77d39425ebe25435b3f42d1080",
+      "size_bytes": 489
+    },
+    {
+      "name": "Table_Paired_Recognition_Deltas_MeanStd_v2.csv",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Table_Paired_Recognition_Deltas_MeanStd_v2.csv",
+      "sha256": "ad8b6ff3eb55f960cda07a70e9fb1b4d91843829544cf6ca67c4624a588e5f5d",
+      "size_bytes": 410
+    },
+    {
+      "name": "Table_Calibration_Tradeoff_v2.csv",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Table_Calibration_Tradeoff_v2.csv",
+      "sha256": "a9194058705f7357cc9140ddf784632b06522f7880be688213dfeae500453301",
+      "size_bytes": 1451
+    },
+    {
+      "name": "ExperimentB_Novelty_Strengthened_Findings_v2.md",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/ExperimentB_Novelty_Strengthened_Findings_v2.md",
+      "sha256": "14e03d8f9c68451ee70e18915849871ef0a956c0bad0ecfcf6f7c25d3e9516b3",
+      "size_bytes": 4689
+    },
+    {
+      "name": "Fig_N1_Rarity_vs_CE_Difficulty_v2.png",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Fig_N1_Rarity_vs_CE_Difficulty_v2.png",
+      "sha256": "407c6d54cd13d11adf38ada32378239afb83fad144accbfa4329fbfa21b2e642",
+      "size_bytes": 150307
+    },
+    {
+      "name": "Fig_N2_Rarity_vs_Adaptive_LTLC_Gain_v2.png",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Fig_N2_Rarity_vs_Adaptive_LTLC_Gain_v2.png",
+      "sha256": "7be946195a9411eb186d27466ad3c88aece39bbb8a534b27d208aa30713f8c06",
+      "size_bytes": 161180
+    },
+    {
+      "name": "Fig_N3_LTLC_Seed42_Parameter_Landscape_v2.png",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Fig_N3_LTLC_Seed42_Parameter_Landscape_v2.png",
+      "sha256": "006c2207399309d978eea3efb6aba0aae6fce82dde9a3c333d2d72d043db1bd7",
+      "size_bytes": 148512
+    },
+    {
+      "name": "Fig_N4_R1_Beta_Profile_v2.png",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Fig_N4_R1_Beta_Profile_v2.png",
+      "sha256": "3110ade1fa15a336fb9ad7c7ac0fc4131223a855bc8d2b51ae1b9edbd08025a4",
+      "size_bytes": 177523
+    },
+    {
+      "name": "Fig_N5_Calibration_NLL_vs_TailECE_v2.png",
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06b_experiment_b_thesis_ready_v2/Fig_N5_Calibration_NLL_vs_TailECE_v2.png",
+      "sha256": "2245c00c7a73efd95df2a8a1a587fd6e2ef17721ddc38a1e8ba79ee8fdd32cea",
+      "size_bytes": 119578
+    }
+  ]
+}

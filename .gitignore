@@ -1,0 +1,120 @@
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------------------------------------------------------
+# Notebooks
+# ---------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ---------------------------------------------------------------
+# Virtual environments  (never commit - see reproducibility/)
+# ---------------------------------------------------------------
+.venv/
+.venv_*/
+venv/
+env/
+ENV/
+.conda/
+conda-meta/
+
+# ---------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---------------------------------------------------------------
+# Scientific data  (NOT redistributed - see README section 11)
+# Hyperspectral cubes, PCA caches, split index/label arrays.
+# ---------------------------------------------------------------
+*.npy
+*.npz
+*.mat
+*.h5
+*.hdf5
+*.tif
+*.tiff
+
+# ---------------------------------------------------------------
+# Archives and model weights
+# ---------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+
+# ---------------------------------------------------------------
+# Bulk directories
+# ---------------------------------------------------------------
+data/raw/
+data/processed/
+data_raw/
+data_cache/
+checkpoints/
+archives/
+runs/
+migrations/
+outputs/temp/
+outputs/tmp/
+tmp/
+temp/
+scratch/
+staging/
+
+# ---------------------------------------------------------------
+# Credentials and local configuration  (never commit)
+# ---------------------------------------------------------------
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*token*
+*_secret*
+.netrc
+kaggle.json
+service_account*.json
+gcloud-*.json
+.aws/
+.ssh/
+
+# ---------------------------------------------------------------
+# Intentionally tracked exceptions
+# Small scientific metadata that must remain version-controlled.
+# (No .npz/.npy/.mat is currently tracked - split label arrays are
+#  deliberately NOT redistributed; see splits/README.md.)
+# ---------------------------------------------------------------
+!results/figures/*.png
+!results/tables/*.csv
+!**/*.json
+!**/*.csv
+!**/*.md
+!**/*.txt

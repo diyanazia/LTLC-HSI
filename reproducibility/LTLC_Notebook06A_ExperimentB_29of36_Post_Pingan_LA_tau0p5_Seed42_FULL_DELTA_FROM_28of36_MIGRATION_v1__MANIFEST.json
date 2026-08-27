@@ -1,0 +1,113 @@
+{
+  "artifact_type": "LTLC_COLAB_FULL_DELTA_FROM_AUTHENTICATED_28OF36_MIGRATION",
+  "completed_job": {
+    "best_AA_epoch": 82,
+    "best_AA_metrics": {
+      "AA": 0.7022164133431492,
+      "Kappa": 0.8317145706110474,
+      "Macro_F1": 0.6924896424354003,
+      "OA": 0.887750036501679,
+      "loss": 3.2068026972667996
+    },
+    "best_OA_epoch": 60,
+    "best_OA_metrics": {
+      "AA": 0.6939738356636898,
+      "Kappa": 0.8342232377232439,
+      "Macro_F1": 0.6839226772968543,
+      "OA": 0.8896189224704336,
+      "loss": 2.4965893916205495
+    },
+    "completion_manifest_relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__completion_manifest.json",
+    "completion_manifest_sha256": "7653c81eb50292af26be51b45da87499ba841e26eb415bf588b94f8c000d0829",
+    "dataset": "Pingan",
+    "epochs": 100,
+    "method": "LA_Loss",
+    "seed": 42,
+    "tau": 0.5
+  },
+  "created_utc": "2026-08-20T06:22:53.148220+00:00",
+  "experiment": "Experiment B",
+  "full_delta": {
+    "base_project_file_count": 449,
+    "delta_file_count": 7,
+    "records": [
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__best_valAA.pt",
+        "sha256": "9888c5db2cd3d21a64191652f091bf9134696c7a870a7448e3f1b263876dc495",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__best_valOA.pt",
+        "sha256": "d8655d7b383e4f2ce5d2e31dab94858939aa300747be1dc9037ff41de7a31456",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__completion_manifest.json",
+        "sha256": "7653c81eb50292af26be51b45da87499ba841e26eb415bf588b94f8c000d0829",
+        "size_bytes": 3853
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__epoch_history.csv",
+        "sha256": "224ce51cae8cdbb5e499e01f837a6628799f50c130776f9cb1951e3b4cb3365c",
+        "size_bytes": 14742
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__epoch_history.json",
+        "sha256": "12eb5b19020e72edf5a6cbdd50dc090231af5393286c3ba5fe2a0ed8e5474e4b",
+        "size_bytes": 33830
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__independent_run_audit_v1.json",
+        "sha256": "7fa4fdcba05cfdb0538a3c2f17cb95cd64f140f860c6a79f6068079cebfd46aa",
+        "size_bytes": 1486
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__resume_state.pt",
+        "sha256": "52ee4279d72e21aab5d60be4041ef585f72c933be903ae3c17e11c2561bd7361",
+        "size_bytes": 6285211
+      }
+    ],
+    "resulting_project_file_count": 456
+  },
+  "next_authorized_job_after_external_save_acknowledgement": {
+    "dataset": "Pingan",
+    "method": "LA_Loss",
+    "seed": 42,
+    "tau": 1.0
+  },
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "parent": {
+    "base_project_file_count": 449,
+    "migration_manifest_sha256": "72ca2939fb2cd158c2f50bfac0fd9a4947973fd5fbe9c8c95625f75ee32da604",
+    "migration_zip_sha256": "8d2798b570eefcc991308455ef5d28cea3e03c280250ccda0a8a9b356726b363",
+    "t4_runtime_gate_sha256": "339a2c682d4c944efabfe3a75173b71bd69ec7eeefebb5f5527c7b3f34d74aa1"
+  },
+  "project": "LTLC",
+  "runtime": {
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "gpu0": "Tesla T4",
+    "python": "3.12.13",
+    "torch": "2.11.0+cu128"
+  },
+  "safety": {
+    "official_test_status": "SEALED",
+    "official_test_values_accessed": false,
+    "tau_selected": false,
+    "test_dataloader_created": false,
+    "test_dataset_created": false,
+    "test_inference_performed": false
+  },
+  "schema_version": 1,
+  "scientific_progress": {
+    "after": 29,
+    "balanced_softmax": 6,
+    "before": 28,
+    "ce": 6,
+    "focal": 8,
+    "frozen_total": 36,
+    "la_loss": 1,
+    "ldam_drw": 8
+  }
+}

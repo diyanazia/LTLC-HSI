@@ -1,0 +1,32 @@
+{
+  "dataset": "Qingyun",
+  "raw_cube_file": "QUH-Qingyun.mat",
+  "raw_cube_key": "Chengqu",
+  "raw_cube_shape": [
+    880,
+    1360,
+    176
+  ],
+  "raw_spectral_bands": 176,
+  "pca_components": 15,
+  "pca_whiten": false,
+  "pca_solver_selected": "covariance_eigh",
+  "explained_variance_retained": 0.9998956267047938,
+  "normalization": "sklearn.preprocessing.minmax_scale(axis=1)",
+  "pca_fit_scope": "full unlabeled image cube",
+  "label_information_used_for_pca": false,
+  "cache_shape": [
+    880,
+    1360,
+    15
+  ],
+  "cache_dtype": "float32",
+  "cache_file": "qingyun_pca15_rowminmax_float32.npy",
+  "cache_sha256": "15d94523dbf5708da5186fe44bb405bbfcc35b06ce23a86a85205e1e5e9d1c3e",
+  "pca_model_file": "qingyun_pca15_model.joblib",
+  "pca_model_sha256": "89dcf7eabc0fe9219cfc222b346cd6aa73f76e16772baf8aab16424258e1bc4c",
+  "split_sha256": "57607a2a614456e2a834e0bd4c8f2c315d5cca7e47658b900f5c2e5a6a030820",
+  "pca_elapsed_sec": 4.358591318130493,
+  "normalization_elapsed_sec": 0.36006617546081543,
+  "created_at": "2026-08-12T17:09:45.274775"
+}

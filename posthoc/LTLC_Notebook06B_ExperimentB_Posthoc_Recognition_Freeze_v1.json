@@ -1,0 +1,183 @@
+{
+  "R1_seed42_frozen": {
+    "Pingan": {
+      "beta": 0.0,
+      "standard_LA_seed42_frozen_tau": 0.5,
+      "tau": 0.5
+    },
+    "Qingyun": {
+      "beta": 0.0,
+      "standard_LA_seed42_frozen_tau": 2.0,
+      "tau": 2.0
+    }
+  },
+  "artifact_type": "LTLC_NOTEBOOK06B_EXPERIMENT_B_POSTHOC_RECOGNITION_FREEZE",
+  "created_utc": "2026-08-20T16:23:29.714011+00:00",
+  "formulas": {
+    "R1": "z - (tau+beta*rarity)*log(pi+eps)",
+    "original_LTLC": "z - tau*(1+alpha*rarity)*log(pi+eps)",
+    "standard_LA": "z - tau*log(pi+eps)"
+  },
+  "grids": {
+    "alpha": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "beta": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "tau": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0
+    ]
+  },
+  "independent_standard_LA_selected": {
+    "Pingan/seed123": {
+      "AA": 0.7312960648331465,
+      "Macro_F1": 0.5928630391392733,
+      "NLL": 4.377041926056227,
+      "OA": 0.8604467805519054,
+      "tau": 1.75
+    },
+    "Pingan/seed3407": {
+      "AA": 0.7617323955403175,
+      "Macro_F1": 0.6838061401992795,
+      "NLL": 2.6135057635136985,
+      "OA": 0.8736165863629727,
+      "tau": 1.0
+    },
+    "Pingan/seed42": {
+      "AA": 0.7715545263953009,
+      "Macro_F1": 0.7040995354528006,
+      "NLL": 4.209437513772816,
+      "OA": 0.8946707548547234,
+      "tau": 0.5
+    },
+    "Qingyun/seed123": {
+      "AA": 0.7513237657458404,
+      "Macro_F1": 0.6754789355310766,
+      "NLL": 2.76604905445839,
+      "OA": 0.7326195724432315,
+      "tau": 0.5
+    },
+    "Qingyun/seed3407": {
+      "AA": 0.7466855642251226,
+      "Macro_F1": 0.7025845476903304,
+      "NLL": 5.22120464729285,
+      "OA": 0.7481193800076974,
+      "tau": 0.0
+    },
+    "Qingyun/seed42": {
+      "AA": 0.7710385189910326,
+      "Macro_F1": 0.6517651272921812,
+      "NLL": 6.2225330538326435,
+      "OA": 0.7209334872817607,
+      "tau": 2.0
+    }
+  },
+  "original_LTLC_selected": {
+    "Pingan/seed123": {
+      "AA": 0.734570960947661,
+      "Macro_F1": 0.5695422592360213,
+      "NLL": 4.915112802288567,
+      "OA": 0.8487370419039276,
+      "alpha": 0.75,
+      "tau": 2.0
+    },
+    "Pingan/seed3407": {
+      "AA": 0.7617323955403175,
+      "Macro_F1": 0.6838061401992795,
+      "NLL": 2.6135057635136985,
+      "OA": 0.8736165863629727,
+      "alpha": 0.0,
+      "tau": 1.0
+    },
+    "Pingan/seed42": {
+      "AA": 0.7715545263953009,
+      "Macro_F1": 0.7040995354528006,
+      "NLL": 4.209437513772816,
+      "OA": 0.8946707548547234,
+      "alpha": 0.0,
+      "tau": 0.5
+    },
+    "Qingyun/seed123": {
+      "AA": 0.75145813742015,
+      "Macro_F1": 0.6791900843176483,
+      "NLL": 2.7385884494796917,
+      "OA": 0.7346139043420454,
+      "alpha": 0.5,
+      "tau": 0.25
+    },
+    "Qingyun/seed3407": {
+      "AA": 0.7466855642251226,
+      "Macro_F1": 0.7025845476903304,
+      "NLL": 5.22120464729285,
+      "OA": 0.7481193800076974,
+      "alpha": 0.0,
+      "tau": 0.0
+    },
+    "Qingyun/seed42": {
+      "AA": 0.7710385189910326,
+      "Macro_F1": 0.6517651272921812,
+      "NLL": 6.2225330538326435,
+      "OA": 0.7209334872817607,
+      "alpha": 0.0,
+      "tau": 2.0
+    }
+  },
+  "outputs": {
+    "grid_csv": {
+      "path": "/content/drive/MyDrive/CSE498/LTLC/posthoc/notebook06b_experiment_b/recognition_search_v1/LTLC_Notebook06B_ExperimentB_Posthoc_Recognition_Grid_v1.csv",
+      "rows": 558,
+      "sha256": "157f80647e4ff2097e0a9a5f09cebe93f595c4e1702f4d42c2c3a892b94db4b3"
+    },
+    "selected_csv": {
+      "path": "/content/drive/MyDrive/CSE498/LTLC/posthoc/notebook06b_experiment_b/recognition_search_v1/LTLC_Notebook06B_ExperimentB_Posthoc_Selected_Recognition_v1.csv",
+      "rows": 30,
+      "sha256": "46fd58df46f6bf8a96897434bcde6dbd9098660da92e374fb7412fd1faf0719f"
+    }
+  },
+  "safety": {
+    "gpu_used": false,
+    "official_test_accessed": false,
+    "official_test_inference": false,
+    "official_test_status": "SEALED",
+    "training_performed": false
+  },
+  "schema_version": 1,
+  "selection_rule": [
+    "higher_validation_AA",
+    "higher_validation_Macro_F1",
+    "lower_validation_NLL",
+    "smaller_adaptive_coefficient",
+    "ascending_tau_only_if_all_prior_quantities_remain_tied"
+  ],
+  "source_contracts": {
+    "class_statistics_sha256": "556128fb9ce1f22eb049a2531621b3779bec7069f7678210c13c1f162d6aea32",
+    "original_ltlc_implementation_sha256": "2d9b944ee4a2971684ab60b97682cc2472c389d8c982eecf7d49aa7fb53f1af8",
+    "r1_protocol_sha256": "85097b1f9832566aee08d749bcb0c6dbe8a25e5cb1d745f19c68dddba98ecd94"
+  },
+  "source_validation_cache_manifest": {
+    "path": "/content/drive/MyDrive/CSE498/LTLC/posthoc/notebook06b_experiment_b/validation_logits_v1/LTLC_Notebook06B_ExperimentB_CE_6of6_BestAA_Validation_Logit_Cache_v1.json",
+    "sha256": "e67da43430861c13743c58afc4c6780fe96f012f4809e588ccb5cacdde333136"
+  },
+  "status": "PASS"
+}

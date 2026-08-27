@@ -1,0 +1,4 @@
+dataset,num_classes,official_train_mask_total,official_train_mask_min_class,official_train_mask_max_class,official_train_mask_IR,used_in_experiment_B,reason_if_excluded
+Pingan,10,114099,814,57811,71.0,True,
+Qingyun,6,95492,977,27817,28.5,True,
+Tangdaowan,16,35372,52,9863,189.7,False,guard-band radius geometrically infeasible for rarest class (see audit Part 5)

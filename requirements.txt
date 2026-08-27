@@ -1,0 +1,29 @@
+# LTLC — CSE498R research repository
+#
+# Two environments were used in the original work. Exact pinned freezes for
+# both are in reproducibility/FINAL_QA_ENVIRONMENT_v1.txt.
+#
+#   analysis / plotting  -> pandas, scipy, matplotlib, numpy
+#   CPU inference        -> torch (used for the one-time official-test run)
+#
+# Python 3.12 was used throughout.
+
+# --- analysis, statistics, figures, tables -----------------------------------
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.11.1
+
+# --- model definition and inference ------------------------------------------
+# CPU build was used for the one-time official-test evaluation.
+# Install from the PyTorch CPU index:
+#   pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0
+
+# --- notebooks (optional; only needed to open src/*.ipynb) -------------------
+# jupyterlab
+# notebook
+
+# --- preprocessing (only needed to regenerate PCA cubes from raw data) -------
+# scikit-learn
+# scipy is already listed above and provides .mat loading via scipy.io

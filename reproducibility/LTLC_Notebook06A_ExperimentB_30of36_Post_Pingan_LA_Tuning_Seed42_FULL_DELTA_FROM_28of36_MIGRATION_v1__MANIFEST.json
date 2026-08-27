@@ -1,0 +1,226 @@
+{
+  "artifact_type": "LTLC_COLAB_FULL_DELTA_FROM_AUTHENTICATED_28OF36_MIGRATION",
+  "completed_job": {
+    "best_AA_epoch": 10,
+    "best_AA_metrics": {
+      "AA": 0.762762195884368,
+      "Kappa": 0.8378590811160153,
+      "Macro_F1": 0.7064391980396361,
+      "OA": 0.8914878084391882,
+      "loss": 1.3596628492352494
+    },
+    "best_OA_epoch": 78,
+    "best_OA_metrics": {
+      "AA": 0.7250753406325887,
+      "Kappa": 0.8450250005619847,
+      "Macro_F1": 0.7088240092647755,
+      "OA": 0.8964228354504307,
+      "loss": 3.2102634260857994
+    },
+    "completion_manifest_relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__completion_manifest.json",
+    "completion_manifest_sha256": "eef6f96ee4981e8db17ec55725845c03fb8f4c2ddb6760ba4f9ae744d32d8ec7",
+    "dataset": "Pingan",
+    "epochs": 100,
+    "method": "LA_Loss",
+    "seed": 42,
+    "tau": 1.0
+  },
+  "created_utc": "2026-08-20T06:48:05.580636+00:00",
+  "experiment": "Experiment B",
+  "full_delta": {
+    "base_project_file_count": 449,
+    "delta_file_count": 15,
+    "records": [
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/la_loss__pingan__selected_tau_v1.json",
+        "sha256": "3d6d0c064081e9a18cc14217d0f9835b23f7bdb99e1002362ffec31a933f4bf8",
+        "size_bytes": 1923
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__best_valAA.pt",
+        "sha256": "9888c5db2cd3d21a64191652f091bf9134696c7a870a7448e3f1b263876dc495",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__best_valOA.pt",
+        "sha256": "d8655d7b383e4f2ce5d2e31dab94858939aa300747be1dc9037ff41de7a31456",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__completion_manifest.json",
+        "sha256": "7653c81eb50292af26be51b45da87499ba841e26eb415bf588b94f8c000d0829",
+        "size_bytes": 3853
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__epoch_history.csv",
+        "sha256": "224ce51cae8cdbb5e499e01f837a6628799f50c130776f9cb1951e3b4cb3365c",
+        "size_bytes": 14742
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__epoch_history.json",
+        "sha256": "12eb5b19020e72edf5a6cbdd50dc090231af5393286c3ba5fe2a0ed8e5474e4b",
+        "size_bytes": 33830
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__independent_run_audit_v1.json",
+        "sha256": "7fa4fdcba05cfdb0538a3c2f17cb95cd64f140f860c6a79f6068079cebfd46aa",
+        "size_bytes": 1486
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__resume_state.pt",
+        "sha256": "52ee4279d72e21aab5d60be4041ef585f72c933be903ae3c17e11c2561bd7361",
+        "size_bytes": 6285211
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__best_valAA.pt",
+        "sha256": "cfb5c91df12405cd9a045c89f27d30420364fdf897b748813062fbb6b96e8385",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__best_valOA.pt",
+        "sha256": "97bac228d657332eef07a1f1ce7bca78a3d72164e7f074f8a0cbde4a9e2885e2",
+        "size_bytes": 2086085
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__completion_manifest.json",
+        "sha256": "eef6f96ee4981e8db17ec55725845c03fb8f4c2ddb6760ba4f9ae744d32d8ec7",
+        "size_bytes": 3853
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__epoch_history.csv",
+        "sha256": "c0a8b00c67d79c757e003f136d50dd29e6ff01072966edc1a27b9dcd77ffac21",
+        "size_bytes": 14729
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__epoch_history.json",
+        "sha256": "c2f1bd5ec969252bffe1cbde4371e4ca206ebd8f6bc964cc5f7d3742104b6e54",
+        "size_bytes": 33817
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__independent_run_audit_v1.json",
+        "sha256": "3d3fce54d51205783ce0f02bae7d43522ed684b8aff3cca62432cf8af877b37d",
+        "size_bytes": 1486
+      },
+      {
+        "relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__resume_state.pt",
+        "sha256": "c7d514100f0b448266af915c6f5f2b6a63d7498df319e4c4b6abe5cf5477e448",
+        "size_bytes": 6285211
+      }
+    ],
+    "resulting_project_file_count": 464
+  },
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "parent_chain": {
+    "base_project_file_count": 449,
+    "previous_persistence_manifest_sha256": "e8acd0f835ec9a65a4525f1bdad2ead609ac006c091c16d879c44133dc32396e",
+    "previous_persistence_zip_sha256": "3eab9b10c6959ae4b01dce4bef6854ad81cdfb2a813b5ef7e9fb17efac703f22",
+    "previous_progress": "29/36",
+    "t4_runtime_gate_sha256": "339a2c682d4c944efabfe3a75173b71bd69ec7eeefebb5f5527c7b3f34d74aa1"
+  },
+  "pingan_tuning": {
+    "authenticated_selected_tau": 1.0,
+    "candidate_tau_0p5_best_AA": {
+      "AA": 0.7022164133431492,
+      "Kappa": 0.8317145706110474,
+      "Macro_F1": 0.6924896424354003,
+      "OA": 0.887750036501679,
+      "loss": 3.2068026972667996
+    },
+    "candidate_tau_1p0_best_AA": {
+      "AA": 0.762762195884368,
+      "Kappa": 0.8378590811160153,
+      "Macro_F1": 0.7064391980396361,
+      "OA": 0.8914878084391882,
+      "loss": 1.3596628492352494
+    },
+    "independent_selected_tau": 1.0,
+    "selection_manifest": {
+      "candidate_selection": [
+        "higher validation AA",
+        "higher validation Macro-F1",
+        "higher validation OA",
+        "smaller tau"
+      ],
+      "candidate_tau": [
+        0.5,
+        1.0
+      ],
+      "candidates": [
+        {
+          "AA": 0.7022164133431492,
+          "Kappa": 0.8317145706110474,
+          "Macro_F1": 0.6924896424354003,
+          "OA": 0.887750036501679,
+          "best_AA_epoch": 82,
+          "completion_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau0p5/seed42/la_loss__pingan__tau0p5__seed42__completion_manifest.json",
+          "completion_sha256": "7653c81eb50292af26be51b45da87499ba841e26eb415bf588b94f8c000d0829",
+          "tau": 0.5
+        },
+        {
+          "AA": 0.762762195884368,
+          "Kappa": 0.8378590811160153,
+          "Macro_F1": 0.7064391980396361,
+          "OA": 0.8914878084391882,
+          "best_AA_epoch": 10,
+          "completion_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__completion_manifest.json",
+          "completion_sha256": "eef6f96ee4981e8db17ec55725845c03fb8f4c2ddb6760ba4f9ae744d32d8ec7",
+          "tau": 1.0
+        }
+      ],
+      "dataset": "Pingan",
+      "dataset_slug": "pingan",
+      "experiment": "Experiment B",
+      "method": "LA_Loss",
+      "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+      "official_test_status": "SEALED",
+      "official_test_used_for_selection": false,
+      "official_test_values_accessed": false,
+      "project": "LTLC",
+      "schema_version": 1,
+      "selected_candidate": {
+        "AA": 0.762762195884368,
+        "Kappa": 0.8378590811160153,
+        "Macro_F1": 0.7064391980396361,
+        "OA": 0.8914878084391882,
+        "best_AA_epoch": 10,
+        "completion_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/tau1p0/seed42/la_loss__pingan__tau1p0__seed42__completion_manifest.json",
+        "completion_sha256": "eef6f96ee4981e8db17ec55725845c03fb8f4c2ddb6760ba4f9ae744d32d8ec7",
+        "tau": 1.0
+      },
+      "selected_tau": 1.0,
+      "tuning_seed": 42
+    },
+    "selection_manifest_relative_path": "runs/experiment_b_spatial_validation_v1/la_loss/pingan/la_loss__pingan__selected_tau_v1.json",
+    "selection_manifest_sha256": "3d6d0c064081e9a18cc14217d0f9835b23f7bdb99e1002362ffec31a933f4bf8"
+  },
+  "project": "LTLC",
+  "runtime": {
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "device": "cuda:0",
+    "gpu0": "Tesla T4",
+    "mixed_precision": false,
+    "multi_gpu": false,
+    "python": "3.12.13",
+    "torch": "2.11.0+cu128"
+  },
+  "safety": {
+    "official_test_status": "SEALED",
+    "official_test_values_accessed": false,
+    "pingan_tau_selection_complete": true,
+    "test_dataloader_created": false,
+    "test_dataset_created": false,
+    "test_inference_performed": false
+  },
+  "schema_version": 1,
+  "scientific_progress": {
+    "after": 30,
+    "balanced_softmax": 6,
+    "before": 29,
+    "ce": 6,
+    "focal": 8,
+    "frozen_total": 36,
+    "la_loss": 2,
+    "ldam_drw": 8
+  }
+}

@@ -1,0 +1,17 @@
+dataset,class_id,official_train_mask_count,nb01_pixel_random_70pct_train_count,expB_post_guard_train_count,expB_guard_excluded_count,frequency_group
+Pingan,1,4893,3425,3322,101,Medium
+Pingan,2,57811,40468,33783,6696,Head
+Pingan,3,835,585,219,365,Tail
+Pingan,4,8899,6229,6229,0,Head
+Pingan,5,2076,1453,85,1369,Medium
+Pingan,6,1409,986,683,302,Medium
+Pingan,7,1398,979,110,868,Tail
+Pingan,8,8312,5818,4485,1330,Medium
+Pingan,9,814,570,440,130,Tail
+Pingan,10,27652,19356,16354,2983,Head
+Qingyun,1,27817,19472,19556,0,Head
+Qingyun,2,17951,12565,11807,767,Medium
+Qingyun,3,1380,966,967,0,Tail
+Qingyun,4,977,684,74,610,Tail
+Qingyun,5,21774,15242,15220,0,Medium
+Qingyun,6,25593,17915,15555,2355,Head

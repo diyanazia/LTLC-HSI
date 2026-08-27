@@ -1,0 +1,32 @@
+{
+  "dataset": "Tangdaowan",
+  "raw_cube_file": "QUH-Tangdaowan.mat",
+  "raw_cube_key": "Tangdaowan",
+  "raw_cube_shape": [
+    1740,
+    860,
+    176
+  ],
+  "raw_spectral_bands": 176,
+  "pca_components": 20,
+  "pca_whiten": false,
+  "pca_solver_selected": "covariance_eigh",
+  "explained_variance_retained": 0.9999547210393214,
+  "normalization": "sklearn.preprocessing.minmax_scale(axis=1)",
+  "pca_fit_scope": "full unlabeled image cube",
+  "label_information_used_for_pca": false,
+  "cache_shape": [
+    1740,
+    860,
+    20
+  ],
+  "cache_dtype": "float32",
+  "cache_file": "tangdaowan_pca20_rowminmax_float32.npy",
+  "cache_sha256": "332bf9c22e03f7c43c5f4ea5ae375f8b57939f270a5059974609e3be88501b4a",
+  "pca_model_file": "tangdaowan_pca20_model.joblib",
+  "pca_model_sha256": "3a4dda14d6b02e96dc0e6700a74c38dfde695a5c02bc4bfc5217fc9b56df587e",
+  "split_sha256": "b5283f3a067b11adfc9fceabd0a59bfbcfafa5dde3069e5d477de61c130ab836",
+  "pca_elapsed_sec": 4.20274019241333,
+  "normalization_elapsed_sec": 0.5138192176818848,
+  "created_at": "2026-08-12T17:18:46.148457"
+}

@@ -1,0 +1,76 @@
+{
+  "claim_boundaries": {
+    "allowed_interpretation": "The experiments provide evidence that the tested LTLC shift formulations did not yield robust long-tail recognition gains under the locked validation protocol. The temperature component showed calibration improvements on validation, but this constitutes calibration evidence rather than recognition evidence.",
+    "may_claim_original_ltlc_long_tail_recognition_improvement": false,
+    "may_claim_r1_long_tail_recognition_improvement": false,
+    "may_claim_successful_final_ltlc_method": false,
+    "may_claim_uniform_tail_calibration_improvement": false,
+    "may_claim_validation_calibration_signal": true
+  },
+  "further_method_redesign_allowed": false,
+  "notebook": "05_Posthoc_Calibration_LTLC",
+  "official_test_dataloader_created": false,
+  "official_test_dataset_created": false,
+  "official_test_may_be_opened": false,
+  "official_test_used": false,
+  "original_ltlc": {
+    "calibration_signal_dataset_count": 3,
+    "classification_signal_dataset_count": 0,
+    "interpretation": "The original rarity-adaptive shift did not produce a selected recognition improvement. The samplewise temperature component produced validation calibration improvements, particularly NLL, but calibration alone cannot establish long-tail recognition because positive scalar temperature preserves hard predictions.",
+    "long_tail_recognition_claim_supported": false,
+    "selected_nonzero_alpha_runs": 0,
+    "selected_runs": 9,
+    "status": "REVISE",
+    "tail_ece_uniformly_improved": false,
+    "validation_calibration_signal_present": true
+  },
+  "project": "LTLC",
+  "r1_temperature_fitting_allowed": false,
+  "required_action": "STOP_METHOD_DEVELOPMENT_ON_CURRENT_VALIDATION_SPLITS",
+  "required_disclosures": {
+    "best_val_aa_checkpoint_recovery": "Five missing best-validation-AA CE checkpoints were recovered by exact historical retraining before official test inspection.",
+    "cell21a_correction": "An intermediate R1 recognition result was superseded after detecting an unfair comparator mismatch; the corrected comparison used seed-42-frozen Standard-LA parameters.",
+    "official_test": "No Notebook 05 development decision used the official test set.",
+    "original_ltlc_result": "Original LTLC selected alpha=0 in all corrected runs and failed the recognition side of the development gate.",
+    "r1_result": "R1 selected beta=0 for all datasets and failed the corrected frozen-baseline recognition robustness gate.",
+    "r1_revision": "R1 was a validation-driven protocol revision that decoupled the adaptive coefficient from tau and was frozen before R1 evaluation.",
+    "tangdaowan_saturation_amendment": "The original Tangdaowan-only development gate was found to be classification-saturated, motivating an additional validation-only diagnostic on Pingan and Qingyun."
+  },
+  "revision_R1": {
+    "datasets_passing_corrected_recognition_gate": [],
+    "datasets_selecting_nonzero_beta": [],
+    "interpretation": "After correcting the robustness comparator, R1 is exactly identical to the seed-42-frozen Standard-LA reference on all datasets and seeds because seed 42 selected tau=0 and beta=0 for every dataset. R1 therefore provides no recognition evidence.",
+    "r1_differs_from_frozen_standard_la": false,
+    "recognition_pass_dataset_count": 0,
+    "selected_parameters": {
+      "Pingan": {
+        "beta": 0.0,
+        "tau": 0.0
+      },
+      "Qingyun": {
+        "beta": 0.0,
+        "tau": 0.0
+      },
+      "Tangdaowan": {
+        "beta": 0.0,
+        "tau": 0.0
+      }
+    },
+    "status": "FAIL_RECOGNITION_STAGE",
+    "temperature_fitting_warranted": false
+  },
+  "source_original_final_gate_sha256": "1c698d3d068eb11a89d3da57889b01bf156b39fc7dd3844d72926315c8221fe7",
+  "source_r1_comparator_correction_sha256": "bee52be82e177fd0132168ec1e37ef72a2c87a61c77656cc8e7067442d2a8d38",
+  "source_r1_intermediate_recognition_sha256": "5e969031110884a8eca218e290c2740daae8c10d081203e04bc199056c5bbc65",
+  "source_r1_protocol_sha256": "85097b1f9832566aee08d749bcb0c6dbe8a25e5cb1d745f19c68dddba98ecd94",
+  "source_r1_robustness_gate_sha256": "bc7e3040aa2c5d6f663429eeed3687006d4d570112ecc64ec18c7167daff1938",
+  "status": "VALIDATION_METHOD_DEVELOPMENT_TERMINATED_NO_ROBUST_RECOGNITION_SIGNAL",
+  "stop_rule_applied": true,
+  "superseded_intermediate_result": {
+    "artifact_sha256": "5e969031110884a8eca218e290c2740daae8c10d081203e04bc199056c5bbc65",
+    "reason": "The original Cell 21A robustness comparison used per-seed-selected Standard-LA tau values while R1 used seed-42-frozen parameters. This caused the apparent Qingyun robustness signal. The result is superseded by the fair frozen-baseline comparator correction.",
+    "status": "SUPERSEDED_BY_COMPARATOR_CORRECTION",
+    "superseding_artifact_sha256": "bee52be82e177fd0132168ec1e37ef72a2c87a61c77656cc8e7067442d2a8d38"
+  },
+  "training_performed_in_terminal_phase": false
+}

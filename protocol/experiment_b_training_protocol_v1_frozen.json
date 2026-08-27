@@ -1,0 +1,300 @@
+{
+  "artifact_type": "pretraining_frozen_training_protocol",
+  "checkpoint_policy": {
+    "experiment_b_role": "long-tail robustness comparison, not benchmark reproduction",
+    "metric_tolerance": 1e-12,
+    "official_test_used_for_checkpoint_selection": false,
+    "primary_long_tail_checkpoint": {
+      "name": "best_validation_AA",
+      "ranking": [
+        "higher validation AA",
+        "higher validation Macro-F1",
+        "higher validation OA",
+        "earlier epoch"
+      ],
+      "used_for": [
+        "CE long-tail validation results",
+        "Focal validation results",
+        "LDAM-DRW validation results",
+        "Balanced Softmax validation results",
+        "LA-loss validation results",
+        "CE logits used by later post-hoc LA/LTLC/R1 analysis"
+      ]
+    },
+    "save_both_checkpoint_types": true,
+    "secondary_reproduction_checkpoint": {
+      "name": "best_validation_OA",
+      "purpose": "retain historical benchmark-style model-selection traceability",
+      "ranking": [
+        "higher validation OA",
+        "higher validation AA",
+        "lower validation loss",
+        "earlier epoch"
+      ],
+      "used_for_primary_experiment_b_claims": false
+    }
+  },
+  "content_sha256_before_file_write": "6d4c58114ede3de43bc20d96c9225a51c364a7d5995231ea5ea4ad0eda7eb1be",
+  "count_and_fairness_rule": {
+    "all_methods_use_same_three_model_seeds": [
+      42,
+      123,
+      3407
+    ],
+    "baseline_scope_may_be_selected_based_on_ltlc_results": false,
+    "candidate_hyperparameters_may_be_changed_after_results": false,
+    "class_count_source_for_all_imbalance_methods": "Experiment-B final training subset only",
+    "guard_excluded_samples_used_to_compute_training_priors": false,
+    "official_test_used_to_compute_training_priors": false,
+    "same_checkpoint_primary_for_every_training_required_method": "best validation AA",
+    "same_frozen_train_validation_centers_for_every_method": true,
+    "same_hybridsn_backbone_for_every_training_required_method": true,
+    "same_optimizer_engine_except_loss_specific_required_behavior": true,
+    "validation_samples_used_to_compute_training_priors": false
+  },
+  "environment_at_freeze": {
+    "numpy": "2.0.2",
+    "python": "3.12.13"
+  },
+  "execution_plan": {
+    "baseline_execution_contingent_on_CE_or_LTLC_success": false,
+    "change_checkpoint_rule_after_viewing_performance": false,
+    "change_hyperparameter_search_after_viewing_performance": false,
+    "change_method_scope_after_viewing_performance": false,
+    "change_training_seed_after_viewing_performance": false,
+    "if_compute_interruption_occurs": "resume same frozen run; do not substitute a new setting",
+    "if_full_scope_cannot_be_completed": "report incomplete precommitted experiment rather than selecting baselines by result",
+    "later_posthoc_phase": "Standard LA / Global TS / original LTLC / R1 from frozen best-val-AA CE logits",
+    "phase_1": "CE \u2014 all 3 seeds on Pingan and Qingyun",
+    "phase_2": "Focal \u2014 seed42 candidates, freeze gamma, then seeds123/3407",
+    "phase_3": "LDAM-DRW \u2014 seed42 candidates, freeze C, then seeds123/3407",
+    "phase_4": "Balanced Softmax \u2014 all 3 seeds",
+    "phase_5": "LA-loss \u2014 seed42 candidates, freeze tau, then seeds123/3407"
+  },
+  "experiment": "Experiment B",
+  "experiment_b_performance_seen_before_this_freeze": false,
+  "experiment_b_split_counts": {
+    "Pingan": {
+      "guard_excluded": 14144,
+      "train": 65710,
+      "validation": 34245
+    },
+    "Qingyun": {
+      "guard_excluded": 3732,
+      "train": 63179,
+      "validation": 28581
+    }
+  },
+  "geometry_limited_dataset": {
+    "K_changed": false,
+    "Tangdaowan_primary_training": false,
+    "class14_removed": false,
+    "reason": "strict all-class patch-disjoint split is geometrically infeasible for class 14 under frozen 9x9 patch geometry"
+  },
+  "inference_performed_before_this_freeze": false,
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "official_test": {
+    "checkpoint_selection_allowed": false,
+    "dataloader_creation_allowed": false,
+    "dataset_creation_allowed": false,
+    "hyperparameter_selection_allowed": false,
+    "inference_allowed": false
+  },
+  "planned_training_count": {
+    "per_dataset": 18,
+    "total_two_datasets": 36
+  },
+  "primary_datasets": [
+    "Pingan",
+    "Qingyun"
+  ],
+  "project": "LTLC",
+  "scientific_protocol_changed_based_on_experiment_b_performance": false,
+  "scientific_role": "long-tail recognition and calibration robustness under strict train/validation patch-neighborhood separation",
+  "source_hashes": {
+    "experiment_b_spatial_split_manifest": "cb33d0c86720b01e735b320370fb80d5265e5e37c3d3fb41503a44c98ebb7205",
+    "experiment_b_split_linkage_correction": "233fddd1372d0207c1b47eed3442a8e08ad89fb63155f22eed22c37f7a42f61b",
+    "notebook01_protocol_metadata": "cdac2c2ef2e3caeae03c4661c28427904a1b3e6385e1db9aff340750b3a25c56",
+    "notebook02_patch_manifest": "a2bed8afdc3bf2f421174b4bc293f216a204f8ee8317e95a3ad73a1d20c1ed5d",
+    "notebook03_source_engine_audit": "d0e8d69607e7a33a0e45d31a31fecd749b203fd5271f9d90dba0c28569ef72af",
+    "notebook04_baseline_protocol": "053179d263b118bea1da4a7c02c128c2c160cb13398ebc4adaa2027577c0d577",
+    "notebook04_training_engine": "6054df419915dcbee1e2d6320098dc9d50c26c2e6225fa4b77f6737209588807",
+    "notebook05_exact_executed_ce_config": "57e00ddb06298ae25ac02c0791030b2a0699cc3966725c9fdddd3a1f58aeafbb",
+    "notebook05_recovery_pipeline": "2d11e8a954c181c38f03aeb2b4085d0beba9b8abcf44f6333b0255369b445a7d",
+    "pingan_experiment_b_split": "7e7c6f583223a43e8e37db2dad7052fc16b2d42ff3e674a4134acdb51608d1fb",
+    "qingyun_experiment_b_split": "0458767773b62d44657a564dd79aef004eb053e6c8b5deb8e6f020597950dd74"
+  },
+  "timing": {
+    "official_test_status": "SEALED",
+    "protocol_frozen_before_dataset_dataloader_creation": true,
+    "protocol_frozen_before_experiment_b_inference": true,
+    "protocol_frozen_before_experiment_b_performance": true,
+    "protocol_frozen_before_gpu_training": true,
+    "protocol_frozen_before_model_construction": true
+  },
+  "training_engine": {
+    "backbone": {
+      "architecture": {
+        "classifier": "linear logits; no internal softmax",
+        "conv2d": "-> 64, kernel=3",
+        "conv3d_1": "1 -> 8, kernel=(7,3,3)",
+        "conv3d_2": "8 -> 16, kernel=(5,3,3)",
+        "conv3d_3": "16 -> 32, kernel=(3,3,3)",
+        "dropout1": 0.4,
+        "dropout2": 0.4,
+        "fc1": 256,
+        "fc2": 128,
+        "reshape": "spectral-depth dimension folded into Conv2D channels"
+      },
+      "dataset_specific_only": {
+        "Pingan": {
+          "classes": 10,
+          "expected_parameter_count": 519546,
+          "patch_size": 13,
+          "pca_channels": 15
+        },
+        "Qingyun": {
+          "classes": 6,
+          "expected_parameter_count": 256886,
+          "patch_size": 11,
+          "pca_channels": 15
+        }
+      },
+      "name": "HybridSN",
+      "parameter_count_must_match_before_training": true,
+      "source": "Notebook 03 canonical executed 3D-to-2D HybridSN implementation"
+    },
+    "dataloader": {
+      "drop_last": false,
+      "num_workers": 0,
+      "pin_memory": true,
+      "train_shuffle": true,
+      "train_shuffle_generator_seed": "model training seed",
+      "validation_shuffle": false
+    },
+    "determinism": {
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "deterministic_algorithms_warn_only": true,
+      "numpy_random_seed": true,
+      "python_random_seed": true,
+      "set_PYTHONHASHSEED": true,
+      "torch_cuda_manual_seed": true,
+      "torch_cuda_manual_seed_all": true,
+      "torch_manual_seed": true,
+      "torch_use_deterministic_algorithms": true,
+      "training_seeds": [
+        42,
+        123,
+        3407
+      ]
+    },
+    "optimization": {
+      "augmentation": false,
+      "base_learning_rate": 0.001,
+      "batch_size": 256,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "epochs": 100,
+      "epsilon": 1e-07,
+      "global_step_start": 0,
+      "learning_rate_formula": "0.001 / (1 + 1e-6 * global_step)",
+      "legacy_inverse_time_decay": 1e-06,
+      "mixed_precision": false,
+      "optimizer": "Adam",
+      "weight_decay": 0.0
+    },
+    "preprocessing": {
+      "experiment_b_centers_source": "frozen Experiment-B split files only",
+      "full_cube_pca_recomputed": false,
+      "guard_excluded_samples_used_for_training": false,
+      "guard_excluded_samples_used_for_validation": false,
+      "normalization": "frozen Notebook-02 row-wise min-max over retained PCA channels",
+      "padding": "zero",
+      "patch_extraction": "lazy from frozen PCA cube",
+      "reuse_cached_notebook02_pca_cubes": true
+    }
+  },
+  "training_performed_before_this_freeze": false,
+  "training_required_methods": {
+    "BalancedSoftmax": {
+      "class_statistics_source": "Experiment-B final training counts only",
+      "hyperparameter_tuning": false,
+      "runs_per_dataset": 3,
+      "training_required": true
+    },
+    "CE": {
+      "hyperparameter_tuning": false,
+      "loss": "ordinary multiclass cross-entropy",
+      "runs_per_dataset": 3,
+      "training_required": true
+    },
+    "Focal": {
+      "candidate_gamma": [
+        1.0,
+        2.0
+      ],
+      "candidate_selection": [
+        "higher best-val-AA validation AA",
+        "higher validation Macro-F1",
+        "higher validation OA",
+        "smaller gamma"
+      ],
+      "implementation": "multiclass focal loss; no class-frequency alpha weighting",
+      "runs_per_dataset": 4,
+      "selected_setting_frozen_for_seeds": [
+        123,
+        3407
+      ],
+      "training_required": true,
+      "tuning_seed": 42
+    },
+    "LA_Loss": {
+      "candidate_selection": [
+        "higher best-val-AA validation AA",
+        "higher validation Macro-F1",
+        "higher validation OA",
+        "smaller tau"
+      ],
+      "candidate_tau": [
+        0.5,
+        1.0
+      ],
+      "implementation": "Menon-style training-time logit adjustment",
+      "prior_source": "Experiment-B final training counts only",
+      "runs_per_dataset": 4,
+      "selected_setting_frozen_for_seeds": [
+        123,
+        3407
+      ],
+      "training_required": true,
+      "tuning_seed": 42
+    },
+    "LDAM_DRW": {
+      "candidate_C": [
+        0.25,
+        0.5
+      ],
+      "candidate_selection": [
+        "higher best-val-AA validation AA",
+        "higher validation Macro-F1",
+        "higher validation OA",
+        "smaller C"
+      ],
+      "drw_start_epoch": 80,
+      "effective_number_beta": 0.9999,
+      "margin_formula": "Delta_j = C / n_j^(1/4)",
+      "runs_per_dataset": 4,
+      "scale": 30.0,
+      "selected_setting_frozen_for_seeds": [
+        123,
+        3407
+      ],
+      "training_required": true,
+      "tuning_seed": 42
+    }
+  },
+  "version": "experiment_b_training_v1"
+}

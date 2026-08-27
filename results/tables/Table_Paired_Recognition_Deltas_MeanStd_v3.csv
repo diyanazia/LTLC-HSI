@@ -1,0 +1,3 @@
+dataset,comparison_object,posthoc_standard_LA_minus_CE_AA_mean,posthoc_standard_LA_minus_CE_AA_sd,posthoc_LTLC_minus_standard_LA_AA_mean,posthoc_LTLC_minus_standard_LA_AA_sd,posthoc_standard_LA_minus_CE_TailAcc_mean,posthoc_LTLC_minus_standard_LA_TailAcc_mean
+Pingan,POSTHOC transforms of the SAME frozen Experiment-B CE validation logits; NOT trained LA-loss vs trained CE,0.015532532036521754,0.0012825981044876926,0.0010916320381714935,0.001890762153282995,0.0648904136766193,0.016416384174932002
+Qingyun,POSTHOC transforms of the SAME frozen Experiment-B CE validation logits; NOT trained LA-loss vs trained CE,0.002520401883713238,0.004061932603864557,4.479055810321005e-05,7.757952233412568e-05,0.026964936492327007,-0.001210653753026684

@@ -1,0 +1,105 @@
+{
+  "artifact_type": "LTLC_NOTEBOOK06A_EXPERIMENT_B_FINAL_CLOSING_AUDIT",
+  "closing_audit_execution": {
+    "authoritative_identity_policy": "Authenticated run path is authoritative for method, dataset, and seed identity. Redundant completion-manifest dataset and seed fields are consistency-checked when present and may be absent in historical manifest schemas.",
+    "prior_audit_corrections": [
+      {
+        "cell": "15",
+        "classification": "AUDIT_CODE_SCHEMA_ASSUMPTION_DEFECT",
+        "issue": "case-sensitive completion-manifest dataset field"
+      },
+      {
+        "cell": "15A",
+        "classification": "AUDIT_CODE_SCHEMA_ASSUMPTION_DEFECT",
+        "issue": "assumed completion-manifest dataset field was mandatory"
+      }
+    ],
+    "scientific_state_modified": false,
+    "successful_cell": "15B"
+  },
+  "closing_status": "PASS",
+  "completion_ledger": {
+    "Balanced Softmax": 6,
+    "CE": 6,
+    "Focal": 8,
+    "LA-loss": 8,
+    "LDAM-DRW": 8,
+    "total": 36
+  },
+  "created_utc": "2026-08-20T15:09:15.061487+00:00",
+  "experiment": "Experiment B",
+  "external_run_ledger": {
+    "file": "/content/drive/MyDrive/CSE498/LTLC/final_audits/notebook06a_experiment_b/LTLC_Notebook06A_ExperimentB_36of36_FINAL_RUN_LEDGER_v1.csv",
+    "rows": 36,
+    "sha256": "6335262b572a389a33c26b877c7c7f785934bee1ab53844f8fa6b5f61848b07d"
+  },
+  "final_state": {
+    "base_project_file_count": 449,
+    "experiment_b_complete": true,
+    "experiment_b_progress": "36/36",
+    "final_cumulative_delta_file_count": 58,
+    "gpu_training_remaining": false,
+    "project_file_count": 507
+  },
+  "historical_manifest_schema_audit": {
+    "dataset_field_absent": 14,
+    "dataset_field_present": 22,
+    "path_authoritative_identity": true,
+    "path_derived_completion_identity": "36/36 PASS",
+    "present_dataset_fields_matching_path": 22,
+    "present_seed_fields_matching_path": 22,
+    "seed_field_absent": 14,
+    "seed_field_present": 22
+  },
+  "la_loss": {
+    "Pingan": {
+      "selected_tau": 1.0,
+      "selection_sha256": "3d6d0c064081e9a18cc14217d0f9835b23f7bdb99e1002362ffec31a933f4bf8"
+    },
+    "Qingyun": {
+      "selected_tau": 0.5,
+      "selection_sha256": "367d6ecd113d786bf89510985e0f0ff7e6589a68db9c912d4c36fb29d02fae89"
+    },
+    "qingyun_seed123_completion_sha256": "1e9ac68021a9d01d59818c7061120bc9d511e1957f02b7a96ef3eb442933524d",
+    "qingyun_seed3407_completion_sha256": "d99a05fa4c349267c542fae7a8007024cdcbb2e773ad9d817909ac43d538bcd7"
+  },
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "official_test": {
+    "explicit_safety_assertions": 530,
+    "explicit_safety_violations": 0,
+    "official_test_values_accessed": false,
+    "project_json_files_scanned": 280,
+    "status": "SEALED",
+    "test_dataloader_created": false,
+    "test_dataset_created": false,
+    "test_inference_performed": false
+  },
+  "project": "LTLC",
+  "protocol_integrity": {
+    "gpu_training_remaining": false,
+    "model_inference_performed_in_closing_audit": false,
+    "project_mutated_by_closing_audit": false,
+    "retuning_performed": false,
+    "training_performed_in_closing_audit": false
+  },
+  "run_structure": {
+    "balanced_softmax_seed_matrix": "PASS",
+    "ce_seed_matrix": "PASS",
+    "focal_tuning_selected_seed_structure": "PASS",
+    "la_loss_run_matrix": "8/8 EXACT PASS",
+    "ldam_drw_tuning_selected_seed_structure": "PASS"
+  },
+  "schema_version": 1,
+  "seal": "EXPERIMENT_B_36_OF_36_COMPLETE__FULL_507_FILE_SNAPSHOT_VERIFIED__36_COMPLETION_RECORDS_PATH_AUTHENTICATED__HISTORICAL_MANIFEST_SCHEMAS_TOLERATED_WITH_CONSISTENCY_CHECKS__EXACT_LA_8_OF_8_MATRIX__LA_SELECTIONS_FROZEN__OFFICIAL_TEST_SEALED__NO_GPU_TRAINING_REMAINING",
+  "snapshot_authentication": {
+    "base_internal_manifest_sha256": "72ca2939fb2cd158c2f50bfac0fd9a4947973fd5fbe9c8c95625f75ee32da604",
+    "current_project_sha_verification": "507/507 PASS",
+    "final_persistence_manifest": "/content/drive/MyDrive/CSE498/LTLC/experiment_b_colab_persistence/LTLC_Notebook06A_ExperimentB_36of36_Post_Qingyun_LA_tau0p5_Seed3407_FULL_DELTA_FROM_28of36_MIGRATION_v1__MANIFEST.json",
+    "final_persistence_manifest_sha256": "5f93f457f3b1510d72b366aa8a78aa65fbf59e866dadfcefd7388d80f81c79b9",
+    "final_persistence_zip": "/content/drive/MyDrive/CSE498/LTLC/experiment_b_colab_persistence/LTLC_Notebook06A_ExperimentB_36of36_Post_Qingyun_LA_tau0p5_Seed3407_FULL_DELTA_FROM_28of36_MIGRATION_v1.zip",
+    "final_persistence_zip_sha256": "30ba228994f0a16e756c5ade22480b00f3e2304ee3e15bd8e00409d86dc2b7b8",
+    "missing_expected_paths": 0,
+    "unexpected_paths": 0,
+    "verified_project_bytes": 506445635
+  }
+}

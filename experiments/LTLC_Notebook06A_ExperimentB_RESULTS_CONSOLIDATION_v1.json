@@ -1,0 +1,134 @@
+{
+  "artifact_type": "LTLC_NOTEBOOK06A_EXPERIMENT_B_VALIDATION_RESULTS_CONSOLIDATION",
+  "created_utc": "2026-08-20T15:37:32.410546+00:00",
+  "experiment": "Experiment B",
+  "metric_policy": {
+    "authoritative_checkpoint": "best_validation_AA",
+    "checkpoint_tie_break": [
+      "higher validation AA",
+      "higher validation Macro-F1",
+      "higher validation OA",
+      "earlier epoch"
+    ],
+    "official_test_used": false,
+    "primary_reporting_metrics": [
+      "AA",
+      "Macro_F1",
+      "OA",
+      "Kappa"
+    ]
+  },
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "parent": {
+    "final_36_run_ledger_sha256": "6335262b572a389a33c26b877c7c7f785934bee1ab53844f8fa6b5f61848b07d",
+    "final_closing_audit_path": "/content/drive/MyDrive/CSE498/LTLC/final_audits/notebook06a_experiment_b/LTLC_Notebook06A_ExperimentB_36of36_FINAL_CLOSING_AUDIT_v1.json",
+    "final_closing_audit_sha256": "2a24fdbaba212890443413c39e2873b29862e4810dda91a2ed5879a7b6d59768"
+  },
+  "project": "LTLC",
+  "result_files": {
+    "all36": {
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06a_experiment_b/LTLC_Notebook06A_ExperimentB_ALL36_VALIDATION_RUNS_v1.csv",
+      "rows": 36,
+      "sha256": "6121a9fbfd7adc687f9710fecd7624b4fabdcc3947203e9f61534819255c3561"
+    },
+    "baseline_selection": {
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06a_experiment_b/baseline_selection.csv",
+      "rows": 12,
+      "sha256": "c134bf86fc46a2b7dd1718ab4fd5590ac14d7b24191035ceb29dc812f9df7044"
+    },
+    "selected30": {
+      "path": "/content/drive/MyDrive/CSE498/LTLC/results/notebook06a_experiment_b/LTLC_Notebook06A_ExperimentB_SELECTED30_VALIDATION_RUNS_v1.csv",
+      "rows": 30,
+      "sha256": "5b2dab813d4545d8960c2c9f7176f3323e04f285ee0d77e5d1c857cd7968e29e"
+    }
+  },
+  "schema_version": 1,
+  "scientific_state": {
+    "experiment_b_runs": 36,
+    "model_inference_performed_in_cell16": false,
+    "official_test_status": "SEALED",
+    "official_test_values_accessed": false,
+    "retuning_performed_in_cell16": false,
+    "scientific_project_mutated": false,
+    "selected_comparison_runs": 30,
+    "training_complete": true,
+    "training_performed_in_cell16": false
+  },
+  "selection_map": {
+    "pingan/balanced_softmax": {
+      "parameter_token": "",
+      "parameter_value": null,
+      "selection_basis": "fixed_training_counts_objective"
+    },
+    "pingan/ce": {
+      "parameter_token": "",
+      "parameter_value": null,
+      "selection_basis": "fixed_objective"
+    },
+    "pingan/focal": {
+      "candidate_tokens": [
+        "gamma1",
+        "gamma2"
+      ],
+      "parameter_token": "gamma1",
+      "parameter_value": 1.0,
+      "selection_basis": "seed42_validation_tuning_then_authenticated_replication_at_seeds123_3407"
+    },
+    "pingan/la_loss": {
+      "candidate_tokens": [
+        "tau0p5",
+        "tau1p0"
+      ],
+      "parameter_token": "tau1p0",
+      "parameter_value": 1.0,
+      "selection_basis": "seed42_validation_tuning_then_authenticated_replication_at_seeds123_3407"
+    },
+    "pingan/ldam_drw": {
+      "candidate_tokens": [
+        "c0p2500",
+        "c0p5000"
+      ],
+      "parameter_token": "c0p5000",
+      "parameter_value": 0.5,
+      "selection_basis": "seed42_validation_tuning_then_authenticated_replication_at_seeds123_3407"
+    },
+    "qingyun/balanced_softmax": {
+      "parameter_token": "",
+      "parameter_value": null,
+      "selection_basis": "fixed_training_counts_objective"
+    },
+    "qingyun/ce": {
+      "parameter_token": "",
+      "parameter_value": null,
+      "selection_basis": "fixed_objective"
+    },
+    "qingyun/focal": {
+      "candidate_tokens": [
+        "gamma1",
+        "gamma2"
+      ],
+      "parameter_token": "gamma1",
+      "parameter_value": 1.0,
+      "selection_basis": "seed42_validation_tuning_then_authenticated_replication_at_seeds123_3407"
+    },
+    "qingyun/la_loss": {
+      "candidate_tokens": [
+        "tau0p5",
+        "tau1p0"
+      ],
+      "parameter_token": "tau0p5",
+      "parameter_value": 0.5,
+      "selection_basis": "seed42_validation_tuning_then_authenticated_replication_at_seeds123_3407"
+    },
+    "qingyun/ldam_drw": {
+      "candidate_tokens": [
+        "c0p2500",
+        "c0p5000"
+      ],
+      "parameter_token": "c0p2500",
+      "parameter_value": 0.25,
+      "selection_basis": "seed42_validation_tuning_then_authenticated_replication_at_seeds123_3407"
+    }
+  },
+  "status": "PASS"
+}

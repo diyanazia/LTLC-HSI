@@ -1,0 +1,255 @@
+{
+  "artifact_type": "pretraining_frozen_class_statistics",
+  "content_sha256_before_file_write": "366c6ca814898e23cabd1729db814bfa26783804fcdbb5fe5a2a934e83c92e9b",
+  "datasets": {
+    "Pingan": {
+      "class_count": 10,
+      "class_statistics": {
+        "1": {
+          "guard_excluded_count": 101,
+          "metric_frequency_group": "Medium",
+          "model_class_id": 0,
+          "train_count": 3322,
+          "train_prior": 0.05055547100897884,
+          "validation_count": 1470
+        },
+        "10": {
+          "guard_excluded_count": 2983,
+          "metric_frequency_group": "Head",
+          "model_class_id": 9,
+          "train_count": 16354,
+          "train_prior": 0.2488814487901385,
+          "validation_count": 8315
+        },
+        "2": {
+          "guard_excluded_count": 6696,
+          "metric_frequency_group": "Head",
+          "model_class_id": 1,
+          "train_count": 33783,
+          "train_prior": 0.5141226601734896,
+          "validation_count": 17332
+        },
+        "3": {
+          "guard_excluded_count": 365,
+          "metric_frequency_group": "Tail",
+          "model_class_id": 2,
+          "train_count": 219,
+          "train_prior": 0.003332826053873079,
+          "validation_count": 251
+        },
+        "4": {
+          "guard_excluded_count": 0,
+          "metric_frequency_group": "Head",
+          "model_class_id": 3,
+          "train_count": 6229,
+          "train_prior": 0.09479531273778724,
+          "validation_count": 2670
+        },
+        "5": {
+          "guard_excluded_count": 1369,
+          "metric_frequency_group": "Medium",
+          "model_class_id": 4,
+          "train_count": 85,
+          "train_prior": 0.0012935626236493685,
+          "validation_count": 622
+        },
+        "6": {
+          "guard_excluded_count": 302,
+          "metric_frequency_group": "Medium",
+          "model_class_id": 5,
+          "train_count": 683,
+          "train_prior": 0.010394156140617866,
+          "validation_count": 424
+        },
+        "7": {
+          "guard_excluded_count": 868,
+          "metric_frequency_group": "Tail",
+          "model_class_id": 6,
+          "train_count": 110,
+          "train_prior": 0.001674022218840359,
+          "validation_count": 420
+        },
+        "8": {
+          "guard_excluded_count": 1330,
+          "metric_frequency_group": "Medium",
+          "model_class_id": 7,
+          "train_count": 4485,
+          "train_prior": 0.06825445137726373,
+          "validation_count": 2497
+        },
+        "9": {
+          "guard_excluded_count": 130,
+          "metric_frequency_group": "Tail",
+          "model_class_id": 8,
+          "train_count": 440,
+          "train_prior": 0.006696088875361436,
+          "validation_count": 244
+        }
+      },
+      "final_train_count": 65710,
+      "frequency_groups": {
+        "group_mapping": {
+          "1": "Medium",
+          "10": "Head",
+          "2": "Head",
+          "3": "Tail",
+          "4": "Head",
+          "5": "Medium",
+          "6": "Medium",
+          "7": "Tail",
+          "8": "Medium",
+          "9": "Tail"
+        },
+        "head_classes": [
+          2,
+          4,
+          10
+        ],
+        "medium_classes": [
+          1,
+          5,
+          6,
+          8
+        ],
+        "q": 3,
+        "tail_classes": [
+          3,
+          7,
+          9
+        ]
+      },
+      "guard_excluded_count": 14144,
+      "guard_excluded_used_for_training_prior": false,
+      "metric_frequency_groups_recomputed": false,
+      "metric_frequency_groups_source": "frozen Notebook-01 frequency groups",
+      "official_test_used_for_training_prior": false,
+      "pca_cube": {
+        "dtype": "float32",
+        "path": "data_cache/pca_normalized_cubes/pingan_pca15_rowminmax_float32.npy",
+        "sha256": "857ffcb8f1a3837f19b7eba350c8a3c15f99d9e7dbede3a84b46249191f27daa",
+        "shape": [
+          1230,
+          1000,
+          15
+        ]
+      },
+      "split_file": "split_indices/experiment_b_spatial_validation_v1/pingan_experiment_b_spatial_split_v1.npz",
+      "split_file_sha256": "7e7c6f583223a43e8e37db2dad7052fc16b2d42ff3e674a4134acdb51608d1fb",
+      "training_prior_source": "Experiment-B final training subset only",
+      "validation_count": 34245,
+      "validation_used_for_training_prior": false
+    },
+    "Qingyun": {
+      "class_count": 6,
+      "class_statistics": {
+        "1": {
+          "guard_excluded_count": 0,
+          "metric_frequency_group": "Head",
+          "model_class_id": 0,
+          "train_count": 19556,
+          "train_prior": 0.309533230978648,
+          "validation_count": 8261
+        },
+        "2": {
+          "guard_excluded_count": 767,
+          "metric_frequency_group": "Medium",
+          "model_class_id": 1,
+          "train_count": 11807,
+          "train_prior": 0.18688171702622708,
+          "validation_count": 5377
+        },
+        "3": {
+          "guard_excluded_count": 0,
+          "metric_frequency_group": "Tail",
+          "model_class_id": 2,
+          "train_count": 967,
+          "train_prior": 0.01530571867234366,
+          "validation_count": 413
+        },
+        "4": {
+          "guard_excluded_count": 610,
+          "metric_frequency_group": "Tail",
+          "model_class_id": 3,
+          "train_count": 74,
+          "train_prior": 0.0011712752655154402,
+          "validation_count": 293
+        },
+        "5": {
+          "guard_excluded_count": 0,
+          "metric_frequency_group": "Medium",
+          "model_class_id": 4,
+          "train_count": 15220,
+          "train_prior": 0.2409028316370946,
+          "validation_count": 6554
+        },
+        "6": {
+          "guard_excluded_count": 2355,
+          "metric_frequency_group": "Head",
+          "model_class_id": 5,
+          "train_count": 15555,
+          "train_prior": 0.24620522642017126,
+          "validation_count": 7683
+        }
+      },
+      "final_train_count": 63179,
+      "frequency_groups": {
+        "group_mapping": {
+          "1": "Head",
+          "2": "Medium",
+          "3": "Tail",
+          "4": "Tail",
+          "5": "Medium",
+          "6": "Head"
+        },
+        "head_classes": [
+          1,
+          6
+        ],
+        "medium_classes": [
+          2,
+          5
+        ],
+        "q": 2,
+        "tail_classes": [
+          3,
+          4
+        ]
+      },
+      "guard_excluded_count": 3732,
+      "guard_excluded_used_for_training_prior": false,
+      "metric_frequency_groups_recomputed": false,
+      "metric_frequency_groups_source": "frozen Notebook-01 frequency groups",
+      "official_test_used_for_training_prior": false,
+      "pca_cube": {
+        "dtype": "float32",
+        "path": "data_cache/pca_normalized_cubes/qingyun_pca15_rowminmax_float32.npy",
+        "sha256": "15d94523dbf5708da5186fe44bb405bbfcc35b06ce23a86a85205e1e5e9d1c3e",
+        "shape": [
+          880,
+          1360,
+          15
+        ]
+      },
+      "split_file": "split_indices/experiment_b_spatial_validation_v1/qingyun_experiment_b_spatial_split_v1.npz",
+      "split_file_sha256": "0458767773b62d44657a564dd79aef004eb053e6c8b5deb8e6f020597950dd74",
+      "training_prior_source": "Experiment-B final training subset only",
+      "validation_count": 28581,
+      "validation_used_for_training_prior": false
+    }
+  },
+  "experiment": "Experiment B",
+  "model_performance_used": false,
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "official_test_values_accessed": false,
+  "parent_training_protocol": "audit/notebook06a_spatial_validation/experiment_b_training_protocol_v1_frozen.json",
+  "parent_training_protocol_sha256": "41889867f18cc8a8655083c7906c608f154e4aae8bdc25da81a5e91c0125a9ec",
+  "project": "LTLC",
+  "purpose": {
+    "BalancedSoftmax": "training class counts",
+    "LA_Loss": "training class priors",
+    "LDAM_DRW": "training class counts",
+    "later_posthoc_prior_based_methods": "training priors; exact rarity definition remains inherited and will be separately audited before post-hoc LTLC fitting"
+  },
+  "training_performed": false,
+  "version": "experiment_b_training_class_statistics_v1"
+}

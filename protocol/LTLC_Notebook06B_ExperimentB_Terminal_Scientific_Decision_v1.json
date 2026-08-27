@@ -1,0 +1,261 @@
+{
+  "artifact_type": "LTLC_NOTEBOOK06B_EXPERIMENT_B_TERMINAL_SCIENTIFIC_DECISION",
+  "calibration": {
+    "dataset_summary": {
+      "Pingan": {
+        "improvements": {
+          "brier": {
+            "mean_standard_LA_minus_LTLC_Full": 0.015394769209989093,
+            "seed_values": [
+              -0.014747217998077322,
+              0.026580199440168623,
+              0.03435132618787598
+            ]
+          },
+          "ece": {
+            "mean_standard_LA_minus_LTLC_Full": 0.03554018117273499,
+            "seed_values": [
+              -0.015452748529556082,
+              0.05393886246064475,
+              0.06813442958711631
+            ]
+          },
+          "nll": {
+            "mean_standard_LA_minus_LTLC_Full": 3.0942785977520106,
+            "seed_values": [
+              3.4867167855274372,
+              3.697666788509173,
+              2.098452219219421
+            ]
+          },
+          "tail_ece": {
+            "mean_standard_LA_minus_LTLC_Full": -0.443119849717094,
+            "seed_values": [
+              -0.5883395607634312,
+              -0.3775911054241371,
+              -0.3634288829637137
+            ]
+          }
+        },
+        "validation_calibration_signal": true
+      },
+      "Qingyun": {
+        "improvements": {
+          "brier": {
+            "mean_standard_LA_minus_LTLC_Full": 0.1055275320656951,
+            "seed_values": [
+              0.11715938185696928,
+              0.1061466941478732,
+              0.0932765201922428
+            ]
+          },
+          "ece": {
+            "mean_standard_LA_minus_LTLC_Full": 0.17330169172774101,
+            "seed_values": [
+              0.17516290277950855,
+              0.19244635786529818,
+              0.15229581453841634
+            ]
+          },
+          "nll": {
+            "mean_standard_LA_minus_LTLC_Full": 3.77143628496511,
+            "seed_values": [
+              5.188438450410979,
+              1.9055040927772242,
+              4.220366311707126
+            ]
+          },
+          "tail_ece": {
+            "mean_standard_LA_minus_LTLC_Full": -0.31268613825592567,
+            "seed_values": [
+              -0.4298266322319013,
+              -0.3276179439159639,
+              -0.18061383861991176
+            ]
+          }
+        },
+        "validation_calibration_signal": true
+      }
+    },
+    "ece_bins": 15,
+    "methods_evaluated": [
+      "CE",
+      "Standard_LA",
+      "Global_TS",
+      "LA_Global_TS",
+      "LTLC_Shift",
+      "LTLC_Shift_Global_TS",
+      "LTLC_Full"
+    ],
+    "optimizer": "L-BFGS-B",
+    "order_preserving_temperature_verified": true,
+    "temperature_bounds": [
+      -2.0,
+      2.0
+    ]
+  },
+  "claim_boundaries": {
+    "may_claim_original_ltlc_robust_recognition_improvement": false,
+    "may_claim_r1_robust_recognition_improvement": false,
+    "may_claim_successful_final_ltlc_recognition_method": false,
+    "may_report_validation_calibration_results": true,
+    "temperature_calibration_is_recognition_improvement": false
+  },
+  "created_utc": "2026-08-20T16:27:43.729972+00:00",
+  "original_ltlc": {
+    "nonzero_alpha_runs": [
+      {
+        "alpha": 0.75,
+        "dataset": "Pingan",
+        "seed": 123
+      },
+      {
+        "alpha": 0.5,
+        "dataset": "Qingyun",
+        "seed": 123
+      }
+    ],
+    "robust_adaptive_recognition_signal": false,
+    "seed42_datasets_selecting_nonzero_alpha": [],
+    "selected_nonzero_alpha_runs": 2,
+    "selected_runs": 6
+  },
+  "outputs": {
+    "calibration_parameters_csv": {
+      "path": "/content/drive/MyDrive/CSE498/LTLC/posthoc/notebook06b_experiment_b/terminal_validation_v1/LTLC_Notebook06B_ExperimentB_Calibration_Parameters_v1.csv",
+      "sha256": "9c8cc4ade923f67f7d6e646069f9679d213f34b65a84b9a4889bde990764dda1"
+    },
+    "mean_std_csv": {
+      "path": "/content/drive/MyDrive/CSE498/LTLC/posthoc/notebook06b_experiment_b/terminal_validation_v1/LTLC_Notebook06B_ExperimentB_Final_Validation_MeanStd_v1.csv",
+      "sha256": "4561cc3ec9d184855fbeed3270999a06b0f2c5be0238f8eb2162c94f07274b65"
+    },
+    "results_csv": {
+      "path": "/content/drive/MyDrive/CSE498/LTLC/posthoc/notebook06b_experiment_b/terminal_validation_v1/LTLC_Notebook06B_ExperimentB_Final_Validation_Results_v1.csv",
+      "sha256": "dac4c7fe0daf0153df46e56af0f1f319407877252e8a6ccceb59592a71151bb3"
+    }
+  },
+  "parent_artifacts": {
+    "class_statistics_sha256": "556128fb9ce1f22eb049a2531621b3779bec7069f7678210c13c1f162d6aea32",
+    "exact_calibration_function_audit_sha256": "cc0d767c3f3f371e9f945dd7f86604d77d008f788184aef84a02a767e3f75670",
+    "recognition_freeze_sha256": "0fe8f75a46bc60b5776d80f26f4e76b5ebd1ea6881de0649cdda11884f042366",
+    "validation_cache_manifest_sha256": "e67da43430861c13743c58afc4c6780fe96f012f4809e588ccb5cacdde333136"
+  },
+  "revision_R1": {
+    "datasets_selecting_nonzero_beta": [],
+    "r1_differs_from_frozen_standard_la": false,
+    "robust_adaptive_recognition_signal": false,
+    "robustness_rows": [
+      {
+        "dataset": "Pingan",
+        "delta_AA": 0.0,
+        "delta_Macro_F1": 0.0,
+        "delta_OA": 0.0,
+        "exact_logit_equal": true,
+        "frozen_la_tau": 0.5,
+        "r1_beta": 0.0,
+        "r1_tau": 0.5,
+        "seed": 42
+      },
+      {
+        "dataset": "Pingan",
+        "delta_AA": 0.0,
+        "delta_Macro_F1": 0.0,
+        "delta_OA": 0.0,
+        "exact_logit_equal": true,
+        "frozen_la_tau": 0.5,
+        "r1_beta": 0.0,
+        "r1_tau": 0.5,
+        "seed": 123
+      },
+      {
+        "dataset": "Pingan",
+        "delta_AA": 0.0,
+        "delta_Macro_F1": 0.0,
+        "delta_OA": 0.0,
+        "exact_logit_equal": true,
+        "frozen_la_tau": 0.5,
+        "r1_beta": 0.0,
+        "r1_tau": 0.5,
+        "seed": 3407
+      },
+      {
+        "dataset": "Qingyun",
+        "delta_AA": 0.0,
+        "delta_Macro_F1": 0.0,
+        "delta_OA": 0.0,
+        "exact_logit_equal": true,
+        "frozen_la_tau": 2.0,
+        "r1_beta": 0.0,
+        "r1_tau": 2.0,
+        "seed": 42
+      },
+      {
+        "dataset": "Qingyun",
+        "delta_AA": 0.0,
+        "delta_Macro_F1": 0.0,
+        "delta_OA": 0.0,
+        "exact_logit_equal": true,
+        "frozen_la_tau": 2.0,
+        "r1_beta": 0.0,
+        "r1_tau": 2.0,
+        "seed": 123
+      },
+      {
+        "dataset": "Qingyun",
+        "delta_AA": 0.0,
+        "delta_Macro_F1": 0.0,
+        "delta_OA": 0.0,
+        "exact_logit_equal": true,
+        "frozen_la_tau": 2.0,
+        "r1_beta": 0.0,
+        "r1_tau": 2.0,
+        "seed": 3407
+      }
+    ],
+    "selected_parameters": {
+      "Pingan": {
+        "beta": 0.0,
+        "standard_LA_seed42_frozen_tau": 0.5,
+        "tau": 0.5
+      },
+      "Qingyun": {
+        "beta": 0.0,
+        "standard_LA_seed42_frozen_tau": 2.0,
+        "tau": 2.0
+      }
+    },
+    "temperature_fitting_warranted": false
+  },
+  "safety": {
+    "gpu_used": false,
+    "official_test_accessed": false,
+    "training_performed": false
+  },
+  "schema_version": 1,
+  "status": "PASS",
+  "terminal_decision": {
+    "further_method_redesign_allowed_on_current_validation_splits": false,
+    "official_test_dataloader_created": false,
+    "official_test_dataset_created": false,
+    "official_test_may_be_opened": false,
+    "official_test_status": "SEALED",
+    "official_test_used": false,
+    "required_action": "STOP_METHOD_DEVELOPMENT_AND_KEEP_OFFICIAL_TEST_SEALED",
+    "robust_long_tail_recognition_signal": false,
+    "status": "VALIDATION_METHOD_DEVELOPMENT_TERMINATED_NO_ROBUST_RECOGNITION_SIGNAL"
+  },
+  "validation_scope": {
+    "calibration_parameter_rows": 24,
+    "datasets": [
+      "Pingan",
+      "Qingyun"
+    ],
+    "result_rows": 42,
+    "seeds": [
+      42,
+      123,
+      3407
+    ],
+    "summary_rows": 14
+  }
+}

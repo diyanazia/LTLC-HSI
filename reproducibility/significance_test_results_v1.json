@@ -1,0 +1,234 @@
+[
+  {
+    "dataset": "Pingan",
+    "method": "Focal",
+    "comparison": "TRAINED method vs TRAINED CE (Experiment-B validation best_AA)",
+    "seed_values_method": [
+      0.7377958749491271,
+      0.7270803689176524,
+      0.7522927006354075
+    ],
+    "seed_values_CE": [
+      0.7568442431073149,
+      0.714285643150948,
+      0.7468555044009366
+    ],
+    "per_seed_delta": [
+      -0.01904836815818778,
+      0.012794725766704373,
+      0.00543719623447092
+    ],
+    "mean_delta_AA": -0.0002721487190041616,
+    "sd_delta_AA": 0.016671626271174158,
+    "paired_t_stat": -0.028274110807355285,
+    "paired_t_pvalue": 0.9800111790094905,
+    "exact_sign_permutation_pvalue": 1.0,
+    "bootstrap_95CI_low": -0.01904836815818778,
+    "bootstrap_95CI_high": 0.012794725766704373,
+    "ci_excludes_zero": false,
+    "distinct_bootstrap_means": 10
+  },
+  {
+    "dataset": "Pingan",
+    "method": "LDAM-DRW",
+    "comparison": "TRAINED method vs TRAINED CE (Experiment-B validation best_AA)",
+    "seed_values_method": [
+      0.7248279619110363,
+      0.6750669776530026,
+      0.7131841367105702
+    ],
+    "seed_values_CE": [
+      0.7568442431073149,
+      0.714285643150948,
+      0.7468555044009366
+    ],
+    "per_seed_delta": [
+      -0.03201628119627864,
+      -0.03921866549794539,
+      -0.03367136769036638
+    ],
+    "mean_delta_AA": -0.034968771461530136,
+    "sd_delta_AA": 0.0037724033872713523,
+    "paired_t_stat": -16.05546454920466,
+    "paired_t_pvalue": 0.003856879296296882,
+    "exact_sign_permutation_pvalue": 0.25,
+    "bootstrap_95CI_low": -0.03921866549794539,
+    "bootstrap_95CI_high": -0.03201628119627864,
+    "ci_excludes_zero": true,
+    "distinct_bootstrap_means": 10
+  },
+  {
+    "dataset": "Pingan",
+    "method": "Balanced Softmax",
+    "comparison": "TRAINED method vs TRAINED CE (Experiment-B validation best_AA)",
+    "seed_values_method": [
+      0.7655228922598127,
+      0.7767391279502535,
+      0.7662587880212436
+    ],
+    "seed_values_CE": [
+      0.7568442431073149,
+      0.714285643150948,
+      0.7468555044009366
+    ],
+    "per_seed_delta": [
+      0.00867864915249783,
+      0.06245348479930546,
+      0.019403283620306966
+    ],
+    "mean_delta_AA": 0.030178472524036753,
+    "sd_delta_AA": 0.028460705527860498,
+    "paired_t_stat": 1.83659001901006,
+    "paired_t_pvalue": 0.20767883444215365,
+    "exact_sign_permutation_pvalue": 0.25,
+    "bootstrap_95CI_low": 0.00867864915249783,
+    "bootstrap_95CI_high": 0.06245348479930546,
+    "ci_excludes_zero": true,
+    "distinct_bootstrap_means": 10
+  },
+  {
+    "dataset": "Pingan",
+    "method": "LA-loss",
+    "comparison": "TRAINED method vs TRAINED CE (Experiment-B validation best_AA)",
+    "seed_values_method": [
+      0.762762195884368,
+      0.7475964271316472,
+      0.7747616918201456
+    ],
+    "seed_values_CE": [
+      0.7568442431073149,
+      0.714285643150948,
+      0.7468555044009366
+    ],
+    "per_seed_delta": [
+      0.005917952777053093,
+      0.0333107839806992,
+      0.027906187419209028
+    ],
+    "mean_delta_AA": 0.022378308058987106,
+    "sd_delta_AA": 0.01450895888765757,
+    "paired_t_stat": 2.671478142967671,
+    "paired_t_pvalue": 0.11619862328485812,
+    "exact_sign_permutation_pvalue": 0.25,
+    "bootstrap_95CI_low": 0.005917952777053093,
+    "bootstrap_95CI_high": 0.0333107839806992,
+    "ci_excludes_zero": true,
+    "distinct_bootstrap_means": 10
+  },
+  {
+    "dataset": "Qingyun",
+    "method": "Focal",
+    "comparison": "TRAINED method vs TRAINED CE (Experiment-B validation best_AA)",
+    "seed_values_method": [
+      0.7649288757394589,
+      0.7604711275899781,
+      0.7353403886456035
+    ],
+    "seed_values_CE": [
+      0.7638322808613521,
+      0.7509687982243811,
+      0.7466855642251226
+    ],
+    "per_seed_delta": [
+      0.0010965948781067603,
+      0.009502329365597029,
+      -0.011345175579519085
+    ],
+    "mean_delta_AA": -0.0002487504452717652,
+    "sd_delta_AA": 0.010488664411568926,
+    "paired_t_stat": -0.041077528340105515,
+    "paired_t_pvalue": 0.9709660462813667,
+    "exact_sign_permutation_pvalue": 1.0,
+    "bootstrap_95CI_low": -0.011345175579519085,
+    "bootstrap_95CI_high": 0.009502329365597029,
+    "ci_excludes_zero": false,
+    "distinct_bootstrap_means": 10
+  },
+  {
+    "dataset": "Qingyun",
+    "method": "LDAM-DRW",
+    "comparison": "TRAINED method vs TRAINED CE (Experiment-B validation best_AA)",
+    "seed_values_method": [
+      0.7552597627609258,
+      0.7451702241276222,
+      0.7453948593603344
+    ],
+    "seed_values_CE": [
+      0.7638322808613521,
+      0.7509687982243811,
+      0.7466855642251226
+    ],
+    "per_seed_delta": [
+      -0.008572518100426363,
+      -0.0057985740967588795,
+      -0.0012907048647881059
+    ],
+    "mean_delta_AA": -0.005220599020657783,
+    "sd_delta_AA": 0.003675152022859011,
+    "paired_t_stat": -2.4603996497236853,
+    "paired_t_pvalue": 0.13301509976410192,
+    "exact_sign_permutation_pvalue": 0.25,
+    "bootstrap_95CI_low": -0.008572518100426363,
+    "bootstrap_95CI_high": -0.0012907048647881059,
+    "ci_excludes_zero": true,
+    "distinct_bootstrap_means": 10
+  },
+  {
+    "dataset": "Qingyun",
+    "method": "Balanced Softmax",
+    "comparison": "TRAINED method vs TRAINED CE (Experiment-B validation best_AA)",
+    "seed_values_method": [
+      0.7493252681314392,
+      0.7589230924990044,
+      0.7516750810073237
+    ],
+    "seed_values_CE": [
+      0.7638322808613521,
+      0.7509687982243811,
+      0.7466855642251226
+    ],
+    "per_seed_delta": [
+      -0.01450701272991295,
+      0.007954294274623241,
+      0.004989516782201164
+    ],
+    "mean_delta_AA": -0.0005210672243628478,
+    "sd_delta_AA": 0.012202560393542658,
+    "paired_t_stat": -0.07396110960720473,
+    "paired_t_pvalue": 0.9477729727494706,
+    "exact_sign_permutation_pvalue": 1.0,
+    "bootstrap_95CI_low": -0.01450701272991295,
+    "bootstrap_95CI_high": 0.007954294274623241,
+    "ci_excludes_zero": false,
+    "distinct_bootstrap_means": 10
+  },
+  {
+    "dataset": "Qingyun",
+    "method": "LA-loss",
+    "comparison": "TRAINED method vs TRAINED CE (Experiment-B validation best_AA)",
+    "seed_values_method": [
+      0.7641694770676607,
+      0.763574405393975,
+      0.7507056517176345
+    ],
+    "seed_values_CE": [
+      0.7638322808613521,
+      0.7509687982243811,
+      0.7466855642251226
+    ],
+    "per_seed_delta": [
+      0.0003371962063085654,
+      0.012605607169593913,
+      0.004020087492511926
+    ],
+    "mean_delta_AA": 0.0056542969561381344,
+    "sd_delta_AA": 0.006295352040932193,
+    "paired_t_stat": 1.5556762426367996,
+    "paired_t_pvalue": 0.26005103275514674,
+    "exact_sign_permutation_pvalue": 0.25,
+    "bootstrap_95CI_low": 0.0003371962063085654,
+    "bootstrap_95CI_high": 0.012605607169593913,
+    "ci_excludes_zero": true,
+    "distinct_bootstrap_means": 10
+  }
+]

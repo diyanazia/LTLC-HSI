@@ -1,0 +1,49 @@
+{
+  "alternative_split_search_allowed": false,
+  "artifact_type": "preconstruction_kmeans_execution_semantics_clarification",
+  "content_sha256_before_file_write": "1d40d1e2578e8bee4d82d70aa1c460ff3045f89ac200231ff7732affdc774be1",
+  "environment": {
+    "numpy": "2.0.2",
+    "python": "3.12.13",
+    "sklearn": "1.6.1"
+  },
+  "experiment": "Experiment B",
+  "experiment_b_split_created": false,
+  "inference_performed": false,
+  "kmeans_execution": {
+    "algorithm": "lloyd",
+    "copy_x": true,
+    "feature_0": "row / image_height",
+    "feature_1": "column / image_width",
+    "init": "k-means++",
+    "input_dtype": "float64",
+    "input_order": "class samples sorted by immutable flat spatial index ascending",
+    "max_iter": 300,
+    "n_clusters": 10,
+    "n_init": 20,
+    "random_state": 2026,
+    "tol": 0.0001,
+    "verbose": 0
+  },
+  "notebook": "06A_Spatially_Disjoint_Validation_Robustness_Study",
+  "official_test_values_accessed": false,
+  "parent_artifacts": {
+    "v1_1_implementation_clarification": "audit/notebook06a_spatial_validation/experiment_b_spatial_validation_protocol_v1_1_implementation_clarification.json",
+    "v1_1_implementation_clarification_sha256": "398714d69072bb996faa6b280ea43534e0a02b17ad250b067257222fe75d4aab",
+    "v1_protocol": "audit/notebook06a_spatial_validation/experiment_b_spatial_validation_protocol_v1_frozen.json",
+    "v1_protocol_sha256": "34a126dab901265ba2e6c9dbc76df75bb2c5177276efa677db853443659fef75"
+  },
+  "performance_observed": false,
+  "project": "LTLC",
+  "reason": "Make sklearn KMeans execution fully explicit rather than silently inheriting library defaults.",
+  "scientific_design_changed": false,
+  "timing": {
+    "before_experiment_b_inference": true,
+    "before_experiment_b_performance": true,
+    "before_experiment_b_split_creation": true,
+    "before_experiment_b_training": true,
+    "official_test_status": "SEALED"
+  },
+  "training_performed": false,
+  "version": "spatial_validation_v1.2"
+}
